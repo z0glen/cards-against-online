@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <Nav/>
         <div class="row">
             <div class="col-sm-10">
                 <h1>Books</h1>
@@ -122,6 +123,7 @@
 <script>
     import axios from 'axios';
     import Alert from './Alert.vue';
+    import Nav from "./Nav";
 
     export default{
         data() {
@@ -143,6 +145,7 @@
             };
         },
         components:  {
+            Nav,
             alert: Alert,
         },
         methods: {

@@ -3,6 +3,7 @@ import uuid
 
 from app import app
 from app.forms import LoginForm
+from app.helpers import read_file
 
 BOOKS = [
     {
@@ -82,3 +83,10 @@ def remove_book(book_id):
             BOOKS.remove(book)
             return True
     return False
+
+@app.route('/cards')
+def get_cards():
+    calls = read_file('calls.json')
+    responses = read_file('responses.json')
+    response_object = {'calls': calls, 'responses': responses}
+    return jsonify(response_object)
