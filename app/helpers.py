@@ -1,4 +1,5 @@
 import requests
+import json
 
 
 def get_json(url):
@@ -10,4 +11,4 @@ def get_json(url):
 def read_file(path):
     f = open(path, "r")
     contents = f.read()
-    return contents
+    return json.loads(contents)

@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Ping from './components/Ping.vue';
 import Books from './components/Books.vue';
 import Game from './components/Game.vue';
+import Home from "./components/Home";
 
 Vue.use(Router);
 
@@ -17,6 +18,11 @@ export default new Router({
         },
         {
             path: '/',
+            name: 'Home',
+            component: Home
+        },
+        {
+            path: '/game/:code',
             name: 'Game',
             component: Game,
         },

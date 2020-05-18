@@ -8,20 +8,30 @@
             Loading game content...
         </div>
         <div v-else>
-            Game Content
+            <div v-for="card in calls" :key="card.id">
+                <Card v-bind="card">
+                </Card>
+            </div>
+            <br>
         </div>
     </div>
 </template>
 
 <script>
     import Nav from "./Nav";
+    import Card from "./Card";
     import axios from "axios";
+
     export default {
-        components: {Nav},
+        components: {
+            Nav,
+            Card,
+        },
         data() {
             return {
                 loading: true,
-                cards: [],
+                calls: [],
+                responses: [],
             }
         },
         methods: {
@@ -29,7 +39,8 @@
                 const path = 'http://localhost:5000/cards';
                 axios.get(path)
                     .then((res) => {
-                        this.cards = res.data.cards;
+                        this.calls = res.data.calls;
+                        this.responses = res.data.responses;
                         this.loading = false;
                     })
                     .catch((error) => {
