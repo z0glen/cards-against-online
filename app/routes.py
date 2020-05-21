@@ -1,9 +1,11 @@
 from flask import render_template, flash, redirect, url_for, jsonify, request
+from flask_socketio import join_room, emit, send
 import uuid
 
-from app import app
+from app import app, socketIO
 from app.forms import LoginForm
 from app.helpers import read_file
+from app.game import Game
 
 BOOKS = [
     {
@@ -25,6 +27,8 @@ BOOKS = [
         'read': True
     }
 ]
+
+ROOMS = {} # dict for tracking active games
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
@@ -90,3 +94,21 @@ def get_cards():
     responses = read_file('responses.json')
     response_object = {'calls': calls, 'responses': responses}
     return jsonify(response_object)
+
+@socketIO.on('create')
+def on_create():
+    """Create a game lobby"""
+    curr_game = Game()
+    ROOMS[curr_game.id] = curr_game
+    join_room(curr_game)
+    emit('join_room', {'room': curr_game.id})
+
+@socketIO.on('join')
+def on_join(data):
+    """Join a game lobby"""
+    room = data['room']
+    if room in ROOMS:
+        join_room(room)
+        send(ROOMS[room].to_json(), room=room)
+    else:
+        emit('error', {'error': 'Invalid game code.'})

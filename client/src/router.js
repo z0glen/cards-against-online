@@ -4,6 +4,7 @@ import Ping from './components/Ping.vue';
 import Books from './components/Books.vue';
 import Game from './components/Game.vue';
 import Home from "./components/Home";
+import Counter from "./components/Counter";
 
 Vue.use(Router);
 
@@ -30,6 +31,11 @@ export default new Router({
             path: '/books',
             name: 'Books',
             component: Books,
+        },
+        {
+            path: '/counter',
+            name: 'Counter',
+            component: Counter,
         },
     ],
 });
