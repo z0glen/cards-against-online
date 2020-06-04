@@ -1,0 +1,23 @@
+image: docker:stable
+services:
+  - docker:dind
+
+variables:
+  DOCKER_DRIVER: overlay
+  HEROKU_APP_NAME: still-fortress-86423
+  HEROKU_REGISTRY_IMAGE: registry.heroku.com/${HEROKU_APP_NAME}/web
+
+stages:
+  - build
+
+docker-build:
+  stage: build
+  script:
+    - apk add --no-cache curl
+    - docker build
+      --tag $HEROKU_REGISTRY_NAME
+      --file ./Dockerfile
+      "."
+    - docker login -u _ -p $HEROKU_AUTH_TOKEN registry.heroku.com
+    - docker push $HEROKU_REGISTRY_IMAGE
+    - ./release.sh
