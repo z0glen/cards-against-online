@@ -150,7 +150,7 @@
         },
         methods: {
             getBooks() {
-                const path = 'http://localhost:5000/books';
+                const path = '/books';
                 axios.get(path)
                     .then((res) => {
                         this.books = res.data.books;
@@ -161,7 +161,7 @@
                     });
             },
             addBook(payload) {
-                const path = 'http://localhost:5000/books';
+                const path = '/books';
                 axios.post(path, payload)
                     .then(() => {
                         this.getBooks();
@@ -217,7 +217,7 @@
                 this.updateBook(payload, this.editForm.id);
             },
             updateBook(payload, bookId) {
-                const path = `http://localhost:5000/books/${bookId}`;
+                const path = `/books/${bookId}`;
                 axios.put(path, payload)
                     .then(() => {
                         this.getBooks();
@@ -237,7 +237,7 @@
                 this.getBooks();
             },
             removeBook(bookId) {
-                const path = `http://localhost:5000/books/${bookId}`;
+                const path = `/books/${bookId}`;
                 axios.delete(path)
                     .then(() => {
                         this.getBooks();
