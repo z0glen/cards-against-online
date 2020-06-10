@@ -45,6 +45,7 @@ def game():
 
 @app.route("/ping")
 def ping():
+    print("PONG")
     return jsonify('pong!')
 
 @app.route('/books', methods=['GET', 'POST'])
@@ -112,3 +113,8 @@ def on_join(data):
         send(ROOMS[room].to_json(), room=room)
     else:
         emit('error', {'error': 'Invalid game code.'})
+
+@socketIO.on('connect')
+def on_connect():
+    """When a new user connects"""
+    print("User joined!")

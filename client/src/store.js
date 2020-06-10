@@ -23,6 +23,7 @@ export default new Vuex.Store({
             state.count = newCount;
         },
         SOCKET_CONNECT(state) {
+            console.log("connected");
             state.connected = true;
         },
         SOCKET_DISCONNECT(state) {
