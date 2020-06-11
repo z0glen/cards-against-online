@@ -9,6 +9,8 @@ export default new Vuex.Store({
         connected: false,
         error: '',
         message: '',
+        user: '',
+        room: {},
     },
     getters: {
         doubleup(state) {
@@ -22,7 +24,10 @@ export default new Vuex.Store({
         set_counter(state, newCount) {
             state.count = newCount;
         },
-        SOCKET_CONNECT(state) {
+        set_connected(state, payload) {
+            state.connected = payload;
+        },
+        SOCKET_connect(state) {
             console.log("connected");
             state.connected = true;
         },
@@ -36,13 +41,20 @@ export default new Vuex.Store({
             console.log(this.message);
             state.message = message;
         },
-        SOCKET_ERROR(state, message) {
+        SOCKET_error(state, message) {
             state.error = message.error;
         },
+        SOCKET_join_room(state, data) {
+            console.log(data);
+            state.room = JSON.parse(data.room);
+        },
+        SOCKET_set_user(state, user) {
+            state.user = user;
+        }
     },
     actions: {
         reset_counter(context) {
             context.commit('set_counter', 0);
-        }
+        },
     }
 });

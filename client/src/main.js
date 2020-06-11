@@ -9,7 +9,6 @@ import App from './App.vue'
 import router from './router'
 import store from "./store"
 
-console.log(`//${window.location.host}`)
 Vue.use(BootstrapVue)
 Vue.use(new VueSocketIO({
   debug: true,

@@ -26,6 +26,7 @@ export default new Router({
             path: '/game/:code',
             name: 'Game',
             component: Game,
+            props: true,
         },
         {
             path: '/books',

@@ -1,11 +1,13 @@
 from flask import render_template, flash, redirect, url_for, jsonify, request
 from flask_socketio import join_room, emit, send
 import uuid
+import json
 
 from app import app, socketIO
 from app.forms import LoginForm
 from app.helpers import read_file
 from app.game import Game
+from app.player import Player
 
 BOOKS = [
     {
@@ -97,20 +99,34 @@ def get_cards():
     return jsonify(response_object)
 
 @socketIO.on('create')
-def on_create():
+def on_create(data):
     """Create a game lobby"""
+    print("Creating a new game!")
     curr_game = Game()
+    # TODO: check for duplicate names
+    player = Player(data['name'])
+    curr_game.players[data['name']] = player
     ROOMS[curr_game.id] = curr_game
-    join_room(curr_game)
-    emit('join_room', {'room': curr_game.id})
+    join_room(curr_game.id)
+    emit('set_user', data['name'])
+    emit('join_room', {'room': curr_game.to_json()})
+    print("sent code: " + curr_game.id)
+    print(ROOMS)
 
 @socketIO.on('join')
 def on_join(data):
     """Join a game lobby"""
+    print("Joining game! code: " + data['room'])
     room = data['room']
+    print(ROOMS)
     if room in ROOMS:
         join_room(room)
-        send(ROOMS[room].to_json(), room=room)
+        #send(ROOMS[room].to_json(), room=room)
+        player = Player(data['name'])
+        ROOMS[room].players[data['name']] = player
+        emit('set_user', data['name'])
+        emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
+        print("sent code: " + ROOMS[room].id)
     else:
         emit('error', {'error': 'Invalid game code.'})
 
@@ -118,3 +134,20 @@ def on_join(data):
 def on_connect():
     """When a new user connects"""
     print("User joined!")
+
+@socketIO.on('pingServer')
+def pingServer(data):
+    """Test websocket connection"""
+    print(data)
+
+@socketIO.on('setState')
+def setState(data):
+    """Set the game state"""
+    print(data)
+    room = data['room']
+    if room in ROOMS and data['state'] == 'active':
+        ROOMS[room].state = data['state']
+        ROOMS[room].draw_black_card()
+        ROOMS[room].assign_judge()
+        # TODO: rename channel to reflect that it also updates
+        emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
