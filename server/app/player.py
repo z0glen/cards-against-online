@@ -1,11 +1,12 @@
-import json
 import random
 
 from app.helpers import read_file
 
 
 class Player:
-    def __init__(self, name):
+    def __init__(self, name, game):
+        self.game = game
+
         self.name = name
         self.score = 0
         self.cards = None
@@ -15,11 +16,17 @@ class Player:
         self.deal_cards()
 
     def to_json(self):
-        return self.__dict__
+        return {
+            'name': self.name,
+            'score': self.score,
+            'cards': self.cards,
+            'is_judge': self.is_judge,
+            'playedCard': self.playedCard,
+        }
 
     def deal_cards(self):
-        # TODO: store cards in session and prevent duplicates between players
-        self.cards = random.sample(read_file('responses.json'), 5)
+        # TODO: prevent duplicates between players
+        self.cards = random.sample(self.game.deck['responses'], 5)
 
     def card_index_from_id(self, card_id):
         for idx, card in enumerate(self.cards):
@@ -32,3 +39,8 @@ class Player:
         print(card_idx)
         self.playedCard = self.cards.pop(card_idx)
         print(self.playedCard)
+        return self.playedCard
+
+    def handle_cards(self):
+        if len(self.cards) < 5:
+            self.cards.append(random.sample(self.game.deck['responses'], 1))

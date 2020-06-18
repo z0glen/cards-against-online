@@ -1,7 +1,5 @@
 <template>
     <div>
-        <Nav/>
-        <br>
         <div class="container text-center">
             <h1>Custom Online Card Player</h1>
             <b-button v-b-modal.create-modal variant="primary" class="button">Create Game</b-button>
@@ -61,11 +59,9 @@
 </template>
 
 <script>
-    import Nav from "./Nav";
     import { mapState } from 'vuex';
 
     export default {
-        components: {Nav},
         data() {
             return {
                 createForm: {

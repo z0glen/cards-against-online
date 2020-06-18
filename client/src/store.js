@@ -11,6 +11,7 @@ export default new Vuex.Store({
         message: '',
         user: '',
         room: {},
+        playedCards: [],
     },
     getters: {
         doubleup(state) {
@@ -28,7 +29,6 @@ export default new Vuex.Store({
             state.connected = payload;
         },
         SOCKET_connect(state) {
-            console.log("connected");
             state.connected = true;
         },
         SOCKET_DISCONNECT(state) {
@@ -38,18 +38,19 @@ export default new Vuex.Store({
             state.message = message;
         },
         SOCKET_HELLO_WORLD(state, message) {
-            console.log(this.message);
             state.message = message;
         },
         SOCKET_error(state, message) {
             state.error = message.error;
         },
         SOCKET_join_room(state, data) {
-            console.log(data);
             state.room = JSON.parse(data.room);
         },
         SOCKET_set_user(state, user) {
             state.user = user;
+        },
+        SOCKET_played_cards(state, cards) {
+            state.playedCards = cards;
         }
     },
     actions: {

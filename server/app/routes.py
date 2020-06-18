@@ -1,7 +1,6 @@
 from flask import render_template, flash, redirect, url_for, jsonify, request
 from flask_socketio import join_room, emit, send
 import uuid
-import json
 
 from app import app, socketIO
 from app.forms import LoginForm
@@ -104,7 +103,7 @@ def on_create(data):
     print("Creating a new game!")
     curr_game = Game()
     # TODO: check for duplicate names
-    player = Player(data['name'])
+    player = Player(data['name'], curr_game)
     curr_game.players[data['name']] = player
     ROOMS[curr_game.id] = curr_game
     join_room(curr_game.id)
@@ -121,8 +120,7 @@ def on_join(data):
     print(ROOMS)
     if room in ROOMS:
         join_room(room)
-        #send(ROOMS[room].to_json(), room=room)
-        player = Player(data['name'])
+        player = Player(data['name'], ROOMS[room])
         ROOMS[room].players[data['name']] = player
         emit('set_user', data['name'])
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
@@ -157,12 +155,21 @@ def playCard(data):
     """When a player selects a card for judging"""
     print("playCard event received")
     room = data['room']
-    print(room)
-    print(ROOMS)
     if room in ROOMS:
-        print("playing card")
         player = ROOMS[room].find_player_by_name(data['player'])
-        player.play_card(data['card'])
-        if (ROOMS[room].has_all_played()):
+        ROOMS[room].played_cards[data['player']] = player.play_card(data['card'])
+        if ROOMS[room].has_all_played():
             ROOMS[room].state = "judging"
+        emit('played_cards', list(ROOMS[room].played_cards.values()))
+        emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
+
+@socketIO.on('judgeCard')
+def judgeCard(data):
+    """When the judge chooses a card to win the round"""
+    print("judgeCard event received")
+    room = data['room']
+    if room in ROOMS:
+        ROOMS[room].award_point(data['card'])
+        ROOMS[room].state = "active"
+        print(ROOMS[room])
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
