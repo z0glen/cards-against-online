@@ -151,3 +151,18 @@ def setState(data):
         ROOMS[room].assign_judge()
         # TODO: rename channel to reflect that it also updates
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
+
+@socketIO.on('playCard')
+def playCard(data):
+    """When a player selects a card for judging"""
+    print("playCard event received")
+    room = data['room']
+    print(room)
+    print(ROOMS)
+    if room in ROOMS:
+        print("playing card")
+        player = ROOMS[room].find_player_by_name(data['player'])
+        player.play_card(data['card'])
+        if (ROOMS[room].has_all_played()):
+            ROOMS[room].state = "judging"
+        emit('join_room', {'room': ROOMS[room].to_json()}, room=room)

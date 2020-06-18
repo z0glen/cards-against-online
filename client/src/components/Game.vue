@@ -13,14 +13,25 @@
         <div v-else>
             <div v-if="getState() !== 'lobby'">
                 <p>Current black card:</p>
-                <Card v-bind="getCurrentBlackCard()">
+                <Card
+                    v-bind="getCurrentBlackCard()"
+                    v-bind:isBlackCard=true
+                >
                 </Card>
                 <hr>
+                <h5>{{ this.message }}</h5>
                 <p>Your hand:</p>
-                <div v-for="card in getCurrentCards()" :key="card.id">
-                    <Card v-bind="card">
-                    </Card>
-                </div>
+                <b-card-group deck>
+                    <template v-for="card in getCurrentCards()">
+                        <Card
+                            v-bind="card"
+                            v-bind:canSelect="!hasPlayedCard"
+                            :key="card.id"
+                            @clicked="playCard"
+                        >
+                        </Card>
+                    </template>
+                </b-card-group>
                 <hr>
             </div>
             <div v-else>
@@ -63,7 +74,15 @@
                 responses: [],
             }
         },
-        computed: mapState(['room', 'user']),
+        computed: {
+            hasPlayedCard() {
+                return !!this.room['players'][this.user]['playedCard'];
+            },
+            message() {
+                return this.hasPlayedCard ? "Waiting for other players..." : "Choose a card!"
+            },
+            ...mapState(['room', 'user'])
+        },
         methods: {
             getCards() {
                 const path = 'http://localhost:5000/cards';
@@ -79,7 +98,14 @@
                     });
             },
             getPlayers() {
-                return this.room['players'];
+                console.log(this.room['players']);
+                let names = Object.keys(this.room['players']);
+                let players = {};
+                for (let n of names) {
+                    console.log(n);
+                    players[n] = {'hasPlayedCard': !!this.room['players'][n]['playedCard']}
+                }
+                return players;
             },
             getCurrentCards() {
                 return this.room['players'][this.user]['cards'];
@@ -95,6 +121,10 @@
             },
             getCurrentBlackCard() {
                 return this.room['black_card']
+            },
+            playCard(cardId) {
+                console.log("Playing card: " + cardId);
+                this.$socket.emit('playCard', {'room': this.code, 'player': this.user, 'card': cardId});
             }
         },
         created() {

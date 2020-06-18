@@ -42,3 +42,14 @@ class Game:
     def reset_judging(self):
         for name, p in self.players.items():
             p.is_judge = False
+
+    def find_player_by_name(self, name):
+        for n, p in self.players.items():
+            if n == name:
+                return p
+
+    def has_all_played(self):
+        for n, p in self.players.items():
+            if not p.playedCard:
+                return False
+        return True
