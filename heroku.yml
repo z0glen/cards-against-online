@@ -1,24 +1,7 @@
-version: '3.7'
-
-services:
-  server:
-    build: ./server
-    volumes:
-    - ./server:/app
-    ports:
-    - 5000:5000
-    restart: unless-stopped
-    environment:
-      FLASK_DEV: development
-      PYTHONUNBUFFERED: 1
-  client:
-    build: ./client
-    volumes:
-    - ./client:/app
-    - /app/node_modules
-    ports:
-    - 8080:8080
-    links:
-      - server
-    depends_on:
-      - server
+build:
+  docker:
+    api: server/Dockerfile
+    web: frontend/Dockerfile
+run:
+  api: npm run flask
+  web: npm run serve
