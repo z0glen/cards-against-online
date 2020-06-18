@@ -6,5 +6,3 @@ cache:
   directories:
     - ~/.npm
     - ~/.cache
-script:
-  - npm run lint
