@@ -11,8 +11,8 @@ import store from "./store"
 
 Vue.use(BootstrapVue)
 Vue.use(new VueSocketIO({
-  debug: true,
-  connection: io("http://localhost:5000"),
+  debug: false,
+  connection: io(`//${window.location.host}`),
   vuex: {
     store,
     actionPrefix: 'SOCKET_',

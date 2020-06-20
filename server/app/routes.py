@@ -1,94 +1,13 @@
-from flask import render_template, flash, redirect, url_for, jsonify, request
-from flask_socketio import join_room, emit, send
-import uuid
+from flask import jsonify
+from flask_socketio import join_room, emit
+import sys
 
 from app import app, socketIO
-from app.forms import LoginForm
 from app.helpers import read_file
 from app.game import Game
 from app.player import Player
 
-BOOKS = [
-    {
-        'id': uuid.uuid4().hex,
-        'title': 'On the road',
-        'author': 'Jack Kerouac',
-        'read': True
-    },
-    {
-        'id': uuid.uuid4().hex,
-        'title': 'Harry Potter and the Philosopher\'s Stone',
-        'author': 'J.K. Rowling',
-        'read': False
-    },
-    {
-        'id': uuid.uuid4().hex,
-        'title': 'Green Eggs and Ham',
-        'author': 'Dr. Seuss',
-        'read': True
-    }
-]
-
-ROOMS = {} # dict for tracking active games
-
-@app.route("/", methods=['GET', 'POST'])
-def home():
-    form = LoginForm()
-    if form.validate_on_submit() and form.password.data == app.password:
-        flash('Logged in')
-        return redirect(url_for('game'))
-    flash('test')
-    return render_template("home.html", form=form)
-
-@app.route("/game")
-def game():
-    return render_template("game.html")
-
-@app.route("/ping")
-def ping():
-    print("PONG")
-    return jsonify('pong!')
-
-@app.route('/books', methods=['GET', 'POST'])
-def all_books():
-    response_object = {'status': 'success'}
-    if request.method == 'POST':
-        post_data = request.get_json()
-        BOOKS.append({
-            'id': uuid.uuid4().hex,
-            'title': post_data.get('title'),
-            'author': post_data.get('author'),
-            'read': post_data.get('read')
-        })
-        response_object['message'] = 'Book added!'
-    else:
-        response_object['books'] = BOOKS
-    return jsonify(response_object)
-
-@app.route('/books/<book_id>', methods=['PUT', 'DELETE'])
-def single_book(book_id):
-    response_object = {'status': 'success'}
-    if request.method == 'PUT':
-        post_data = request.get_json()
-        remove_book(book_id)
-        BOOKS.append({
-            'id': uuid.uuid4().hex,
-            'title': post_data.get('title'),
-            'author': post_data.get('author'),
-            'read': post_data.get('read')
-        })
-        response_object['message'] = 'Book updated!'
-    if request.method == 'DELETE':
-        remove_book(book_id)
-        response_object['message'] = 'Book removed!'
-    return jsonify(response_object)
-
-def remove_book(book_id):
-    for book in BOOKS:
-        if book['id'] == book_id:
-            BOOKS.remove(book)
-            return True
-    return False
+ROOMS = {}  # dict for tracking active games
 
 @app.route('/cards')
 def get_cards():
@@ -153,15 +72,21 @@ def setState(data):
 @socketIO.on('playCard')
 def playCard(data):
     """When a player selects a card for judging"""
-    print("playCard event received")
+    print("playCard event received: " + str(data))
     room = data['room']
     if room in ROOMS:
         player = ROOMS[room].find_player_by_name(data['player'])
+        print(player)
         ROOMS[room].played_cards[data['player']] = player.play_card(data['card'])
+        print(player)
         if ROOMS[room].has_all_played():
             ROOMS[room].state = "judging"
-        emit('played_cards', list(ROOMS[room].played_cards.values()))
+        emit('played_cards', list(ROOMS[room].played_cards.values()), room=room)
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
+    else:
+        print("invalid room: " + room, file=sys.stderr)
+        print("available rooms")
+        print(str(ROOMS))
 
 @socketIO.on('judgeCard')
 def judgeCard(data):
@@ -172,4 +97,11 @@ def judgeCard(data):
         ROOMS[room].award_point(data['card'])
         ROOMS[room].state = "active"
         print(ROOMS[room])
+        emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
+
+@socketIO.on('joinRoom')
+def joinRoom(room):
+    """On refresh, need to re-join the socket io room"""
+    if room in ROOMS:
+        join_room(room)
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)

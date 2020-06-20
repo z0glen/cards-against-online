@@ -29,7 +29,10 @@ class Player:
         self.cards = random.sample(self.game.deck['responses'], 5)
 
     def card_index_from_id(self, card_id):
+        print("card_index_from_id")
+        print(self.cards)
         for idx, card in enumerate(self.cards):
+            print(card)
             if card["id"] == card_id:
                 return idx
 

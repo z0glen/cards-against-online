@@ -47,7 +47,6 @@
                     <b-form-input
                         id="code-input"
                         v-model="joinForm.room"
-                        type="password"
                         required
                         placeholder="Enter code"
                     ></b-form-input>
@@ -84,15 +83,15 @@
         methods: {
             createGame(evt) {
                 evt.preventDefault();
-                alert(JSON.stringify(this.createForm));
-                this.$socket.emit('pingServer', 'PING!');
+                //alert(JSON.stringify(this.createForm));
+                this.$store.commit('set_user', this.createForm.name);
                 this.$socket.emit('create', this.createForm);
                 //this.$router.push({name: 'Game', params: {code: this.createForm.room}});
             },
             joinGame(evt) {
                 evt.preventDefault();
-                alert(JSON.stringify(this.joinForm));
-                this.$socket.emit('pingServer', 'PING!');
+                //alert(JSON.stringify(this.joinForm));
+                this.$store.commit('set_user', this.joinForm.name);
                 this.$socket.emit('join', this.joinForm);
                 //this.$router.push({name: 'Game', params: {code: this.joinForm.room}});
             }

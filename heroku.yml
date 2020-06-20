@@ -1,7 +1,0 @@
-build:
-  docker:
-    api: server/Dockerfile
-    web: client/Dockerfile.production
-run:
-  api: npm run flask
-  web: npm run serve

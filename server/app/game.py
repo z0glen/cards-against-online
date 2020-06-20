@@ -58,7 +58,7 @@ class Game:
 
     def has_all_played(self):
         for n, p in self.players.items():
-            if not p.playedCard:
+            if not p.playedCard and not p.is_judge:
                 return False
         return True
 

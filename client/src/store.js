@@ -1,9 +1,16 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import VuexPersistence from "vuex-persist";
 
 Vue.use(Vuex);
 
+const vuexPersistence = new VuexPersistence({
+    key: 'cards-against',
+    storage: window.localStorage
+});
+
 export default new Vuex.Store({
+    plugins: [vuexPersistence.plugin],
     state: {
         count: 0,
         connected: false,
@@ -47,6 +54,9 @@ export default new Vuex.Store({
             state.room = JSON.parse(data.room);
         },
         SOCKET_set_user(state, user) {
+            state.user = user;
+        },
+        set_user(state, user) {
             state.user = user;
         },
         SOCKET_played_cards(state, cards) {

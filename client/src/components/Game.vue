@@ -1,5 +1,5 @@
 <template>
-    <div class="container" v-if="validRoom()">
+    <div class="container" v-if="validRoom">
         <h3>Game code: {{ code }}</h3>
         <p>Players: {{ this.players }}</p>
         <p>Current state: {{ getState() }}</p>
@@ -32,7 +32,7 @@
                 <template v-for="card in getCurrentCards()">
                     <Card
                         v-bind="card"
-                        v-bind:canSelect="!hasPlayedCard"
+                        v-bind:canSelect="!hasPlayedCard && !isJudge"
                         :key="card.id"
                         @clicked="playCard"
                     >
@@ -68,7 +68,17 @@
                 return !!this.room['players'][this.user]['playedCard'];
             },
             message() {
-                return this.hasPlayedCard ? "Waiting for other players..." : "Choose a card!"
+                if (this.getState() === 'judging' && this.isJudge) {
+                    return "Pick the winner!";
+                } else if (this.getState() === 'judging') {
+                    return "Waiting for the judge...";
+                } else if (this.hasPlayedCard) {
+                    return "Waiting for other players...";
+                } else if (this.isJudge) {
+                    return "It's your turn to judge!";
+                } else {
+                    return "Choose a card!";
+                }
             },
             isJudge() {
                 return this.room['players'][this.user]['is_judge'];
@@ -86,14 +96,14 @@
                 }
                 return players;
             },
+            validRoom() {
+                return !!(Object.keys(this.room).length !== 0);
+            },
             ...mapState(['room', 'user', 'playedCards'])
         },
         methods: {
             getCurrentCards() {
                 return this.room['players'][this.user]['cards'];
-            },
-            validRoom() {
-                return Object.keys(this.room).length !== 0;
             },
             getState() {
                 return this.room['state'];
@@ -106,12 +116,19 @@
             },
             playCard(cardId) {
                 console.log("Playing card: " + cardId);
-                this.$socket.emit('playCard', {'room': this.code, 'player': this.user, 'card': cardId});
+                if (!this.isJudge) {
+                    this.$socket.emit('playCard', {'room': this.code, 'player': this.user, 'card': cardId});
+                }
             },
             judgeCard(cardId) {
                 console.log("Judge selected card: " + cardId);
                 this.$socket.emit('judgeCard', {'room': this.code, 'card': cardId});
             },
+        },
+        mounted() {
+            this.$nextTick(() => {
+                 this.$socket.emit('joinRoom', this.code);
+            });
         }
     }
 </script>
