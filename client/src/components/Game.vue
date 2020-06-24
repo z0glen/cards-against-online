@@ -2,7 +2,9 @@
     <div class="container" v-if="validRoom">
         <h3>Game code: {{ code }}</h3>
         <Scoreboard :items="scoreboard"/>
+        <h5>{{ this.message }}</h5>
         <p>Current state: {{ getState() }}</p>
+        <hr>
         <div v-if="getState() !== 'lobby'">
             <p>Current black card:</p>
             <Card
@@ -26,7 +28,6 @@
                 </b-card-group>
                 <hr>
             </div>
-            <h5>{{ this.message }}</h5>
             <p>Your hand:</p>
             <b-card-group deck>
                 <template v-for="card in getCurrentCards()">

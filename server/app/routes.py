@@ -40,7 +40,7 @@ def on_join(data):
     if room in ROOMS:
         join_room(room)
         player = Player(data['name'], ROOMS[room])
-        ROOMS[room].players[data['name']] = player
+        ROOMS[room].add_player(player)
         emit('set_user', data['name'])
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
         print("sent code: " + ROOMS[room].id)

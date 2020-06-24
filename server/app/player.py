@@ -12,6 +12,7 @@ class Player:
         self.cards = None
         self.is_judge = False
         self.playedCard = None
+        self.judge_num = 0
 
         self.deal_cards()
 

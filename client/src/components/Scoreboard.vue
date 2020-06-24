@@ -28,5 +28,7 @@
 </script>
 
 <style scoped>
-
+    .table {
+        margin: 25px 0;
+    }
 </style>

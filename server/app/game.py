@@ -14,6 +14,7 @@ class Game:
         self.players = {}
         self.judge = None
         self.played_cards = {}
+        self.judge_num = 0
 
         self.load_cards()
 
@@ -39,10 +40,13 @@ class Game:
 
     def draw_black_card(self):
         # TODO: prevent duplicates between rounds
-        self.black_card = random.sample(read_file('calls.json'), 1)
+        self.black_card = random.sample(self.deck['calls'], 1)
 
     def assign_judge(self):
-        self.judge = random.sample(self.players.keys(), 1)[0]
+        for name, p in self.players.items():
+            if p.judge_num == self.judge_num:
+                self.judge = name
+        # self.judge = random.sample(self.players.keys(), 1)[0]
         print(self.judge)
         self.reset_judging()
         self.players[self.judge].is_judge = True
@@ -81,5 +85,13 @@ class Game:
             p.is_judge = False
             p.playedCard = None
             p.handle_cards()
+        if self.judge_num >= len(self.players) - 1:
+            self.judge_num = 0
+        else:
+            self.judge_num += 1
         self.assign_judge()
         self.draw_black_card()
+
+    def add_player(self, player):
+        self.players[player.name] = player
+        player.judge_num = len(self.players) - 1
