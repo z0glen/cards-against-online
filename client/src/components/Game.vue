@@ -1,7 +1,7 @@
 <template>
     <div class="container" v-if="validRoom">
         <h3>Game code: {{ code }}</h3>
-        <p>Players: {{ this.players }}</p>
+        <Scoreboard :items="scoreboard"/>
         <p>Current state: {{ getState() }}</p>
         <div v-if="getState() !== 'lobby'">
             <p>Current black card:</p>
@@ -54,11 +54,13 @@
 
 <script>
     import Card from "./Card";
+    import Scoreboard from "./Scoreboard";
     import { mapState } from 'vuex';
 
     export default {
         components: {
             Card,
+            Scoreboard,
         },
         props: {
             code: String
@@ -98,6 +100,19 @@
             },
             validRoom() {
                 return !!(Object.keys(this.room).length !== 0);
+            },
+            scoreboard() {
+                let names = Object.keys(this.room['players']);
+                let stats = [];
+                for (let n of names) {
+                    stats.push({
+                        'user': n,
+                        'hasPlayedCard': !!this.room['players'][n]['playedCard'],
+                        'isJudge': this.room['players'][n]['is_judge'],
+                        'score': this.room['players'][n]['score']
+                    });
+                }
+                return stats;
             },
             ...mapState(['room', 'user', 'playedCards'])
         },

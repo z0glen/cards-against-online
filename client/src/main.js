@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import BootstrapVue from 'bootstrap-vue'
+import {BootstrapVue, BootstrapVueIcons} from 'bootstrap-vue'
 import VueSocketIO from "vue-socket.io"
 import io from "socket.io-client"
 
@@ -10,6 +10,7 @@ import router from './router'
 import store from "./store"
 
 Vue.use(BootstrapVue)
+Vue.use(BootstrapVueIcons)
 Vue.use(new VueSocketIO({
   debug: false,
   connection: io(`//${window.location.host}`),
