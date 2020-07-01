@@ -1,3 +1,4 @@
+![heroku-deploy](https://github.com/z0glen/cards-against-online/workflows/heroku-deploy/badge.svg?branch=master)
 <h1>Cards Against Online</h1>
 
 An online player inspired by the Cards Against Humanity game.
