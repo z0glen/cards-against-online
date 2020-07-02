@@ -1,14 +1,15 @@
 <h1>Cards Against Online</h1>
 
+[![Build Status](https://www.travis-ci.org/z0glen/cards-against-online.svg?branch=master)](https://www.travis-ci.org/z0glen/cards-against-online)
+
 An online player inspired by the Cards Against Humanity game.
 
-<h2>Development Setup - Docker</h2>
+<h2>Development Setup</h2>
 
-- Run `$ docker-compose -f docker-compose.yml up --build` to run the server and client from a docker container
+- Build and run the docker container with the run.sh script
+- Manually deploy to heroku with the deploy.sh script
+    - Will need to manually login to the heroku CLI first
+    
+<h2>Notes</h2>
+- Currently only supports cards as defined in the calls and responses json files
 
-<h2>Development Setup - Local</h2>
-
-- In client dir:
-    - Run `$ npm run serve`
-- In server dir:
-    - Run `$ python3 run.py`
