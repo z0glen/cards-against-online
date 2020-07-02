@@ -11,7 +11,7 @@ services:
     environment:
       FLASK_DEV: development
       PYTHONUNBUFFERED: 1
-    container_name: z0glen/cards-against-online
+    container_name: registry.heroku.com/still-fortress-86423/web
   client:
     build: ./client
     volumes:
