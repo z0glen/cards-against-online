@@ -11,6 +11,7 @@ services:
     environment:
       FLASK_DEV: development
       PYTHONUNBUFFERED: 1
+    container_name: z0glen/cards-against-online
   client:
     build: ./client
     volumes:

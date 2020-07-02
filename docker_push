@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "$DOCKER_PASSWORD" | docker login --username=_ --password-stdin registry.heroku.com
+docker tag z0glen/cards-against-online registry.heroku.com/still-fortress-86423/web
 docker push registry.heroku.com/still-fortress-86423/web
