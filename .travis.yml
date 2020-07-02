@@ -13,8 +13,10 @@ env:
     - HEROKU_APP=still-fortress-86423
 script:
 - docker build -t registry.heroku.com/$HEROKU_APP/web .
-after_success:
-  - docker push registry.heroku.com/$HEROKU_APP/web
-  - heroku container:release web --app $HEROKU_APP
+deploy:
+  provider: script
+  script: deploy.sh
+  on:
+    branch: master
 notifications:
   email: true
