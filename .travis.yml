@@ -8,11 +8,8 @@ cache:
   - "~/.cache"
 services:
 - docker
-env:
-  global:
-    - HEROKU_APP=still-fortress-86423
-script:
-- docker build -t registry.heroku.com/$HEROKU_APP/web .
+before_install:
+- docker build -t registry.heroku.com/still-fortress-86423/web .
 deploy:
   - provider: script
     script: bash deploy.sh
