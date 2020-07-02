@@ -1,5 +1,5 @@
 <h1>Cards Against Online</h1>
-
+[![Build Status](https://travis-ci.org/z0glen/cards-against-online.svg?branch=master)](https://travis-ci.org/z0glen/cards-against-online)
 An online player inspired by the Cards Against Humanity game.
 
 <h2>Development Setup - Docker</h2>
