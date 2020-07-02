@@ -77,7 +77,11 @@ def playCard(data):
     if room in ROOMS:
         player = ROOMS[room].find_player_by_name(data['player'])
         print(player)
-        ROOMS[room].played_cards[data['player']] = player.play_card(data['card'])
+        # played_cards = ROOMS[room].played_cards[data['player']]
+        if data['player'] in ROOMS[room].played_cards:
+            ROOMS[room].played_cards[data['player']].append(player.play_card(data['card']))
+        else:
+            ROOMS[room].played_cards[data['player']] = [player.play_card(data['card'])]
         print(player)
         if ROOMS[room].has_all_played():
             ROOMS[room].state = "judging"

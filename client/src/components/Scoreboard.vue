@@ -7,7 +7,7 @@
             </template>
             <template v-slot:cell(hasPlayedCard)="data">
                 <b-icon icon="dash-circle" variant="secondary" v-if="data.item.isJudge"></b-icon>
-                <b-icon icon="check" variant="success" v-else-if="data.item.hasPlayedCard"></b-icon>
+                <b-icon icon="check" variant="success" v-else-if="!data.item.canPlayCard"></b-icon>
                 <b-icon icon="x" variant="danger" v-else></b-icon>
             </template>
         </b-table>
