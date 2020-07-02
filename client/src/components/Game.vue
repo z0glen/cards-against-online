@@ -15,17 +15,21 @@
             <hr>
             <div v-if="getState() === 'judging'">
                 <p>Cards for judging:</p>
-                <b-card-group deck>
-                    <template v-for="card in playedCards">
-                        <Card
-                            v-bind="card"
-                            v-bind:can-select="isJudge"
-                            :key="card.id"
-                            @clicked="judgeCard"
-                        >
-                        </Card>
+                    <template v-for="(cardGroups, index) in playedCards">
+                        <div class="mb-3" :class="outline" :key="index">
+                            <b-card-group deck class="p-2">
+                                <template v-for="card in cardGroups">
+                                    <Card
+                                        v-bind="card"
+                                        v-bind:can-select="isJudge"
+                                        :key="card.id"
+                                        @clicked="judgeCard"
+                                    >
+                                    </Card>
+                                </template>
+                            </b-card-group>
+                        </div>
                     </template>
-                </b-card-group>
                 <hr>
             </div>
             <p>Your hand:</p>
@@ -33,7 +37,7 @@
                 <template v-for="card in getCurrentCards()">
                     <Card
                         v-bind="card"
-                        v-bind:canSelect="!hasPlayedCard && !isJudge"
+                        v-bind:canSelect="canPlayCard && !isJudge"
                         :key="card.id"
                         @clicked="playCard"
                     >
@@ -67,15 +71,15 @@
             code: String
         },
         computed: {
-            hasPlayedCard() {
-                return !!this.room['players'][this.user]['playedCard'];
+            canPlayCard() {
+                return this.room['players'][this.user]['canPlayCard'];
             },
             message() {
                 if (this.getState() === 'judging' && this.isJudge) {
                     return "Pick the winner!";
                 } else if (this.getState() === 'judging') {
                     return "Waiting for the judge...";
-                } else if (this.hasPlayedCard) {
+                } else if (!this.canPlayCard) {
                     return "Waiting for other players...";
                 } else if (this.isJudge) {
                     return "It's your turn to judge!";
@@ -108,12 +112,15 @@
                 for (let n of names) {
                     stats.push({
                         'user': n,
-                        'hasPlayedCard': !!this.room['players'][n]['playedCard'],
+                        'canPlayCard': !!this.room['players'][n]['canPlayCard'],
                         'isJudge': this.room['players'][n]['is_judge'],
                         'score': this.room['players'][n]['score']
                     });
                 }
                 return stats;
+            },
+            outline() {
+                return this.getCurrentBlackCard().text.length > 2 ? 'outline' : '';
             },
             ...mapState(['room', 'user', 'playedCards'])
         },
@@ -150,5 +157,8 @@
 </script>
 
 <style scoped>
-
+    .outline {
+        border-radius: 5px;
+        box-shadow: 0 0 0 2px lightgray;
+    }
 </style>

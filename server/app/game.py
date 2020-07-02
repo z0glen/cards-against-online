@@ -4,7 +4,6 @@ import json
 
 from app.helpers import read_file
 
-
 class Game:
     def __init__(self):
         self.id = self.generate_game_code()
@@ -40,7 +39,7 @@ class Game:
 
     def draw_black_card(self):
         # TODO: prevent duplicates between rounds
-        self.black_card = random.sample(self.deck['calls'], 1)
+        self.black_card = random.sample(self.deck['calls'], 1)[0]
 
     def assign_judge(self):
         for name, p in self.players.items():
@@ -50,6 +49,7 @@ class Game:
         print(self.judge)
         self.reset_judging()
         self.players[self.judge].is_judge = True
+        self.players[self.judge].can_play_card = False
 
     def reset_judging(self):
         for name, p in self.players.items():
@@ -62,7 +62,9 @@ class Game:
 
     def has_all_played(self):
         for n, p in self.players.items():
-            if not p.playedCard and not p.is_judge:
+            print(p.to_json())
+            if p.can_play_card:
+                print("Player " + p.name + " has not finished playing")
                 return False
         return True
 
@@ -73,17 +75,20 @@ class Game:
 
     def award_point(self, card_id):
         print(self.played_cards)
-        for name, card in self.played_cards.items():
-            print(card)
-            if card['id'] == card_id:
-                self.find_player_by_name(name).score += 1
-                self.end_round()
+        for name, cards in self.played_cards.items():
+            print(cards)
+            for card in cards:
+                print(card)
+                if card['id'] == card_id:
+                    self.find_player_by_name(name).score += 1
+                    self.end_round()
 
     def end_round(self):
         self.played_cards = {}
         for name, p in self.players.items():
             p.is_judge = False
-            p.playedCard = None
+            p.playedCard = []
+            p.can_play_card = True
             p.handle_cards()
         if self.judge_num >= len(self.players) - 1:
             self.judge_num = 0
