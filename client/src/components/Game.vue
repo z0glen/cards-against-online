@@ -3,7 +3,6 @@
         <h3>Game code: {{ code }}</h3>
         <Scoreboard :items="scoreboard"/>
         <h5>{{ this.message }}</h5>
-        <p>Current state: {{ getState() }}</p>
         <hr>
         <div v-if="getState() !== 'lobby'">
             <p>Current black card:</p>
@@ -94,7 +93,6 @@
                 let names = Object.keys(this.room['players']);
                 let players = {};
                 for (let n of names) {
-                    console.log(this.room['players'][n]['score']);
                     players[n] = {
                         'hasPlayedCard': !!this.room['players'][n]['playedCard'],
                         'isJudge': this.room['players'][n]['is_judge'],

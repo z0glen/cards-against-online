@@ -52,6 +52,12 @@ def on_connect():
     """When a new user connects"""
     print("User joined!")
 
+@socketIO.on('disconnect')
+def on_disconnect():
+    """When a user closes the window"""
+    # TODO check if user in game and remove
+    print("User exited")
+
 @socketIO.on('pingServer')
 def pingServer(data):
     """Test websocket connection"""

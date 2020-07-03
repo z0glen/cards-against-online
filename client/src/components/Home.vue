@@ -76,7 +76,6 @@
         watch: {
             room(newState, oldState) {
                 console.log(`Updating room from ${oldState} to ${newState}`);
-                console.log(newState.id);
                 this.$router.push({name: 'Game', params: {code: newState.id}});
             }
         },
