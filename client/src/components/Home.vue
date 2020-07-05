@@ -1,9 +1,22 @@
 <template>
     <div>
         <div class="container text-center">
-            <h1>Custom Online Card Player</h1>
-            <b-button v-b-modal.create-modal variant="primary" class="button">Create Game</b-button>
-            <b-button v-b-modal.join-modal variant="success" class="button">Join Game</b-button>
+            <b-jumbotron bg-variant="secondary" text-variant="white" header="Cards Against Online Player">
+                <b-button v-b-modal.create-modal variant="primary" class="button">Create Game</b-button>
+                <b-button v-b-modal.join-modal variant="success" class="button">Join Game</b-button>
+            </b-jumbotron>
+            <b-jumbotron header="Gameplay Notes">
+                <ul>
+                    <li>Use the buttons above to create a new game or join an existing game</li>
+                    <li>Usernames need to be unique in each game</li>
+                    <li>Players can join at any time during a game</li>
+                    <li>Once you play a card, you cannot change it</li>
+                    <li>For multi-card responses, play the cards in the order of the blanks</li>
+                    <li>Currently players cannot leave mid-game, you will need to start a new game</li>
+                    <li>This is an early access game that is actively under development - everything is subject to change</li>
+                    <li>Please use the linked GitHub for bug reports and feature requests</li>
+                </ul>
+            </b-jumbotron>
         </div>
         <b-modal id="create-modal" hide-footer title="Create Game">
             <b-form @submit="createGame">
@@ -74,8 +87,7 @@
         },
         computed: mapState(['room']),
         watch: {
-            room(newState, oldState) {
-                console.log(`Updating room from ${oldState} to ${newState}`);
+            room(newState) {
                 this.$router.push({name: 'Game', params: {code: newState.id}});
             }
         },
