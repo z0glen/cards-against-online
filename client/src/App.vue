@@ -1,18 +1,21 @@
 <template>
-  <div id="app">
+  <div id="app" class="min-vh-100">
     <Nav/>
     <br>
-    <router-view/>
+    <router-view class="pb-5"/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 export default {
   name: 'App',
   components: {
+    Footer,
     Nav,
   },
   watch: {
