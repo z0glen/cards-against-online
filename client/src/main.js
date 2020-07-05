@@ -13,8 +13,8 @@ Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 Vue.use(new VueSocketIO({
   debug: false,
-  connection: io(`//${window.location.host}`),
-  //connection: io('http://localhost:5000'),
+  //connection: io(`//${window.location.host}`),
+  connection: io('http://localhost:5000'),
   vuex: {
     store,
     actionPrefix: 'SOCKET_',

@@ -17,7 +17,6 @@ export default {
   },
   watch: {
     '$route' (to) {
-      console.log("watching the route title")
       document.title = to.meta.title || 'Cards Against Online'
     }
   }
