@@ -2,7 +2,7 @@
     <div class="container" v-if="validRoom">
         <h3>Game code: {{ code }}</h3>
         <Scoreboard :items="scoreboard"/>
-        <h5>{{ this.message }}</h5>
+        <h3 class="text-center">{{ this.message }}</h3>
         <hr>
         <div v-if="getState() !== 'lobby'">
             <p>Current black card:</p>
@@ -11,12 +11,12 @@
                 v-bind:isBlackCard=true
             >
             </Card>
-            <hr>
             <div v-if="getState() === 'judging'">
+                <hr>
                 <p>Cards for judging:</p>
                     <template v-for="(cardGroups, index) in playedCards">
-                        <div class="mb-3" :class="outline" :key="index">
-                            <b-card-group deck class="p-2">
+                        <div :class="outline" :key="index">
+                            <b-card-group deck :class="{ 'p-2': outline }">
                                 <template v-for="card in cardGroups">
                                     <Card
                                         v-bind="card"
@@ -29,20 +29,22 @@
                             </b-card-group>
                         </div>
                     </template>
-                <hr>
             </div>
-            <p>Your hand:</p>
-            <b-card-group deck>
-                <template v-for="card in getCurrentCards()">
-                    <Card
-                        v-bind="card"
-                        v-bind:canSelect="canPlayCard && !isJudge"
-                        :key="card.id"
-                        @clicked="playCard"
-                    >
-                    </Card>
-                </template>
-            </b-card-group>
+            <div v-else-if="!isJudge">
+                <hr>
+                <p>Your hand:</p>
+                <b-card-group deck>
+                    <template v-for="card in getCurrentCards()">
+                        <Card
+                            v-bind="card"
+                            v-bind:canSelect="canPlayCard && !isJudge"
+                            :key="card.id"
+                            @clicked="playCard"
+                        >
+                        </Card>
+                    </template>
+                </b-card-group>
+            </div>
         </div>
         <div v-else>
             <b-button variant="success" @click="startGame">
@@ -52,7 +54,7 @@
         <br>
     </div>
     <div class="container text-center" v-else>
-        <h5>Invalid room ID</h5>
+        <h5>Invalid room ID. Try making a new game or using a different code!</h5>
     </div>
 </template>
 
@@ -75,15 +77,15 @@
             },
             message() {
                 if (this.getState() === 'judging' && this.isJudge) {
-                    return "Pick the winner!";
+                    return "You're the Judge! Pick the winner!";
                 } else if (this.getState() === 'judging') {
-                    return "Waiting for the judge...";
-                } else if (!this.canPlayCard) {
+                    return "All cards played! " + this.currentJudge + " is deliberating...";
+                } else if (!this.canPlayCard && !this.isJudge) {
                     return "Waiting for other players...";
                 } else if (this.isJudge) {
-                    return "It's your turn to judge!";
+                    return "You're the Judge! Waiting for players...";
                 } else {
-                    return "Choose a card!";
+                    return "New round! Choose a card!";
                 }
             },
             isJudge() {
@@ -100,6 +102,15 @@
                     }
                 }
                 return players;
+            },
+            currentJudge() {
+                let names = Object.keys(this.room['players']);
+                for (let n of names) {
+                    if (this.room['players'][n]['is_judge']) {
+                        return n;
+                    }
+                }
+                return "";
             },
             validRoom() {
                 return !!(Object.keys(this.room).length !== 0);
@@ -118,7 +129,7 @@
                 return stats;
             },
             outline() {
-                return this.getCurrentBlackCard().text.length > 2 ? 'outline' : '';
+                return this.getCurrentBlackCard().text.length > 2 ? 'mb-3 outline' : '';
             },
             ...mapState(['room', 'user', 'playedCards'])
         },

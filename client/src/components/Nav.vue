@@ -4,7 +4,7 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
-                <b-nav-text>Version 0.1.3</b-nav-text>
+                <b-nav-text>Version 0.1.4</b-nav-text>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
