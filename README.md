@@ -4,11 +4,12 @@
 
 An online player inspired by the Cards Against Humanity game.
 
+See the live demo [here](http://still-fortress-86423.herokuapp.com).
+
 <h2>Development Setup</h2>
 
 - Build and run the docker container with the run.sh script
 - Manually deploy to heroku with the deploy.sh script
-    - Must build manually first
     - Will need to manually login to the heroku CLI first
     
 <h2>Notes</h2>
