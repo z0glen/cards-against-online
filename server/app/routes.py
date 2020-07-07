@@ -35,7 +35,7 @@ def on_create(data):
 def on_join(data):
     """Join a game lobby"""
     print("Joining game! code: " + data['room'])
-    room = data['room']
+    room = data['room'].upper()
     print(ROOMS)
     if room in ROOMS:
         join_room(room)
@@ -45,7 +45,7 @@ def on_join(data):
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
         print("sent code: " + ROOMS[room].id)
     else:
-        emit('error', {'error': 'Invalid game code.'})
+        emit('error', {'error': "Game not found :("})
 
 @socketIO.on('connect')
 def on_connect():

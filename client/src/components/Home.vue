@@ -56,12 +56,15 @@
                     label="Game Code:"
                     label-for="code-input"
                     description="Your unique game code"
+                    :invalid-feedback="gameCodeInvalid"
+                    :state="gameCodeState"
                 >
                     <b-form-input
                         id="code-input"
                         v-model="joinForm.room"
                         required
                         placeholder="Enter code"
+                        :state="gameCodeState"
                     ></b-form-input>
                 </b-form-group>
                 <b-button type="submit" variant="primary">Submit</b-button>
@@ -85,7 +88,19 @@
                 }
             };
         },
-        computed: mapState(['room']),
+        computed: {
+            gameCodeState() {
+                return this.error ? false : null;
+            },
+            gameCodeInvalid() {
+                if (this.error) {
+                    return this.error;
+                } else {
+                    return "";
+                }
+            },
+            ...mapState(['room', 'error']),
+        },
         watch: {
             room(newState) {
                 this.$router.push({name: 'Game', params: {code: newState.id}});
@@ -106,6 +121,9 @@
                 this.$socket.emit('join', this.joinForm);
                 //this.$router.push({name: 'Game', params: {code: this.joinForm.room}});
             }
+        },
+        created() {
+            this.$store.commit('error', '');
         }
     }
 </script>
