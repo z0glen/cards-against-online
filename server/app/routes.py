@@ -35,7 +35,7 @@ def on_create(data):
 def on_join(data):
     """Join a game lobby"""
     print("Joining game! code: " + data['room'])
-    room = data['room']
+    room = data['room'].upper()
     print(ROOMS)
     if room in ROOMS:
         join_room(room)
