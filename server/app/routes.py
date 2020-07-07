@@ -45,7 +45,7 @@ def on_join(data):
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
         print("sent code: " + ROOMS[room].id)
     else:
-        emit('error', {'error': 'Invalid game code.'})
+        emit('error', {'error': "Game not found :("})
 
 @socketIO.on('connect')
 def on_connect():

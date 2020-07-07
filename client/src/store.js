@@ -50,6 +50,9 @@ export default new Vuex.Store({
         SOCKET_error(state, message) {
             state.error = message.error;
         },
+        error(state, message) {
+            state.error = message.error;
+        },
         SOCKET_join_room(state, data) {
             state.room = JSON.parse(data.room);
         },
