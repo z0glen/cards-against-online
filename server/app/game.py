@@ -23,7 +23,9 @@ class Game:
 
     def load_cards(self):
         self.deck['calls'] = read_file('calls.json')
+        random.shuffle(self.deck['calls'])
         self.deck['responses'] = read_file('responses.json')
+        random.shuffle(self.deck['responses'])
 
     def to_json(self):
         ps = {}
@@ -38,15 +40,13 @@ class Game:
         return json.dumps(obj)
 
     def draw_black_card(self):
-        # TODO: prevent duplicates between rounds
-        self.black_card = random.sample(self.deck['calls'], 1)[0]
+        self.black_card = self.deck['calls'].pop(0)
+        self.deck['calls'].append(self.black_card)
 
     def assign_judge(self):
         for name, p in self.players.items():
             if p.judge_num == self.judge_num:
                 self.judge = name
-        # self.judge = random.sample(self.players.keys(), 1)[0]
-        print(self.judge)
         self.reset_judging()
         self.players[self.judge].is_judge = True
         self.players[self.judge].can_play_card = False
