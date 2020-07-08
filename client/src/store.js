@@ -15,6 +15,7 @@ export default new Vuex.Store({
         count: 0,
         connected: false,
         error: '',
+        errorField: '',
         message: '',
         user: '',
         room: {},
@@ -49,9 +50,11 @@ export default new Vuex.Store({
         },
         SOCKET_error(state, message) {
             state.error = message.error;
+            state.errorField = message.errorField;
         },
         error(state, message) {
             state.error = message.error;
+            state.errorField = message.errorField;
         },
         SOCKET_join_room(state, data) {
             state.room = JSON.parse(data.room);
