@@ -100,3 +100,9 @@ class Game:
     def add_player(self, player):
         self.players[player.name] = player
         player.judge_num = len(self.players) - 1
+
+    def is_valid_username(self, name):
+        for n in self.players.keys():
+            if n == name:
+                return False
+        return True

@@ -37,15 +37,17 @@ def on_join(data):
     print("Joining game! code: " + data['room'])
     room = data['room'].upper()
     print(ROOMS)
-    if room in ROOMS:
+    if room in ROOMS and ROOMS[room].is_valid_username(data['name']):
         join_room(room)
         player = Player(data['name'], ROOMS[room])
         ROOMS[room].add_player(player)
         emit('set_user', data['name'])
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
         print("sent code: " + ROOMS[room].id)
+    elif room in ROOMS:
+        emit('error', {'error': "That username is already taken!", 'errorField': "username"})
     else:
-        emit('error', {'error': "Game not found :("})
+        emit('error', {'error': "Game not found :(", 'errorField': "code"})
 
 @socketIO.on('connect')
 def on_connect():

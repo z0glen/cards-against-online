@@ -43,12 +43,15 @@
                     label="Name:"
                     label-for="name-input"
                     description="How you'll appear to other players."
+                    :invalid-feedback="usernameInvalid"
+                    :state="usernameState"
                 >
                     <b-form-input
                         id="name-input"
                         v-model="joinForm.name"
                         required
                         placeholder="Enter name"
+                        :state="usernameState"
                     ></b-form-input>
                 </b-form-group>
                 <b-form-group
@@ -89,17 +92,27 @@
             };
         },
         computed: {
-            gameCodeState() {
-                return this.error ? false : null;
+            usernameState() {
+                return (this.error && this.errorField === 'username') ? false : null;
             },
-            gameCodeInvalid() {
-                if (this.error) {
+            usernameInvalid() {
+                if (this.error && this.errorField === 'username') {
                     return this.error;
                 } else {
                     return "";
                 }
             },
-            ...mapState(['room', 'error']),
+            gameCodeState() {
+                return (this.error && this.errorField === 'code') ? false : null;
+            },
+            gameCodeInvalid() {
+                if (this.error && this.errorField === 'code') {
+                    return this.error;
+                } else {
+                    return "";
+                }
+            },
+            ...mapState(['room', 'error', 'errorField']),
         },
         watch: {
             room(newState) {
@@ -123,7 +136,7 @@
             }
         },
         created() {
-            this.$store.commit('error', '');
+            this.$store.commit('error', {'error': '', 'errorField': ''});
         }
     }
 </script>
