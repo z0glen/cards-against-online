@@ -6,7 +6,7 @@ class Player:
 
         self.name = name
         self.score = 0
-        self.cards = None
+        self.cards = []
         self.is_judge = False
         self.playedCard = []
         self.can_play_card = True
@@ -24,9 +24,9 @@ class Player:
             'canPlayCard': self.can_play_card,
         }
 
-    def deal_cards(self):
-        # TODO: prevent duplicates between players
-        self.cards = random.sample(self.game.deck['responses'], 5)
+    def deal_cards(self, num_cards=5):
+        for n in range(num_cards):
+            self.cards.append(self.game.deck['responses'].pop(0))
 
     def card_index_from_id(self, card_id):
         print("card_index_from_id")
@@ -38,9 +38,7 @@ class Player:
         card_idx = self.card_index_from_id(card_id)
         played_card = self.cards.pop(card_idx)
         self.playedCard.append(played_card)
-        print(self.playedCard)
-        print(len(self.playedCard))
-        print(len(self.game.black_card['text']))
+        self.game.deck['responses'].append(played_card)
         if len(self.playedCard) == len(self.game.black_card['text']) - 1:
             self.can_play_card = False
         return played_card
@@ -48,4 +46,4 @@ class Player:
     def handle_cards(self):
         if len(self.cards) < 5:
             num_cards = 5 - len(self.cards)
-            self.cards.extend(random.sample(self.game.deck['responses'], num_cards))
+            self.deal_cards(num_cards)

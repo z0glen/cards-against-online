@@ -22,6 +22,7 @@ class Game:
         return ''.join(random.choices(string.ascii_uppercase + string.digits, k=5))
 
     def load_cards(self):
+        # TODO: use struct with more efficient front of list pops
         self.deck['calls'] = read_file('calls.json')
         random.shuffle(self.deck['calls'])
         self.deck['responses'] = read_file('responses.json')
