@@ -73,6 +73,9 @@
 
         max-width: 10rem;
         min-height: 14rem;
+
+        margin: auto;
+        width: 50%;
     }
 
     .canSelect {

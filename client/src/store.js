@@ -20,6 +20,7 @@ export default new Vuex.Store({
         user: '',
         room: {},
         playedCards: [],
+        winData: {},
     },
     getters: {
         doubleup(state) {
@@ -67,6 +68,9 @@ export default new Vuex.Store({
         },
         SOCKET_played_cards(state, cards) {
             state.playedCards = cards;
+        },
+        SOCKET_round_over(state, data) {
+            state.winData = data;
         }
     },
     actions: {

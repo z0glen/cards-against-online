@@ -82,7 +82,7 @@ class Game:
                 print(card)
                 if card['id'] == card_id:
                     self.find_player_by_name(name).score += 1
-                    self.end_round()
+                    return {'player': name, 'card': card}
 
     def end_round(self):
         self.played_cards = {}
