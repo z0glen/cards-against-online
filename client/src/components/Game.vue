@@ -71,7 +71,7 @@
             <b-button v-b-modal.history-modal>See History</b-button>
         </div>
         <b-modal id="history-modal" title="Round History">
-            <p id="history-modal-content">{{ this.historyContent }}</p>
+            <p class="history-modal-content">{{ this.historyContent }}</p>
         </b-modal>
         <br>
     </div>
@@ -210,7 +210,7 @@
         align-items: center;
     }
 
-    #history-modal-content {
+    .history-modal-content {
         white-space: pre-line;
     }
 </style>
