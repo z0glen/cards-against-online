@@ -2,36 +2,34 @@
     <div class="container" v-if="validRoom">
         <h3>Game code: {{ code }}</h3>
         <Scoreboard :items="scoreboard"/>
-        <h3 class="text-center">{{ this.message }}</h3>
-        <hr>
         <div v-if="getState() !== 'lobby' && getState() !== 'roundOver'">
             <Card
                 v-bind="getCurrentBlackCard()"
                 v-bind:isBlackCard=true
             >
             </Card>
+            <br>
+            <h3 class="text-center">{{ this.message }}</h3>
             <div v-if="getState() === 'judging'">
-                <hr>
-                <p>Cards for judging:</p>
-                    <template v-for="(cardGroups, index) in playedCards">
-                        <div :class="outline" :key="index">
-                            <b-card-group deck :class="{ 'p-2': outline }">
-                                <template v-for="card in cardGroups">
-                                    <Card
-                                        v-bind="card"
-                                        v-bind:can-select="isJudge"
-                                        :key="card.id"
-                                        @clicked="judgeCard"
-                                    >
-                                    </Card>
-                                </template>
-                            </b-card-group>
-                        </div>
-                    </template>
+                <br>
+                <template v-for="(cardGroups, index) in playedCards">
+                    <div :class="outline" :key="index">
+                        <b-card-group deck :class="{ 'p-2': outline }">
+                            <template v-for="card in cardGroups">
+                                <Card
+                                    v-bind="card"
+                                    v-bind:can-select="isJudge"
+                                    :key="card.id"
+                                    @clicked="judgeCard"
+                                >
+                                </Card>
+                            </template>
+                        </b-card-group>
+                    </div>
+                </template>
             </div>
             <div v-else-if="!isJudge">
-                <hr>
-                <p>Your hand:</p>
+                <br>
                 <b-card-group deck>
                     <template v-for="card in getCurrentCards()">
                         <Card
@@ -46,6 +44,7 @@
             </div>
         </div>
         <div v-else-if="getState() === 'roundOver'">
+            <h3 class="text-center">{{ this.message }}</h3>
             <div class="center-content">
                 <b-button variant="success" @click="nextRound">
                     Next Round
@@ -62,11 +61,18 @@
                 ></Card>
             </b-card-group>
         </div>
-        <div v-else>
+        <div class="text-center" v-else>
             <b-button variant="success" @click="startGame">
                 Start Game
             </b-button>
         </div>
+        <br>
+        <div class="text-center">
+            <b-button v-b-modal.history-modal>See History</b-button>
+        </div>
+        <b-modal id="history-modal" title="Round History">
+            <p id="history-modal-content">{{ this.historyContent }}</p>
+        </b-modal>
         <br>
     </div>
     <div class="container text-center" v-else>
@@ -95,7 +101,7 @@
                 if (this.getState() === 'judging' && this.isJudge) {
                     return "You're the Judge! Pick the winner!";
                 } else if (this.getState() === 'judging') {
-                    return "All cards played! " + this.currentJudge + " is deliberating...";
+                    return "All cards played! " + this.currentJudge + " is the judge.";
                 } else if (this.getState() === 'roundOver') {
                     return "The verdict is in! " + this.winData['player'] + " has won!";
                 } else if (!this.canPlayCard && !this.isJudge) {
@@ -103,7 +109,7 @@
                 } else if (this.isJudge) {
                     return "You're the Judge! Waiting for players...";
                 } else {
-                    return "New round! Choose a card!";
+                    return "Choose a card! " + this.currentJudge + " is the judge.";
                 }
             },
             isJudge() {
@@ -148,6 +154,12 @@
             },
             outline() {
                 return this.getCurrentBlackCard().text.length > 2 ? 'mb-3 outline' : '';
+            },
+            historyContent() {
+                if (Object.keys(this.room['history']).length === 0) {
+                    return "No history yet!"
+                }
+                return JSON.stringify(this.room['history'], undefined, 4);
             },
             ...mapState(['room', 'user', 'playedCards', 'winData'])
         },
@@ -196,5 +208,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #history-modal-content {
+        white-space: pre-line;
     }
 </style>

@@ -14,6 +14,8 @@ class Game:
         self.judge = None
         self.played_cards = {}
         self.judge_num = 0
+        self.round_num = 1
+        self.history = {}  # an int to string dict
 
         self.load_cards()
 
@@ -36,7 +38,8 @@ class Game:
             "id": self.id,
             "state": self.state,
             "black_card": self.black_card,
-            "players": ps
+            "players": ps,
+            "history": self.history
         }
         return json.dumps(obj)
 
@@ -63,7 +66,6 @@ class Game:
 
     def has_all_played(self):
         for n, p in self.players.items():
-            print(p.to_json())
             if p.can_play_card:
                 print("Player " + p.name + " has not finished playing")
                 return False
@@ -75,13 +77,11 @@ class Game:
                 return card
 
     def award_point(self, card_id):
-        print(self.played_cards)
         for name, cards in self.played_cards.items():
-            print(cards)
             for card in cards:
-                print(card)
                 if card['id'] == card_id:
                     self.find_player_by_name(name).score += 1
+                    self.history[self.round_num] = name + " has won with the card '" + card['text'][0] + "'"
                     return {'player': name, 'card': card}
 
     def end_round(self):
@@ -95,6 +95,7 @@ class Game:
             self.judge_num = 0
         else:
             self.judge_num += 1
+        self.round_num += 1
         self.assign_judge()
         self.draw_black_card()
 
