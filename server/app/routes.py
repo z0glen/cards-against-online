@@ -106,7 +106,17 @@ def judgeCard(data):
     print("judgeCard event received")
     room = data['room']
     if room in ROOMS:
-        ROOMS[room].award_point(data['card'])
+        win_data = ROOMS[room].award_point(data['card'])
+        ROOMS[room].state = "roundOver"
+        emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
+        emit('round_over', win_data, room=room)
+
+@socketIO.on('newRound')
+def newRound(data):
+    """A request for fresh data when starting a new round"""
+    room = data['room']
+    if room in ROOMS:
+        ROOMS[room].end_round()
         ROOMS[room].state = "active"
         print(ROOMS[room])
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)

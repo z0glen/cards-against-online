@@ -69,10 +69,11 @@
         hyphenate-limit-last: always;
         hyphenate-limit-zone: 8%;
 
-        cursor: not-allowed;
-
         max-width: 10rem;
         min-height: 14rem;
+
+        margin: auto;
+        width: 50%;
     }
 
     .canSelect {
