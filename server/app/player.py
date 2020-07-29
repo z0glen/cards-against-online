@@ -1,9 +1,10 @@
 import random
 
 class Player:
-    def __init__(self, name, game):
+    def __init__(self, name, game, sid):
         self.game = game
 
+        self.sid = sid
         self.name = name
         self.score = 0
         self.cards = []
