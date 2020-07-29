@@ -68,6 +68,9 @@ def on_disconnect():
     print("User exited")
     if USERS[request.sid]:
         USERS[request.sid].remove_player(request.sid)
+        if USERS[request.sid] == "active" and USERS[request.sid].has_all_played():
+            USERS[request.sid].state = "judging"
+        emit('played_cards', list(USERS[request.sid].played_cards.values()), room=USERS[request.sid].id)
         emit('join_room', {'room': USERS[request.sid].to_json()}, room=USERS[request.sid].id)
     del USERS[request.sid]
     print(USERS)

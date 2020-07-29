@@ -52,6 +52,8 @@ class Game:
             if p.judge_num == self.judge_num:
                 self.judge = name
         self.reset_judging()
+        if not self.judge:
+            self.judge = self.players.keys()[0]
         self.players[self.judge].is_judge = True
         self.players[self.judge].can_play_card = False
 
@@ -63,6 +65,7 @@ class Game:
         for n, p in self.players.items():
             if n == name:
                 return p
+        return None
 
     def has_all_played(self):
         for n, p in self.players.items():
@@ -80,7 +83,9 @@ class Game:
         for name, cards in self.played_cards.items():
             for card in cards:
                 if card['id'] == card_id:
-                    self.find_player_by_name(name).score += 1
+                    p = self.find_player_by_name(name)
+                    if p:
+                        p.score += 1
                     self.history[self.round_num] = name + " has won with the card '" + card['text'][0] + "'"
                     return {'player': name, 'card': card}
 
