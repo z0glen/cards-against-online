@@ -1,4 +1,4 @@
-from flask import jsonify
+from flask import jsonify, request
 from flask_socketio import join_room, emit
 import sys
 
@@ -8,6 +8,7 @@ from app.game import Game
 from app.player import Player
 
 ROOMS = {}  # dict for tracking active games
+USERS = {}  # dict for tracking active users
 
 @app.route('/cards')
 def get_cards():
@@ -22,9 +23,10 @@ def on_create(data):
     print("Creating a new game!")
     curr_game = Game()
     # TODO: check for duplicate names
-    player = Player(data['name'], curr_game)
+    player = Player(data['name'], curr_game, request.sid)
     curr_game.players[data['name']] = player
     ROOMS[curr_game.id] = curr_game
+    USERS[player.sid] = curr_game
     join_room(curr_game.id)
     emit('set_user', data['name'])
     emit('join_room', {'room': curr_game.to_json()})
@@ -39,8 +41,9 @@ def on_join(data):
     print(ROOMS)
     if room in ROOMS and ROOMS[room].is_valid_username(data['name']):
         join_room(room)
-        player = Player(data['name'], ROOMS[room])
+        player = Player(data['name'], ROOMS[room], request.sid)
         ROOMS[room].add_player(player)
+        USERS[player.sid] = ROOMS[room]
         emit('set_user', data['name'])
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
         print("sent code: " + ROOMS[room].id)
@@ -52,13 +55,22 @@ def on_join(data):
 @socketIO.on('connect')
 def on_connect():
     """When a new user connects"""
+    global USERS
     print("User joined!")
+    USERS[request.sid] = {}
+    print(USERS)
 
 @socketIO.on('disconnect')
 def on_disconnect():
     """When a user closes the window"""
     # TODO check if user in game and remove
+    global USERS
     print("User exited")
+    if USERS[request.sid]:
+        USERS[request.sid].remove_player(request.sid)
+        emit('join_room', {'room': USERS[request.sid].to_json()}, room=USERS[request.sid].id)
+    del USERS[request.sid]
+    print(USERS)
 
 @socketIO.on('pingServer')
 def pingServer(data):

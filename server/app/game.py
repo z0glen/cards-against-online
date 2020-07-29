@@ -103,6 +103,13 @@ class Game:
         self.players[player.name] = player
         player.judge_num = len(self.players) - 1
 
+    def remove_player(self, sid):
+        target = None
+        for p in self.players.values():
+            if p.sid == sid:
+                target = p.name
+        del self.players[target]
+
     def is_valid_username(self, name):
         for n in self.players.keys():
             if n == name:
