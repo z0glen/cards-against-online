@@ -53,7 +53,7 @@ class Game:
                 self.judge = name
         self.reset_judging()
         if not self.judge:
-            self.judge = self.players.keys()[0]
+            self.judge = list(self.players.keys())[0]
         self.players[self.judge].is_judge = True
         self.players[self.judge].can_play_card = False
 

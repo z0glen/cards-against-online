@@ -7,8 +7,12 @@ from app.helpers import read_file
 from app.game import Game
 from app.player import Player
 
-ROOMS = {}  # dict for tracking active games
-USERS = {}  # dict for tracking active users
+# dict for tracking active games
+# game code to game object
+ROOMS = {}
+# dict for tracking active users
+# sid to player object
+USERS = {}
 
 @app.route('/cards')
 def get_cards():
@@ -26,7 +30,7 @@ def on_create(data):
     player = Player(data['name'], curr_game, request.sid)
     curr_game.players[data['name']] = player
     ROOMS[curr_game.id] = curr_game
-    USERS[player.sid] = curr_game
+    USERS[player.sid] = player
     join_room(curr_game.id)
     emit('set_user', data['name'])
     emit('join_room', {'room': curr_game.to_json()})
@@ -43,7 +47,7 @@ def on_join(data):
         join_room(room)
         player = Player(data['name'], ROOMS[room], request.sid)
         ROOMS[room].add_player(player)
-        USERS[player.sid] = ROOMS[room]
+        USERS[player.sid] = player
         emit('set_user', data['name'])
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
         print("sent code: " + ROOMS[room].id)
@@ -67,11 +71,15 @@ def on_disconnect():
     global USERS
     print("User exited")
     if USERS[request.sid]:
-        USERS[request.sid].remove_player(request.sid)
-        if USERS[request.sid] == "active" and USERS[request.sid].has_all_played():
-            USERS[request.sid].state = "judging"
-        emit('played_cards', list(USERS[request.sid].played_cards.values()), room=USERS[request.sid].id)
-        emit('join_room', {'room': USERS[request.sid].to_json()}, room=USERS[request.sid].id)
+        curr_game = USERS[request.sid].game
+        curr_game.remove_player(request.sid)
+        if len(curr_game.players) == 1:
+            curr_game.state = "lobby"
+            emit('error', {'error': "All other players have exited! Returning to the lobby."}, room=curr_game.id)
+        if curr_game.state == "active" and curr_game.has_all_played():
+            curr_game.state = "judging"
+        emit('played_cards', list(curr_game.played_cards.values()), room=curr_game.id)
+        emit('join_room', {'room': curr_game.to_json()}, room=curr_game.id)
     del USERS[request.sid]
     print(USERS)
 

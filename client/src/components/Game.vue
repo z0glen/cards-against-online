@@ -1,5 +1,14 @@
 <template>
     <div class="container" v-if="validRoom">
+        <b-alert
+            :show="alertCountdown"
+            variant="warning"
+            dismissible
+            fade
+            @dismiss-count-down="countdownChanged"
+        >
+            {{ this.error }}
+        </b-alert>
         <h3>Game code: {{ code }}</h3>
         <Scoreboard :items="scoreboard"/>
         <div v-if="getState() !== 'lobby' && getState() !== 'roundOver'">
@@ -93,6 +102,12 @@
         props: {
             code: String
         },
+        data() {
+            return {
+                dismissSecs: 10,
+                alertCountdown: 0,
+            }
+        },
         computed: {
             canPlayCard() {
                 return this.room['players'][this.user]['canPlayCard'];
@@ -161,7 +176,7 @@
                 }
                 return JSON.stringify(this.room['history'], undefined, 4);
             },
-            ...mapState(['room', 'user', 'playedCards', 'winData'])
+            ...mapState(['room', 'user', 'playedCards', 'winData', 'error'])
         },
         methods: {
             getCurrentCards() {
@@ -188,6 +203,19 @@
             },
             nextRound() {
                 this.$socket.emit('newRound', {'room': this.code});
+            },
+            countdownChanged(alertCountdown) {
+                this.alertCountdown = alertCountdown;
+                if (this.alertCountdown == 0) {
+                    this.$store.commit('error', {'error': '', 'errorField': ''});
+                }
+            }
+        },
+        watch: {
+            error(newError) {
+                if (newError) {
+                    this.alertCountdown = this.dismissSecs;
+                }
             }
         },
         mounted() {
