@@ -14,6 +14,15 @@ ROOMS = {}
 # sid to player object
 USERS = {}
 
+def bulk_update_user_data(users):
+    for u in users:
+        emit('user_data', u.to_json(), room=u.sid)
+
+def is_new_sid(sid):
+    if USERS[sid]:
+        return False
+    return True
+
 @app.route('/cards')
 def get_cards():
     calls = read_file('calls.json')
@@ -32,25 +41,23 @@ def on_create(data):
     ROOMS[curr_game.id] = curr_game
     USERS[player.sid] = player
     join_room(curr_game.id)
-    emit('set_user', data['name'])
+    emit('set_username', data['name'])
+    emit('user_data', player.to_json())
     emit('join_room', {'room': curr_game.to_json()})
-    print("sent code: " + curr_game.id)
-    print(ROOMS)
 
 @socketIO.on('join')
 def on_join(data):
     """Join a game lobby"""
     print("Joining game! code: " + data['room'])
     room = data['room'].upper()
-    print(ROOMS)
     if room in ROOMS and ROOMS[room].is_valid_username(data['name']):
         join_room(room)
         player = Player(data['name'], ROOMS[room], request.sid)
         ROOMS[room].add_player(player)
         USERS[player.sid] = player
-        emit('set_user', data['name'])
+        emit('set_username', data['name'])
+        emit('user_data', player.to_json())
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
-        print("sent code: " + ROOMS[room].id)
     elif room in ROOMS:
         emit('error', {'error': "That username is already taken!", 'errorField': "username"})
     else:
@@ -60,20 +67,19 @@ def on_join(data):
 def on_connect():
     """When a new user connects"""
     global USERS
-    print("User joined!")
+    print("User joined! " + request.sid)
     USERS[request.sid] = {}
-    print(USERS)
 
 @socketIO.on('disconnect')
 def on_disconnect():
     """When a user closes the window"""
     # TODO check if user in game and remove
     global USERS
-    print("User exited")
+    print("User exited " + request.sid)
     if USERS[request.sid]:
         curr_game = USERS[request.sid].game
         curr_game.remove_player(request.sid)
-        if len(curr_game.players) == 1:
+        if len(curr_game.players) == 1 and curr_game.state != "lobby":
             curr_game.state = "lobby"
             emit('error', {'error': "All other players have exited! Returning to the lobby."}, room=curr_game.id)
         if curr_game.state == "active" and curr_game.has_all_played():
@@ -81,7 +87,6 @@ def on_disconnect():
         emit('played_cards', list(curr_game.played_cards.values()), room=curr_game.id)
         emit('join_room', {'room': curr_game.to_json()}, room=curr_game.id)
     del USERS[request.sid]
-    print(USERS)
 
 @socketIO.on('pingServer')
 def pingServer(data):
@@ -95,8 +100,8 @@ def setState(data):
     room = data['room']
     if room in ROOMS and data['state'] == 'active':
         ROOMS[room].state = data['state']
-        ROOMS[room].draw_black_card()
-        ROOMS[room].assign_judge()
+        ROOMS[room].reset_round()
+        bulk_update_user_data(ROOMS[room].players.values())
         # TODO: rename channel to reflect that it also updates
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
 
@@ -106,9 +111,7 @@ def playCard(data):
     print("playCard event received: " + str(data))
     room = data['room']
     if room in ROOMS:
-        player = ROOMS[room].find_player_by_name(data['player'])
-        print(player)
-        # played_cards = ROOMS[room].played_cards[data['player']]
+        player = USERS[request.sid]
         if data['player'] in ROOMS[room].played_cards:
             ROOMS[room].played_cards[data['player']].append(player.play_card(data['card']))
         else:
@@ -116,6 +119,7 @@ def playCard(data):
         print(player)
         if ROOMS[room].has_all_played():
             ROOMS[room].state = "judging"
+        emit('user_data', player.to_json())
         emit('played_cards', list(ROOMS[room].played_cards.values()), room=room)
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
     else:
@@ -142,11 +146,19 @@ def newRound(data):
         ROOMS[room].end_round()
         ROOMS[room].state = "active"
         print(ROOMS[room])
+        bulk_update_user_data(ROOMS[room].players.values())
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
 
 @socketIO.on('joinRoom')
-def joinRoom(room):
+def joinRoom(data):
     """On refresh, need to re-join the socket io room"""
-    if room in ROOMS:
+    room = data['room']
+    print("sid " + request.sid + " is joining room " + room)
+    if room in ROOMS and is_new_sid(request.sid):
         join_room(room)
+        player = Player(data['userData']['name'], ROOMS[room], request.sid)
+        ROOMS[room].add_player(player)
+        USERS[player.sid] = player
+        emit('set_username', data['userData']['name'])
+        emit('user_data', player.to_json())
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)

@@ -37,7 +37,7 @@
                     </div>
                 </template>
             </div>
-            <div v-else-if="!isJudge">
+            <div v-else-if="!isJudge && canPlayCard">
                 <br>
                 <b-card-group deck>
                     <template v-for="card in getCurrentCards()">
@@ -110,7 +110,7 @@
         },
         computed: {
             canPlayCard() {
-                return this.room['players'][this.user]['canPlayCard'];
+                return this.userData['canPlayCard'];
             },
             message() {
                 if (this.getState() === 'judging' && this.isJudge) {
@@ -128,7 +128,7 @@
                 }
             },
             isJudge() {
-                return this.room['players'][this.user]['is_judge'];
+                return this.userData['is_judge'];
             },
             players() {
                 let names = Object.keys(this.room['players']);
@@ -152,7 +152,7 @@
                 return "";
             },
             validRoom() {
-                return !!(Object.keys(this.room).length !== 0);
+                return Object.keys(this.room).length !== 0;
             },
             scoreboard() {
                 let names = Object.keys(this.room['players']);
@@ -176,11 +176,11 @@
                 }
                 return JSON.stringify(this.room['history'], undefined, 4);
             },
-            ...mapState(['room', 'user', 'playedCards', 'winData', 'error'])
+            ...mapState(['room', 'username', 'userData', 'playedCards', 'winData', 'error'])
         },
         methods: {
             getCurrentCards() {
-                return this.room['players'][this.user]['cards'];
+                return this.userData['cards'];
             },
             getState() {
                 return this.room['state'];
@@ -194,7 +194,7 @@
             playCard(cardId) {
                 console.log("Playing card: " + cardId);
                 if (!this.isJudge) {
-                    this.$socket.emit('playCard', {'room': this.code, 'player': this.user, 'card': cardId});
+                    this.$socket.emit('playCard', {'room': this.code, 'player': this.username, 'card': cardId});
                 }
             },
             judgeCard(cardId) {
@@ -220,7 +220,7 @@
         },
         mounted() {
             this.$nextTick(() => {
-                 this.$socket.emit('joinRoom', this.code);
+                 this.$socket.emit('joinRoom', {'room': this.code, 'userData': this.userData});
             });
         }
     }

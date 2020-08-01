@@ -33,7 +33,7 @@ class Game:
     def to_json(self):
         ps = {}
         for name, player in self.players.items():
-            ps[name] = player.to_json()
+            ps[name] = player.min_to_json()
         obj = {
             "id": self.id,
             "state": self.state,
@@ -101,6 +101,16 @@ class Game:
         else:
             self.judge_num += 1
         self.round_num += 1
+        self.assign_judge()
+        self.draw_black_card()
+
+    def reset_round(self):
+        self.played_cards = {}
+        for name, p in self.players.items():
+            p.is_judge = False
+            p.playedCard = []
+            p.can_play_card = True
+            p.handle_cards()
         self.assign_judge()
         self.draw_black_card()
 
