@@ -12,41 +12,27 @@ const vuexPersistence = new VuexPersistence({
 export default new Vuex.Store({
     plugins: [vuexPersistence.plugin],
     state: {
-        count: 0,
         connected: false,
         error: '',
         errorField: '',
         message: '',
-        user: '',
+        username: '',
+        userData: {},
         room: {},
         playedCards: [],
         winData: {},
     },
-    getters: {
-        doubleup(state) {
-            return state.count * 2;
-        },
-    },
     mutations: {
-        increment(state) {
-            state.count++;
-        },
-        set_counter(state, newCount) {
-            state.count = newCount;
-        },
         set_connected(state, payload) {
             state.connected = payload;
         },
         SOCKET_connect(state) {
             state.connected = true;
         },
-        SOCKET_DISCONNECT(state) {
+        SOCKET_disconnect(state) {
             state.connected = false;
         },
-        SOCKET_MESSAGE(state, message) {
-            state.message = message;
-        },
-        SOCKET_HELLO_WORLD(state, message) {
+        SOCKET_message(state, message) {
             state.message = message;
         },
         SOCKET_error(state, message) {
@@ -60,11 +46,14 @@ export default new Vuex.Store({
         SOCKET_join_room(state, data) {
             state.room = JSON.parse(data.room);
         },
-        SOCKET_set_user(state, user) {
-            state.user = user;
+        SOCKET_set_username(state, user) {
+            state.username = user;
         },
-        set_user(state, user) {
-            state.user = user;
+        set_username(state, user) {
+            state.username = user;
+        },
+        SOCKET_user_data(state, data) {
+            state.userData = data;
         },
         SOCKET_played_cards(state, cards) {
             state.playedCards = cards;
@@ -73,9 +62,4 @@ export default new Vuex.Store({
             state.winData = data;
         }
     },
-    actions: {
-        reset_counter(context) {
-            context.commit('set_counter', 0);
-        },
-    }
 });

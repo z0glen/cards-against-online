@@ -25,6 +25,15 @@ class Player:
             'canPlayCard': self.can_play_card,
         }
 
+    def min_to_json(self):
+        return {
+            'name': self.name,
+            'score': self.score,
+            'is_judge': self.is_judge,
+            'playedCard': self.playedCard,
+            'canPlayCard': self.can_play_card,
+        }
+
     def deal_cards(self, num_cards=5):
         for n in range(num_cards):
             self.cards.append(self.game.deck['responses'].pop(0))
