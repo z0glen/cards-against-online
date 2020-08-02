@@ -13,6 +13,7 @@ class Game:
         self.players = {}
         self.judge = None
         self.played_cards = {}
+        self.card_group_mapping = {}
         self.judge_num = 0
         self.round_num = 1
         self.history = {}  # an int to string dict
@@ -79,18 +80,20 @@ class Game:
             if card.id == card_id:
                 return card
 
-    def award_point(self, card_id):
-        for name, cards in self.played_cards.items():
-            for card in cards:
-                if card['id'] == card_id:
-                    p = self.find_player_by_name(name)
-                    if p:
-                        p.score += 1
-                    self.history[self.round_num] = name + " has won with the card '" + card['text'][0] + "'"
-                    return {'player': name, 'card': card}
+    def award_point(self, group_id):
+        for group, cards in self.played_cards.items():
+            if group == group_id:
+                name = self.card_group_mapping[group]
+                p = self.find_player_by_name(name)
+                if p:
+                    p.score += 1
+                # TODO add logic for transcribing card array
+                self.history[self.round_num] = name + " has won."
+                return {'player': name, 'cards': cards}
 
     def end_round(self):
         self.played_cards = {}
+        self.card_group_mapping = {}
         for name, p in self.players.items():
             p.is_judge = False
             p.playedCard = []
@@ -106,6 +109,7 @@ class Game:
 
     def reset_round(self):
         self.played_cards = {}
+        self.card_group_mapping = {}
         for name, p in self.players.items():
             p.is_judge = False
             p.playedCard = []
@@ -130,3 +134,12 @@ class Game:
             if n == name:
                 return False
         return True
+
+    def update_played_cards(self, name, cards):
+        print("update_played_cards")
+        print(len(self.played_cards))
+        ind = 'card-group-' + str(len(self.played_cards))
+        self.card_group_mapping[ind] = name
+        self.played_cards[ind] = cards
+        print(self.card_group_mapping)
+        print(self.played_cards)

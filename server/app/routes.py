@@ -112,15 +112,11 @@ def playCard(data):
     room = data['room']
     if room in ROOMS:
         player = USERS[request.sid]
-        if data['player'] in ROOMS[room].played_cards:
-            ROOMS[room].played_cards[data['player']].append(player.play_card(data['card']))
-        else:
-            ROOMS[room].played_cards[data['player']] = [player.play_card(data['card'])]
-        print(player)
+        player.play_card(data['card'])
         if ROOMS[room].has_all_played():
             ROOMS[room].state = "judging"
         emit('user_data', player.to_json())
-        emit('played_cards', list(ROOMS[room].played_cards.values()), room=room)
+        emit('played_cards', ROOMS[room].played_cards, room=room)
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
     else:
         print("invalid room: " + room, file=sys.stderr)
