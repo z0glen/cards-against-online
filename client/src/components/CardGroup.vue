@@ -1,5 +1,6 @@
 <template>
     <b-card-group
+        deck
         class="p-2 custom-card-group"
         :class="{ canSelect: canSelect }"
         @click="handleClick"

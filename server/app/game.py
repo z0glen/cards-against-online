@@ -87,8 +87,9 @@ class Game:
                 p = self.find_player_by_name(name)
                 if p:
                     p.score += 1
-                # TODO add logic for transcribing card array
-                self.history[self.round_num] = name + " has won."
+                card_text = '; '.join([c['text'][0] for c in cards])
+                black_card_text = '_____'.join(self.black_card['text'])
+                self.history[self.round_num] = name + " has won the card '" + black_card_text + "' with the card(s): " + card_text
                 return {'player': name, 'cards': cards}
 
     def end_round(self):
