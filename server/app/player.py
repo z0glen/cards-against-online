@@ -51,6 +51,7 @@ class Player:
         self.game.deck['responses'].append(played_card)
         if len(self.playedCard) == len(self.game.black_card['text']) - 1:
             self.can_play_card = False
+            self.game.update_played_cards(self.name, self.playedCard)
         return played_card
 
     def handle_cards(self):

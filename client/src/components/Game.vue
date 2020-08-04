@@ -21,20 +21,27 @@
             <h3 class="text-center">{{ this.message }}</h3>
             <div v-if="getState() === 'judging'">
                 <br>
-                <template v-for="(cardGroups, index) in playedCards">
-                    <div :class="outline" :key="index">
-                        <b-card-group deck :class="{ 'p-2': outline }">
-                            <template v-for="card in cardGroups">
-                                <Card
-                                    v-bind="card"
-                                    v-bind:can-select="isJudge"
-                                    :key="card.id"
-                                    @clicked="judgeCard"
-                                >
-                                </Card>
-                            </template>
-                        </b-card-group>
-                    </div>
+                <template v-if="this.getCurrentBlackCard().text.length > 2">
+                    <template v-for="(cardGroup, key) in playedCards">
+                        <CardGroup
+                            :cardGroup="cardGroup"
+                            :isJudge="isJudge"
+                            :key="key"
+                            :canSelect="isJudge"
+                            @clicked="judgeCard"
+                        ></CardGroup>
+                    </template>
+                </template>
+                <template v-else>
+                    <template v-for="(cardGroup, id) in playedCards">
+                        <Card
+                            v-bind="cardGroup[0]"
+                            :canSelect="isJudge"
+                            :key="id"
+                            @clicked="judgeCard"
+                        >
+                        </Card>
+                    </template>
                 </template>
             </div>
             <div v-else-if="!isJudge && canPlayCard">
@@ -65,9 +72,12 @@
                     v-bind="getCurrentBlackCard()"
                     v-bind:isBlackCard=true
                 ></Card>
-                <Card
-                    v-bind="winData['card']"
-                ></Card>
+                <template v-for="(card, index) in winData['cards']">
+                    <Card
+                        v-bind="card"
+                        :key="`winCard-${index}`"
+                    ></Card>
+                </template>
             </b-card-group>
         </div>
         <div class="text-center" v-else>
@@ -93,9 +103,11 @@
     import Card from "./Card";
     import Scoreboard from "./Scoreboard";
     import { mapState } from 'vuex';
+    import CardGroup from "@/components/CardGroup";
 
     export default {
         components: {
+            CardGroup,
             Card,
             Scoreboard,
         },
@@ -227,11 +239,6 @@
 </script>
 
 <style scoped>
-    .outline {
-        border-radius: 5px;
-        box-shadow: 0 0 0 2px lightgray;
-    }
-
     .center-content {
         display: flex;
         justify-content: center;
