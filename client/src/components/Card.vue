@@ -33,7 +33,7 @@
             },
             handleClick() {
                 if (this.canSelect) {
-                    this.$emit('clicked', this.id);
+                    this.$emit('clicked', this.$vnode.key);
                 }
             },
         }

@@ -21,14 +21,27 @@
             <h3 class="text-center">{{ this.message }}</h3>
             <div v-if="getState() === 'judging'">
                 <br>
-                <template v-for="(cardGroup, key) in playedCards">
-                    <CardGroup
-                        :cardGroup="cardGroup"
-                        :isJudge="isJudge"
-                        :key="key"
-                        :canSelect="isJudge"
-                        @clicked="judgeCard"
-                    ></CardGroup>
+                <template v-if="this.getCurrentBlackCard().text.length > 2">
+                    <template v-for="(cardGroup, key) in playedCards">
+                        <CardGroup
+                            :cardGroup="cardGroup"
+                            :isJudge="isJudge"
+                            :key="key"
+                            :canSelect="isJudge"
+                            @clicked="judgeCard"
+                        ></CardGroup>
+                    </template>
+                </template>
+                <template v-else>
+                    <template v-for="(cardGroup, id) in playedCards">
+                        <Card
+                            v-bind="cardGroup[0]"
+                            :canSelect="isJudge"
+                            :key="id"
+                            @clicked="judgeCard"
+                        >
+                        </Card>
+                    </template>
                 </template>
             </div>
             <div v-else-if="!isJudge && canPlayCard">
