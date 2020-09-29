@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  server:
+    build: ./server
+    expose:
+      - 5000
+    env_file:
+      - ./.prod.env
+  web:
+    build:
+      context: ./client
+      dockerfile: Dockerfile.prod
+    ports:
+      - "8000:8000"
+      - "${PORT}:80"
+    links:
+      - server
+    depends_on:
+      - server
