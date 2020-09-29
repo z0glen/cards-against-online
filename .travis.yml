@@ -16,10 +16,10 @@ before_install:
   - echo "$HEROKU_PASSWORD" | docker login -u "$HEROKU_USERNAME" --password-stdin registry.heroku.com
 
 script:
-  - docker build -t $DOCKER_USERNAME/docker_client ./client -f ./client/Dockerfile.prod;
-  - docker tag $DOCKER_USERNAME/docker_client registry.heroku.com/$HEROKU_APP_CLIENT/web;
-  - docker build -t $DOCKER_USERNAME/docker_server ./server;
-  - docker tag $DOCKER_USERNAME/docker_server registry.heroku.com/$HEROKU_APP_SERVER/web;
+  - docker build -t $GITHUB_USERNAME/docker_client ./client -f ./client/Dockerfile.prod;
+  - docker tag $GITHUB_USERNAME/docker_client registry.heroku.com/$HEROKU_APP_CLIENT/web;
+  - docker build -t $GITHUB_USERNAME/docker_server ./server;
+  - docker tag $GITHUB_USERNAME/docker_server registry.heroku.com/$HEROKU_APP_SERVER/web;
 
 deploy:
   provider: script
