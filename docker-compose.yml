@@ -3,15 +3,15 @@ version: '3.7'
 services:
   server:
     build: ./server
+    command: python run.py
     volumes:
     - ./server:/app
     ports:
     - 5000:5000
     restart: unless-stopped
-    environment:
-      FLASK_DEV: development
-      PYTHONUNBUFFERED: 1
-  client:
+    env_file:
+      - ./.dev.env
+  web:
     build: ./client
     volumes:
     - ./client:/app

@@ -1,6 +1,7 @@
 from flask import jsonify, request
 from flask_socketio import join_room, emit
 import sys
+import logging
 
 from app import app, socketIO
 from app.helpers import read_file
@@ -13,6 +14,14 @@ ROOMS = {}
 # dict for tracking active users
 # sid to player object
 USERS = {}
+
+log = logging.getLogger(__name__)
+log.setLevel(logging.DEBUG)
+handler = logging.StreamHandler(sys.stdout)
+handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+log.addHandler(handler)
 
 def bulk_update_user_data(users):
     for u in users:
@@ -33,7 +42,7 @@ def get_cards():
 @socketIO.on('create')
 def on_create(data):
     """Create a game lobby"""
-    print("Creating a new game!")
+    log.info("Creating a new game!")
     curr_game = Game()
     # TODO: check for duplicate names
     player = Player(data['name'], curr_game, request.sid)
@@ -48,7 +57,7 @@ def on_create(data):
 @socketIO.on('join')
 def on_join(data):
     """Join a game lobby"""
-    print("Joining game! code: " + data['room'])
+    log.info("Joining game! code: " + data['room'])
     room = data['room'].upper()
     if room in ROOMS and ROOMS[room].is_valid_username(data['name']):
         join_room(room)
@@ -67,7 +76,7 @@ def on_join(data):
 def on_connect():
     """When a new user connects"""
     global USERS
-    print("User joined! " + request.sid)
+    log.info("User joined! " + request.sid)
     USERS[request.sid] = {}
 
 @socketIO.on('disconnect')
@@ -75,7 +84,7 @@ def on_disconnect():
     """When a user closes the window"""
     # TODO check if user in game and remove
     global USERS
-    print("User exited " + request.sid)
+    log.info("User exited " + request.sid)
     if USERS[request.sid]:
         curr_game = USERS[request.sid].game
         curr_game.remove_player(request.sid)
@@ -91,12 +100,12 @@ def on_disconnect():
 @socketIO.on('pingServer')
 def pingServer(data):
     """Test websocket connection"""
-    print(data)
+    log.debug(data)
 
 @socketIO.on('setState')
 def setState(data):
     """Set the game state"""
-    print(data)
+    log.debug(data)
     room = data['room']
     if room in ROOMS and data['state'] == 'active':
         ROOMS[room].state = data['state']
@@ -108,7 +117,7 @@ def setState(data):
 @socketIO.on('playCard')
 def playCard(data):
     """When a player selects a card for judging"""
-    print("playCard event received: " + str(data))
+    log.info("playCard event received: " + str(data))
     room = data['room']
     if room in ROOMS:
         player = USERS[request.sid]
@@ -119,14 +128,14 @@ def playCard(data):
         emit('played_cards', ROOMS[room].played_cards, room=room)
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
     else:
-        print("invalid room: " + room, file=sys.stderr)
-        print("available rooms")
-        print(str(ROOMS))
+        log.warning("invalid room: " + room, file=sys.stderr)
+        log.debug("available rooms")
+        log.debug(str(ROOMS))
 
 @socketIO.on('judgeCard')
 def judgeCard(data):
     """When the judge chooses a card to win the round"""
-    print("judgeCard event received")
+    log.debug("judgeCard event received")
     room = data['room']
     if room in ROOMS:
         win_data = ROOMS[room].award_point(data['card'])
@@ -141,7 +150,7 @@ def newRound(data):
     if room in ROOMS:
         ROOMS[room].end_round()
         ROOMS[room].state = "active"
-        print(ROOMS[room])
+        log.debug(ROOMS[room])
         bulk_update_user_data(ROOMS[room].players.values())
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
 
@@ -149,7 +158,7 @@ def newRound(data):
 def joinRoom(data):
     """On refresh, need to re-join the socket io room"""
     room = data['room']
-    print("sid " + request.sid + " is joining room " + room)
+    log.info("sid " + request.sid + " is joining room " + room)
     if room in ROOMS and is_new_sid(request.sid):
         join_room(room)
         player = Player(data['userData']['name'], ROOMS[room], request.sid)
