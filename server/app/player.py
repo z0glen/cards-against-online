@@ -1,6 +1,9 @@
-import random
+from app import app
 
 class Player:
+
+    CARDS_PER_HAND = 7
+
     def __init__(self, name, game, sid):
         self.game = game
 
@@ -34,12 +37,12 @@ class Player:
             'canPlayCard': self.can_play_card,
         }
 
-    def deal_cards(self, num_cards=5):
+    def deal_cards(self, num_cards=CARDS_PER_HAND):
         for n in range(num_cards):
             self.cards.append(self.game.deck['responses'].pop(0))
 
     def card_index_from_id(self, card_id):
-        print("card_index_from_id")
+        app.logger.debug("card_index_from_id")
         for idx, card in enumerate(self.cards):
             if card["id"] == card_id:
                 return idx
@@ -55,6 +58,6 @@ class Player:
         return played_card
 
     def handle_cards(self):
-        if len(self.cards) < 5:
-            num_cards = 5 - len(self.cards)
+        if len(self.cards) < self.CARDS_PER_HAND:
+            num_cards = self.CARDS_PER_HAND - len(self.cards)
             self.deal_cards(num_cards)

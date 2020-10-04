@@ -2,6 +2,7 @@ import random
 import string
 import json
 
+from app import app
 from app.helpers import read_file
 
 class Game:
@@ -71,7 +72,7 @@ class Game:
     def has_all_played(self):
         for n, p in self.players.items():
             if p.can_play_card:
-                print("Player " + p.name + " has not finished playing")
+                app.logger.debug("Player " + p.name + " has not finished playing")
                 return False
         return True
 
@@ -137,10 +138,9 @@ class Game:
         return True
 
     def update_played_cards(self, name, cards):
-        print("update_played_cards")
-        print(len(self.played_cards))
+        app.logger.debug("update_played_cards")
         ind = 'card-group-' + str(len(self.played_cards))
         self.card_group_mapping[ind] = name
         self.played_cards[ind] = cards
-        print(self.card_group_mapping)
-        print(self.played_cards)
+        app.logger.debug(self.card_group_mapping)
+        app.logger.debug(self.played_cards)
