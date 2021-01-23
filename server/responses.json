@@ -1813,7 +1813,7 @@
          "dice"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "ece5f7bc-d563-4de1-b822-cc201174255f",
@@ -1821,7 +1821,7 @@
          "because the DM said so"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "18b24030-f557-4140-b7ee-0ac032398379",
@@ -1829,7 +1829,7 @@
          "Lorna"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "85d8789c-e8a5-4257-898a-5037ec1152af",
@@ -1837,7 +1837,7 @@
          "Lorna's obvious crush"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "938f42d7-f954-4960-8c13-39aa0415e90a",
@@ -1845,7 +1845,7 @@
          "Brubb laying eggs"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "3a8f3173-5aef-4dbf-8701-9afa6e0a982c",
@@ -1853,7 +1853,7 @@
          "a child oracle"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "0d5d8276-4b7e-4c97-bd5b-3affbcc5ffd2",
@@ -1861,7 +1861,7 @@
          "Malishana"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1d4d8ed7-b5c8-4c2e-b336-af62d038e11c",
@@ -1869,7 +1869,7 @@
          "primevil awareness"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "92723bb3-771a-46b5-b281-79a3fbc4b213",
@@ -1877,7 +1877,7 @@
          "too many owl noises"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7f5aae71-2add-407d-8799-91b86b59644e",
@@ -1885,7 +1885,7 @@
          "Sophie"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "de73c502-94b8-4911-89ff-3f782edc0972",
@@ -1893,7 +1893,7 @@
          "Sophie's many legal kills"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "ca95d129-a024-4405-81ab-7ee401488756",
@@ -1901,7 +1901,7 @@
          "wealth managment"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "327c53c5-f700-4a2b-b535-9087648a6cb4",
@@ -1909,7 +1909,7 @@
          "the Stewards of the Resolute"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7f85c59a-2726-41ac-83ba-0b4d3d23d949",
@@ -1917,7 +1917,7 @@
          "murdering a whole tavern of men"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "22712cdb-ab23-40ef-b930-c5b53f02565e",
@@ -1925,7 +1925,7 @@
          "a suicidal wizard"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d5830fe4-2049-4c1d-9898-ffca25e949ed",
@@ -1933,7 +1933,7 @@
          "stabbing yourself to keep quiet"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "125eab3a-6e34-4082-8998-5baf2b27d000",
@@ -1941,7 +1941,7 @@
          "a mysterious contract on Avery's head"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "8388e00f-f372-408c-b3b5-ae7be7e64787",
@@ -1949,7 +1949,7 @@
          "Avery"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "3c0b32de-d7f0-43c5-a3f0-8dd37afd0446",
@@ -1957,7 +1957,7 @@
          "blood magic"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "e9f8489e-a6d3-47f5-8b57-1165938f9c51",
@@ -1965,7 +1965,7 @@
          "magic, motherfuckers"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "ee3b8526-1ba3-44b7-8315-72afbeaa8e0e",
@@ -1973,7 +1973,7 @@
          "Isla"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "4eeb7112-0480-4b39-ba66-bb3b9c4da16e",
@@ -1981,7 +1981,7 @@
          "the mob"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "b12dda83-7b58-404e-b43e-785076dd1c17",
@@ -1989,7 +1989,7 @@
          "so much gold"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "849e5e48-80b8-4a28-b1a0-bc42b90906b6",
@@ -1997,7 +1997,7 @@
          "walking through town with manticore wings"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1fb8ebb1-452e-491e-b93e-28842eac4cb5",
@@ -2005,7 +2005,7 @@
          "going fancy clothes shopping"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7283d68d-d467-462b-a7e8-1937cb81ea33",
@@ -2013,7 +2013,7 @@
          "a magic hat that makes you a juggler"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "9e282d4d-4f75-4827-b478-b268dff125eb",
@@ -2021,7 +2021,7 @@
          "Nostages"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7e42b66f-376d-4879-a1cd-d0dbc6d3c073",
@@ -2029,7 +2029,7 @@
          "Gnolls!"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "71feb6fc-bebe-404b-b988-e2ba4d584444",
@@ -2037,7 +2037,7 @@
          "inventing sunglasses for a gorgon"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "253715d4-eaf0-4501-9841-791bc9b8f9b4",
@@ -2045,7 +2045,7 @@
          "mysterious alchemical concoctions"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "cc1d76a7-7a05-4ac7-ac6b-c08b268e1403",
@@ -2053,7 +2053,7 @@
          "experimenting with the orb"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "0e853d59-9a16-4bfc-b65e-d1a69499a64a",
@@ -2061,7 +2061,7 @@
          "scaring wizards with the power of the orb"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "b616c487-b87e-4787-a243-dafef01edd01",
@@ -2069,7 +2069,7 @@
          "a bracelet of see invisability"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "c639a34c-ccec-4fca-9ef9-ce997a283061",
@@ -2077,7 +2077,7 @@
          "many cool arrows"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1a76d7eb-81ae-4465-bc7a-7b8f579b8479",
@@ -2085,7 +2085,7 @@
          "a cute ranger town in the woods"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "3c05f576-13df-4f57-b85e-e236fb16c070",
@@ -2093,7 +2093,7 @@
          "Clerbold & The Light One"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "69db331d-11f9-44e7-b854-67c350e7a926",
@@ -2101,7 +2101,7 @@
          "solving crimes"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1bb73815-be4a-4852-a2ef-5aa166f971c6",
@@ -2109,7 +2109,7 @@
          "taking bounty money you didn't earn"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "28a28d84-cebb-401b-b6c5-0b74d92af109",
@@ -2117,7 +2117,7 @@
          "faking a murder and claiming the reward"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "a0bb5bd3-76b3-4e41-928a-49f6f801a89c",
@@ -2125,7 +2125,7 @@
          "a fancy dinner party"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "151f513d-b902-4c18-8672-07bbe0e5a649",
@@ -2133,7 +2133,7 @@
          "no weapons allowed at the table"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "2c16bcbf-6c20-46ed-b88f-8f1a8781b028",
@@ -2141,7 +2141,7 @@
          "Uggo & friends; the band of monsterous insects"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "60ece0f6-01ab-4da0-9f2b-af97a809c8e3",
@@ -2149,7 +2149,7 @@
          "fantasy abortion"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "cbf63219-134a-4f8e-86cb-5df723ef7f11",
@@ -2157,7 +2157,7 @@
          "hiding from the cops while your friends hide from the mob"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "133544cb-9001-4734-aa90-bd7390bcad39",
@@ -2165,7 +2165,7 @@
          "adopting a monster"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f1e70962-6102-42ea-8c3b-b407aad77c88",
@@ -2173,7 +2173,7 @@
          "letting a Medusa loose on those that wronged her"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7ebe925b-9efc-4299-8deb-4f3454980e1a",
@@ -2181,7 +2181,7 @@
          "plotting high treason"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "8fccec7d-e5cd-48af-864b-247e1778e547",
@@ -2189,7 +2189,7 @@
          "planning a jail break months before it's relevant"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7c72c5dc-31a7-4f43-a342-095f2547fff2",
@@ -2197,7 +2197,7 @@
          "suspiciously taking a walk"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7bdd345b-d495-4a48-a948-8aa40a942efa",
@@ -2205,7 +2205,7 @@
          "two incredibly powerful adventurers waiting for a bunch of idiots"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "36d82bdb-48e9-46f3-a022-512531b49141",
@@ -2213,7 +2213,7 @@
          "consistantly running out of words in your sending spell"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "530bc2e8-1332-459f-a213-8110ae2562e4",
@@ -2221,7 +2221,7 @@
          "absolutely nothing"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d959a9c2-f9e9-4727-bd10-51a42a91cb4f",
@@ -2229,7 +2229,7 @@
          "Jhega's mental absence"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1b6570dd-ca41-49d5-b0a2-6d038318ef0f",
@@ -2237,7 +2237,7 @@
          "Arrowsmith actually taking a bath"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "445e281a-50e1-4d69-8a5f-a32de3a8f2b7",
@@ -2245,7 +2245,7 @@
          "modifying your carriage. again."
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "fd437a49-5598-41a5-b5e1-b7347aaa2d17",
@@ -2253,7 +2253,7 @@
          "Yosilda's amazing cooking"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "a0cb8d8d-92ab-4e6f-a226-c2c8fad7b186",
@@ -2261,7 +2261,7 @@
          "befriending powerful mages"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "3e86870b-8b70-4a26-8dd1-91b1fb72813b",
@@ -2269,7 +2269,7 @@
          "a random street urchin"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "a2df2d7e-61a5-45cc-aa99-1f81c2364469",
@@ -2277,7 +2277,7 @@
          "owing a favor to the thieves' guild"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "bff4bcd5-5f1b-4cc1-b3a6-fab692e853fc",
@@ -2285,7 +2285,7 @@
          "sad lesbians"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "2fa1d19c-c61b-44ee-86c9-f39197236b32",
@@ -2293,7 +2293,7 @@
          "a thin veil of socialism"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d6b36373-6284-4f89-94b1-863932ac359c",
@@ -2301,7 +2301,7 @@
          "stealing out of reflex"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "faa36a03-b1a5-43f1-9030-8a838108613f",
@@ -2309,7 +2309,7 @@
          "starting a political war betweeen nations due to an inability to stay under the radar"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "79da158c-3c3d-4023-8bb6-f1fe94cbc4a5",
@@ -2317,7 +2317,7 @@
          "killing a party member"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "eb6f9aa0-7ad0-433d-8e9c-bd39072e1d04",
@@ -2325,7 +2325,7 @@
          "spoopy woods"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "17b227e6-d828-4658-a94f-5c4e548526ee",
@@ -2333,7 +2333,7 @@
          "a complete lack of privacy "
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "745672d1-8045-4369-af01-bae8d87efb13",
@@ -2341,7 +2341,7 @@
          "traveling with one almost normal person who is constantly horrified by your antics "
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "07dbb6d6-b2e2-431e-a018-cabb155e1767",
@@ -2349,7 +2349,7 @@
          "harvesting miscellaneous bits from the monsters you slay"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "387401f4-301e-4867-b3d1-51e4d2915aa3",
@@ -2357,7 +2357,7 @@
          "disguising yourself as a very pregnant woman"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "b5c5fd15-2b11-46b2-95fe-50fe0cc5c9a0",
@@ -2365,7 +2365,7 @@
          "staring at Arkeya until she speaks in your head"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f8209064-14fa-4abb-9484-e79f1d24e6dc",
@@ -2373,7 +2373,7 @@
          "taking a month-long detour"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7b5440c8-7bc3-46c7-b4f3-10d90f40321e",
@@ -2381,7 +2381,7 @@
          "pack tactics"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "fbc3d48a-051d-49e2-a894-695a4674aeef",
@@ -2389,7 +2389,7 @@
          "mysterious points of exhaustion "
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "0056b332-c301-4d2c-a024-0fd9695faa24",
@@ -2397,7 +2397,7 @@
          "the annoying voice of Zel Carlos Vidal"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "4cabb3a3-806e-4a8a-a973-c32c0d217e51",
@@ -2405,7 +2405,7 @@
          "a surprise arrow to the back"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "3915ccbc-7266-4ec8-9a90-bb36039eaece",
@@ -2413,7 +2413,7 @@
          "finally meeting the child you've only seen the dreams"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f8abe943-17dd-4034-b026-362921fb9fd5",
@@ -2421,7 +2421,7 @@
          "bringing a greataxe to a bar fight"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "af578e56-70c9-4898-b2a7-b36c2d39827a",
@@ -2429,7 +2429,7 @@
          "asking for the whole party's deepest secrets"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "068735c8-317b-4a90-8da4-a7741a7a7c27",
@@ -2437,7 +2437,7 @@
          "stopping the session to write down stupid shit my players say"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "da6260d1-0aa0-487f-9c3f-1168b7a46e73",
@@ -2445,7 +2445,7 @@
          "the DM promising to let you fight a dragon... one day"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "2d1d30e6-f734-4d82-a600-815251d67a9e",
@@ -2453,7 +2453,7 @@
          "hiding behind a larger party member for partial cover"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d54e3df2-163e-4eb6-96ee-4f6d858c32fd",
@@ -2461,7 +2461,7 @@
          "a barrel of Sweet Flame and three hookahs"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "5d93f77a-c4ec-45b3-b860-84e772fa6a0d",
@@ -2469,7 +2469,7 @@
          "a non-sexual, but exquisitely performed, dance routine"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f657eb78-290d-4cee-a56c-d7cc72b4407b",
@@ -2477,7 +2477,7 @@
          "insisting that not all clerics are incels"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "3c48aaeb-8321-4bf0-a2de-c610ffc326f9",
@@ -2485,7 +2485,7 @@
          "not splitting the party due to it being inconvenient"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "301800be-944f-4671-b449-11f4eac0eb1a",
@@ -2493,7 +2493,7 @@
          "more than the expected amount of leg per cat"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "2b3705a4-68ee-4d3d-89db-d79943989266",
@@ -2501,7 +2501,7 @@
          "a jellicle cat"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "c2f7a366-d117-4bec-890e-55a7d080abb7",
@@ -2509,7 +2509,7 @@
          "the party killing Brubb"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "aa4ea77e-69e0-4a1e-9778-ec6ff7ef02a9",
@@ -2517,7 +2517,7 @@
          "obsidian chits"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "de1195b1-8ee1-45d0-9b9d-e8c52ce6ffca",
@@ -2525,7 +2525,7 @@
          "the only party member without magic "
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "79dd6912-ef2a-43fa-852b-a64aaa5ef4ed",
@@ -2533,7 +2533,7 @@
          "the only party member without darkvision"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "450dd9b6-d40a-4f55-b74b-77c264de8163",
@@ -2541,7 +2541,7 @@
          "Admiral Cassius"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "28b36381-8d05-4753-bd4f-82c70acc60fa",
@@ -2549,7 +2549,7 @@
          "Velocity"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "c8265b62-5fe3-4376-a09e-af8fbf3d7426",
@@ -2557,7 +2557,7 @@
          "Lightning "
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f79beae0-c8f6-4ad7-ba4a-0666161c59c4",
@@ -2565,7 +2565,7 @@
          "the Duchess of Cliga's stolen jewels"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "fe20f94b-ea93-480b-a855-77c8c4e45aa8",
@@ -2573,7 +2573,7 @@
          "Rhys' not-girlfriend"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "733d35b9-56a8-4eb2-8252-bffce1510032",
@@ -2581,7 +2581,7 @@
          "taking your potential love interest to a whorehouse "
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "726eb8a0-5114-4dd5-92ed-dfa180ec5164",
@@ -2589,7 +2589,7 @@
          "all the inequities"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "571d620f-0783-4ce6-8a4f-20ece9503f9e",
@@ -2597,7 +2597,7 @@
          "helping the Duke's nephew for no reason"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "c0eb36a9-9ffa-4d74-b287-2bf456e321ed",
@@ -2605,7 +2605,7 @@
          "the source of Rhys' magic"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1354ec2e-8504-4ed2-978c-4a0aa76b366a",
@@ -2613,7 +2613,7 @@
          "repeatedly asking a question you won't get the answer to"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "08bd99ad-371c-4ce2-a1f9-5651150bf56a",
@@ -2621,7 +2621,7 @@
          "naked with a cape"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "4a93e421-f813-4b49-8003-35e79752e741",
@@ -2629,7 +2629,7 @@
          "being a raging barbarian"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "401b455b-db4b-484c-ad32-820bbc0fdc56",
@@ -2637,7 +2637,7 @@
          "being a goddamned warlock"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "e559ccec-2a6d-423b-94f6-d97ebcec913e",
@@ -2645,7 +2645,7 @@
          "being a tree-hugging druid"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "81b976e2-97c6-4ddb-9c58-9273fd1580c2",
@@ -2653,7 +2653,7 @@
          "being a ranged fighter, damnit"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "b3286379-af27-438b-b861-b2c6345d3c20",
@@ -2661,7 +2661,7 @@
          "being an unholy cleric"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d70f3219-eaf3-40af-958a-51b54361f9be",
@@ -2669,7 +2669,7 @@
          "the cleric"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "cff8dd63-4a63-4d48-bee6-3851ad78abbb",
@@ -2677,7 +2677,7 @@
          "the ranger"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "2311823b-eb55-48bd-8c58-70fd39ef0ff9",
@@ -2685,7 +2685,7 @@
          "the warlock"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "a6638ab5-b05e-4217-adfa-06659e6d6c2b",
@@ -2693,7 +2693,7 @@
          "the fighter"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "94ffafca-cfa7-4abb-9cbe-f89f9b9c70be",
@@ -2701,7 +2701,7 @@
          "the druid"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "4860e949-3810-48ca-b678-303fba0e99e3",
@@ -2709,7 +2709,7 @@
          "the palidin"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "12851375-d573-4697-8d5e-cdd00a65e5b7",
@@ -2717,7 +2717,7 @@
          "the artificer"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "b5e17b47-5c81-4e35-8f89-5ac308c645b0",
@@ -2725,7 +2725,7 @@
          "the barbarian"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "17204a43-d941-4cc0-81b7-e39d0348d356",
@@ -2733,7 +2733,7 @@
          "smoking weed with your housekeeper"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d29de356-30a4-46ee-88a8-a3411d460b29",
@@ -2741,7 +2741,7 @@
          "basing your tragic backstory on footloose"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "c450e98b-737d-4f5f-9447-4c38f44db9bd",
@@ -2749,7 +2749,7 @@
          "weak"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "6be188f0-e4ae-4c80-9517-a93f7b707d19",
@@ -2757,7 +2757,7 @@
          "weak in the knees"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "cd1504d7-de6f-479c-bd12-ce142667c083",
@@ -2765,7 +2765,7 @@
          "someday opening an art gallery"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d99ff144-9771-4601-bb6a-57a3a20b9eb3",
@@ -2773,7 +2773,7 @@
          "winning fights that should be TPKs"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "23c69c1b-c602-41f1-881f-330f0d4f7a44",
@@ -2781,7 +2781,7 @@
          "fantasy PBR"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "046503a9-d366-4754-8148-ed438aa01eb5",
@@ -2789,7 +2789,7 @@
          "fantasy Blue Moon"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "29d9642d-37f2-4f88-bef7-022d196e5af8",
@@ -2797,7 +2797,7 @@
          "a greenhouse full of weed"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "e01cebec-8554-4ab3-8e36-df2bb1dd4822",
@@ -2805,7 +2805,7 @@
          "opening up a fondue shop"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "be6a8629-f088-4390-875d-1f2a35a75b00",
@@ -2813,7 +2813,7 @@
          "showing up late"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "df66105f-2a61-4351-8660-a73163ee1ad2",
@@ -2821,7 +2821,7 @@
          "perpetually wondering what happend with Mal"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "6da8665a-fd18-4af5-a6c3-4071658db679",
@@ -2829,7 +2829,7 @@
          "taking a 14 year old to a whorehouse"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "66247942-8665-466e-87ef-12c5bd5425c7",
@@ -2837,7 +2837,7 @@
          "the trail of corpses following the party"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "e9aae3d8-709a-45d7-9f50-f5f759b89355",
@@ -2845,7 +2845,7 @@
          "all the people the party has killed"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "2b8b3ed4-6366-47af-8da4-8938c1ae8a2e",
@@ -2853,7 +2853,7 @@
          "eldritch blast to the face"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "2d5dc824-8aa2-434a-9ace-e322449d48ab",
@@ -2861,6 +2861,6 @@
          "not going on a pirate adventure because you're scared of water"
       ],
       "created_at": "2020-10-04T02:10:01-0400",
-      "nsfw": "true"
+      "nsfw": true
    }
 ]
