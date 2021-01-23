@@ -144,3 +144,11 @@ class Game:
         self.played_cards[ind] = cards
         app.logger.debug(self.card_group_mapping)
         app.logger.debug(self.played_cards)
+
+    def shuffle_played_cards(self):
+        app.logger.debug("shuffling played cards")
+        card_group_list = list(self.played_cards.keys())
+        random.shuffle(card_group_list)
+        list_form = dict([(card_group, self.played_cards[card_group]) for card_group in card_group_list])
+        app.logger.debug(list_form)
+        self.played_cards = list_form

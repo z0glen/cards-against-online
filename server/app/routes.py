@@ -115,6 +115,7 @@ def playCard(data):
         player.play_card(data['card'])
         if ROOMS[room].has_all_played():
             ROOMS[room].state = "judging"
+            ROOMS[room].shuffle_played_cards()
         emit('user_data', player.to_json())
         emit('played_cards', ROOMS[room].played_cards, room=room)
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
