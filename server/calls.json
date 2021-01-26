@@ -865,7 +865,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "76b13913-9e8c-46b6-a286-53e812678800",
@@ -874,7 +874,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "64a21658-b183-47a7-a535-146bcdac2ffb",
@@ -883,7 +883,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "5ba04e1e-bafe-44cd-bf84-7449622b32b1",
@@ -892,7 +892,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d38d1711-ab81-4b88-b1ac-1791216efaeb",
@@ -901,7 +901,7 @@
          " for a living."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "22b3cb86-c3d4-47fc-a9d6-cb3111406291",
@@ -910,7 +910,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f0873617-dde8-421a-b28e-bc70e0927187",
@@ -919,7 +919,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "47c5a1a2-bf28-40cd-bf6d-bc41dba18883",
@@ -928,7 +928,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "0dd2b9c6-1438-49df-91b3-e86cc61bc709",
@@ -937,7 +937,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "86cd92ad-cabc-473b-890e-03296759c2a2",
@@ -946,7 +946,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "e8a9679b-42ca-48c1-9d5e-bdf73ce6b677",
@@ -955,7 +955,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7c923eae-ab7a-4ac3-8faf-5f1f7bec354d",
@@ -964,7 +964,7 @@
          "!"
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "630983d3-e180-4f86-af27-8041fe77bcae",
@@ -973,7 +973,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "eb8b47b2-8cee-41f9-b791-09d767c8c003",
@@ -982,7 +982,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "49eace23-bccc-4813-94cd-247e832996fa",
@@ -991,7 +991,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1c808be6-ad2b-4a9b-ac55-4065c989f107",
@@ -1000,7 +1000,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "1925a06b-a7ee-4680-a6ca-1f7b2079547e",
@@ -1009,7 +1009,7 @@
          " on my travels."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "b40684eb-77ab-4cb6-9238-5f32297a85f0",
@@ -1018,7 +1018,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "b131e063-5f61-4580-8eda-c4a7ea73b01c",
@@ -1027,7 +1027,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "31784850-54b5-474c-8b71-cf8027a6b37b",
@@ -1036,7 +1036,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "a5555d1e-998c-4687-9136-2ee6630a9370",
@@ -1045,7 +1045,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "7b95047f-0f74-4553-867f-216eff56216a",
@@ -1054,7 +1054,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "e05ad7e1-2250-449f-863f-1d8af379e9b9",
@@ -1063,7 +1063,7 @@
          " the entire time."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "ab83b792-9aec-4f88-b123-0642357b1e30",
@@ -1072,7 +1072,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f69f1162-f5ff-4a10-b406-817912847e2d",
@@ -1081,7 +1081,7 @@
          " is common?"
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "afdcc5ab-2693-427f-8285-098d856e1482",
@@ -1091,7 +1091,7 @@
          "? It's more likely than you think."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "ca4bd9a7-1ed7-4820-8997-a2ae84282883",
@@ -1101,7 +1101,7 @@
          " the entire time!"
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "fad4f851-bcb9-4544-9a33-a27c70d65451",
@@ -1110,7 +1110,7 @@
          " is ALSO a healer?"
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "16af9751-cc48-4b0b-b029-cbe70200d143",
@@ -1119,7 +1119,7 @@
          " to cross the border between Saydon and Bijal."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "3955c8f7-2f76-4ea0-ac6f-89135090b71b",
@@ -1128,7 +1128,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "9a76202c-3e83-4a44-a219-00e2a8d67210",
@@ -1137,7 +1137,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "692859b4-ff23-4a97-a497-7ee066ca2482",
@@ -1146,7 +1146,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "6cfa9427-01b8-4ea6-ba5a-81506e357efd",
@@ -1155,7 +1155,7 @@
          " good to the last drop."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "efeeb478-c288-4bd1-8505-38166145814c",
@@ -1164,7 +1164,7 @@
          "; party tested, DM approved."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "d50d3f1d-049b-4be5-b8e0-bc269643a554",
@@ -1173,7 +1173,7 @@
          ", high five bro!"
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "0b0c711b-4868-4671-9984-104f71fc83af",
@@ -1182,7 +1182,7 @@
          ", that's how I want to die."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "68ba281d-2949-459e-9733-7a1e786efaf9",
@@ -1191,7 +1191,7 @@
          ", Bijal's newest fad!"
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "ce56a4ab-99b1-48e5-bbdc-377292a535da",
@@ -1200,7 +1200,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "f7909298-6f24-47f5-a476-2694e07f2640",
@@ -1209,7 +1209,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "0afca12f-639b-44bf-9ff8-480bb7711902",
@@ -1218,7 +1218,7 @@
          ", the sequel."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "e32c45f5-b528-44e4-8bbb-7db2f95ce5a4",
@@ -1227,7 +1227,7 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    },
    {
       "id": "92f63aff-5b3a-42b6-82e4-a061a7235e99",
@@ -1236,6 +1236,6 @@
          "."
       ],
       "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": "true"
+      "nsfw": true
    }
 ]

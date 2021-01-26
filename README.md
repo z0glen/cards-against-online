@@ -4,7 +4,7 @@
 
 An online player inspired by the Cards Against Humanity game.
 
-See the live demo [here](http://still-fortress-86423.herokuapp.com).
+See the live demo [here](https://cahplayer.herokuapp.com/).
 
 <h2>Development Setup</h2>
 
