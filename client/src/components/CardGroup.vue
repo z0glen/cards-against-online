@@ -1,6 +1,6 @@
 <template>
     <b-card-group
-        deck
+        :deck="deck"
         class="p-2 custom-card-group"
         :class="{ canSelect: canSelect }"
         @click="handleClick"
@@ -23,9 +23,10 @@ export default {
         Card,
     },
     props: {
-        cardGroup: Array,
-        isJudge: Boolean,
-        canSelect: Boolean,
+        cardGroup: { type: Array, required: true },
+        isJudge: { type: Boolean, required: true },
+        canSelect: { type: Boolean, required: true },
+        deck: { type: Boolean, default: false },
     },
     methods: {
         handleClick() {
