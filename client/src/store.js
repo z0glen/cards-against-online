@@ -31,6 +31,7 @@ export default new Vuex.Store({
         },
         SOCKET_disconnect(state) {
             state.connected = false;
+            console.error("Websocket disconnected");
         },
         SOCKET_message(state, message) {
             state.message = message;
@@ -38,6 +39,7 @@ export default new Vuex.Store({
         SOCKET_error(state, message) {
             state.error = message.error;
             state.errorField = message.errorField;
+            console.error(message);
         },
         error(state, message) {
             state.error = message.error;
