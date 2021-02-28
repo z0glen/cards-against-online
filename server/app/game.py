@@ -130,6 +130,7 @@ class Game:
             if p.sid == sid:
                 target = p.name
         del self.players[target]
+        self.reset_judge_order()
 
     def is_valid_username(self, name):
         for n in self.players.keys():
@@ -152,3 +153,7 @@ class Game:
         list_form = dict([(card_group, self.played_cards[card_group]) for card_group in card_group_list])
         app.logger.debug(list_form)
         self.played_cards = list_form
+
+    def reset_judge_order(self):
+        for idx, p in enumerate(self.players.values()):
+            p.judge_num = idx

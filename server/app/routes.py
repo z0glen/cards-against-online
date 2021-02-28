@@ -120,9 +120,10 @@ def playCard(data):
         emit('played_cards', ROOMS[room].played_cards, room=room)
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
     else:
-        app.logger.warning("invalid room: " + room, file=sys.stderr)
+        app.logger.warning("invalid room: " + room)
         app.logger.debug("available rooms")
         app.logger.debug(str(ROOMS))
+        emit('error', {"error": "This game room no longer exists. Please make a new one."})
 
 @socketIO.on('judgeCard')
 def judgeCard(data):
@@ -139,12 +140,13 @@ def judgeCard(data):
 def newRound(data):
     """A request for fresh data when starting a new round"""
     room = data['room']
-    if room in ROOMS:
-        ROOMS[room].end_round()
+    if room in ROOMS and ROOMS[room].state != "active":
         ROOMS[room].state = "active"
-        app.logger.debug(ROOMS[room])
+        ROOMS[room].end_round()
         bulk_update_user_data(ROOMS[room].players.values())
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
+    elif room in ROOMS:
+        app.logger.debug("Cannot request new round while game is active.")
 
 @socketIO.on('joinRoom')
 def joinRoom(data):
