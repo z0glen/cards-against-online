@@ -6,7 +6,7 @@
                 <b-button v-b-modal.join-modal variant="success" class="button">Join Game</b-button>
             </b-jumbotron>
             <b-jumbotron header="Gameplay Notes">
-                <ul>
+                <ul class="gameplay-notes">
                     <li>Use the buttons above to create a new game or join an existing game</li>
                     <li>Usernames need to be unique in each game</li>
                     <li>Players can join at any time during a game</li>
@@ -142,5 +142,8 @@
 <style scoped>
     .button {
         margin: 10px;
+    }
+    .gameplay-notes {
+      list-style: inside;
     }
 </style>
