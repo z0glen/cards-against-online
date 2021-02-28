@@ -20,6 +20,7 @@ script:
   - docker tag $GITHUB_USERNAME/docker_client registry.heroku.com/$HEROKU_APP_CLIENT/web;
   - docker build -t $GITHUB_USERNAME/docker_server ./server;
   - docker tag $GITHUB_USERNAME/docker_server registry.heroku.com/$HEROKU_APP_SERVER/web;
+  - python3 server/test.py
 
 deploy:
   provider: script

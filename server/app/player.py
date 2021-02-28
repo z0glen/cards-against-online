@@ -42,12 +42,12 @@ class Player:
             self.cards.append(self.game.deck['responses'].pop(0))
 
     def card_index_from_id(self, card_id):
-        app.logger.debug("card_index_from_id")
         for idx, card in enumerate(self.cards):
             if card["id"] == card_id:
                 return idx
 
     def play_card(self, card_id):
+        # TODO verify card exists - handle error
         card_idx = self.card_index_from_id(card_id)
         played_card = self.cards.pop(card_idx)
         self.playedCard.append(played_card)
