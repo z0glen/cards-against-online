@@ -12,41 +12,57 @@
         <h3>Game code: {{ code }}</h3>
         <Scoreboard :items="scoreboard"/>
         <div v-if="getState() !== 'lobby' && getState() !== 'roundOver'">
-            <Card
-                v-bind="getCurrentBlackCard()"
-                v-bind:isBlackCard=true
+            <b-card-group
+                deck
+                class="judging-area"
             >
-            </Card>
+                <Card
+                    v-bind="getCurrentBlackCard()"
+                    v-bind:isBlackCard=true
+                >
+                </Card>
+            </b-card-group>
             <br>
             <h3 class="text-center">{{ this.message }}</h3>
             <div v-if="getState() === 'judging'">
                 <br>
                 <template v-if="this.getCurrentBlackCard().text.length > 2">
-                    <template v-for="(cardGroup, key) in playedCards">
-                        <CardGroup
-                            :cardGroup="cardGroup"
-                            :isJudge="isJudge"
-                            :key="key"
-                            :canSelect="isJudge"
-                            @clicked="judgeCard"
-                        ></CardGroup>
-                    </template>
+                    <div class="judging-area">
+                        <template v-for="(cardGroup, key) in playedCards">
+                            <CardGroup
+                                :cardGroup="cardGroup"
+                                :isJudge="isJudge"
+                                :key="key"
+                                :canSelect="isJudge"
+                                hand
+                                @clicked="judgeCard"
+                            ></CardGroup>
+                        </template>
+                    </div>
                 </template>
                 <template v-else>
-                    <template v-for="(cardGroup, id) in playedCards">
-                        <Card
-                            v-bind="cardGroup[0]"
-                            :canSelect="isJudge"
-                            :key="id"
-                            @clicked="judgeCard"
-                        >
-                        </Card>
-                    </template>
+                    <b-card-group
+                        deck
+                        class="judging-area"
+                    >
+                        <template v-for="(cardGroup, id) in playedCards">
+                            <Card
+                                v-bind="cardGroup[0]"
+                                :canSelect="isJudge"
+                                :key="id"
+                                @clicked="judgeCard"
+                            >
+                            </Card>
+                        </template>
+                    </b-card-group>
                 </template>
             </div>
             <div v-else-if="!isJudge && canPlayCard">
                 <br>
-                <b-card-group deck>
+                <b-card-group
+                    deck
+                    class="judging-area"
+                >
                     <template v-for="card in getCurrentCards()">
                         <Card
                             v-bind="card"
@@ -67,7 +83,10 @@
                 </b-button>
             </div>
             <br>
-            <b-card-group deck>
+            <b-card-group
+                deck
+                class="judging-area"
+            >
                 <Card
                     v-bind="getCurrentBlackCard()"
                     v-bind:isBlackCard=true
@@ -247,5 +266,12 @@
 
     .history-modal-content {
         white-space: pre-line;
+    }
+
+    .judging-area {
+        margin: -10px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 </style>
