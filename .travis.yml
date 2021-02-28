@@ -16,7 +16,7 @@ before_install:
   - echo "$HEROKU_PASSWORD" | docker login -u "$HEROKU_USERNAME" --password-stdin registry.heroku.com
 
 before_script:
-  - pip install -r server/requirements.txt
+  - pip install --user -r server/requirements.txt
 
 script:
   - docker build -t $GITHUB_USERNAME/docker_client ./client -f ./client/Dockerfile.prod;
