@@ -27,15 +27,18 @@
             <div v-if="getState() === 'judging'">
                 <br>
                 <template v-if="this.getCurrentBlackCard().text.length > 2">
-                    <template v-for="(cardGroup, key) in playedCards">
-                        <CardGroup
-                            :cardGroup="cardGroup"
-                            :isJudge="isJudge"
-                            :key="key"
-                            :canSelect="isJudge"
-                            @clicked="judgeCard"
-                        ></CardGroup>
-                    </template>
+                    <div class="judging-area">
+                        <template v-for="(cardGroup, key) in playedCards">
+                            <CardGroup
+                                :cardGroup="cardGroup"
+                                :isJudge="isJudge"
+                                :key="key"
+                                :canSelect="isJudge"
+                                hand
+                                @clicked="judgeCard"
+                            ></CardGroup>
+                        </template>
+                    </div>
                 </template>
                 <template v-else>
                     <b-card-group
@@ -268,5 +271,7 @@
     .judging-area {
         margin: -10px;
         justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 </style>

@@ -3,7 +3,11 @@
         :bg-variant="isBlackCard ? 'dark' : 'default'"
         :text-variant="isBlackCard ? 'white' : ''"
         class="player-card"
-        :class="{canSelect, isBlackCard}"
+        :class="{
+            'player-card--selectable': canSelect,
+            'player-card__judge': isBlackCard,
+            'player-card__hand': inHand
+        }"
         @click="handleClick"
     >
         <b-card-text>
@@ -21,6 +25,7 @@
             text: Array,
             isBlackCard: Boolean,
             canSelect: Boolean,
+            inHand: Boolean,
         },
         computed: {
             variant() {
@@ -75,12 +80,13 @@
         min-width: 140px;
         margin: 10px;
     }
-
-    .canSelect {
+    .player-card--selectable {
         cursor: pointer;
     }
-
-    .isBlackCard {
+    .player-card__judge {
         cursor: default;
+    }
+    .player-card__hand {
+        margin: 10px 0px;
     }
 </style>
