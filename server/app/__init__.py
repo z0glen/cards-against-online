@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_socketio import SocketIO
+from flask_cors import CORS
 import os
 import logging
 import sys
@@ -15,6 +16,7 @@ formatter = logging.Formatter('%(asctime)s - %(filename)s:%(lineno)d - %(levelna
 handler.setFormatter(formatter)
 app.logger.addHandler(handler)
 
+CORS(app)
 socketIO = SocketIO(app, cors_allowed_origins="*")
 
 app.secret_key = os.environ.get('SECRET_KEY', 'dev')

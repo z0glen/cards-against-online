@@ -1,5 +1,6 @@
 from flask import jsonify, request
 from flask_socketio import join_room, emit
+from flask_cors import cross_origin
 import sys
 
 from app import app, socketIO
@@ -23,12 +24,16 @@ def is_new_sid(sid):
         return False
     return True
 
-@app.route('/cards')
+@app.route('/decks')
+@cross_origin()
 def get_cards():
-    calls = read_file('calls.json')
-    responses = read_file('responses.json')
-    response_object = {'calls': calls, 'responses': responses}
-    return jsonify(response_object)
+    decks = {
+        'Core': {
+            'calls': read_file('calls.json'),
+            'responses': read_file('responses.json')
+        }
+    }
+    return jsonify(decks)
 
 @socketIO.on('create')
 def on_create(data):
