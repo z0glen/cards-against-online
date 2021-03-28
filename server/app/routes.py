@@ -5,8 +5,10 @@ import sys
 
 from app import app, socketIO
 from app.helpers import read_file
+from app.helpers import load_from_file
 from app.game import Game
 from app.player import Player
+from app.models import CallCard, ResponseCard
 
 # dict for tracking active games
 # game code to game object
@@ -24,13 +26,19 @@ def is_new_sid(sid):
         return False
     return True
 
+@app.route('/importcards')
+@cross_origin()
+def import_cards():
+    app.logger.info("Importing cards from file!")
+    return jsonify(load_from_file())
+
 @app.route('/decks')
 @cross_origin()
 def get_cards():
     decks = {
         'Core': {
-            'calls': read_file('calls.json'),
-            'responses': read_file('responses.json')
+            'calls': CallCard.query.all(),
+            'responses': ResponseCard.query.all()
         }
     }
     return jsonify(decks)
