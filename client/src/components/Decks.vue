@@ -23,18 +23,79 @@
         </template>
         <div v-else>
             <h3>Deck: {{ this.selectedDeckId }}</h3>
-            <b-card-group deck>
+            <b-button v-b-modal.create-card variant="primary" class="button">Create Card</b-button>
+            <b-modal
+                id="create-card"
+                title="Create Card"
+                okTitle="Create"
+                @ok="handleCreateCard"
+            >
+                <b-form>
+                    <b-form-group>
+                        <b-form-radio-group
+                            v-model="selectedCardType"
+                            :options="['Black', 'White']"
+                            buttons
+                        />
+                    </b-form-group>
+                    <b-form-group>
+                        <b-button
+                            v-if="selectedCardText[0] === '_____'"
+                            @click="selectedCardText.unshift('')"
+                        >
+                            Add Text
+                        </b-button>
+                        <b-button
+                            v-else
+                            @click="selectedCardText.unshift('_____')"
+                        >
+                            Add Blank
+                        </b-button>
+                        <div
+                            v-for="(el, ind) in selectedCardText"
+                            :key="`cardElement${ind}`"
+                        >
+                            <span
+                                v-if="el === '_____'"
+                            >
+                                {{ el }}
+                            </span>
+                            <b-form-input
+                                v-else
+                                v-model="selectedCardText[ind]"
+                            />
+                        </div>
+                        <b-button
+                            v-if="selectedCardText[selectedCardText.length - 1] === '_____'"
+                            @click="selectedCardText.push('')"
+                        >
+                            Add Text
+                        </b-button>
+                        <b-button
+                            v-else
+                            @click="selectedCardText.push('_____')"
+                        >
+                            Add Blank
+                        </b-button>
+                    </b-form-group>
+                </b-form>
+            </b-modal>
+            <b-card-group
+                deck
+                style="margin: 25px 0px;">
                 <template v-for="card in selectedDeck['calls']">
                     <Card
-                        :key="card.id"
+                        :key="`call${card.id}`"
                         v-bind="card"
+                        :id="`call${card.id}`"
                         isBlackCard
                     />
                 </template>
                 <template v-for="card in selectedDeck['responses']">
                     <Card
-                        :key="card.id"
+                        :key="`response${card.id}`"
                         v-bind="card"
+                        :id="`response${card.id}`"
                     />
                 </template>
             </b-card-group>
@@ -50,13 +111,20 @@
             Card
         },
         data() {
+            let cardTypeOptions = [
+                { text: "Black", value: "black" },
+                { text: "White", value: "white" },
+            ]
             return {
                 decks: [],
                 selectedDeck: {},
                 selectedDeckId: "",
                 error: "",
                 alertCountdown: 0,
-                dismissSecs: 10
+                dismissSecs: 10,
+                cardTypeOptions,
+                selectedCardType: cardTypeOptions[0].value,
+                selectedCardText: ["_____"],
             }
         },
         created() {
@@ -91,6 +159,9 @@
             onClick(name, deck) {
                 this.selectedDeckId = name;
                 this.selectedDeck = deck;
+            },
+            handleCreateCard () {
+                console.log(this.selectedCardText);
             }
         },
         watch: {
