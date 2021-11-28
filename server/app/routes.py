@@ -3,8 +3,7 @@ from flask_socketio import join_room, emit
 from flask_cors import cross_origin
 import sys
 
-from app import app, socketIO
-from app.helpers import read_file
+from app import app, socketIO, db
 from app.helpers import load_from_file
 from app.game import Game
 from app.player import Player
@@ -42,6 +41,21 @@ def get_cards():
         }
     }
     return jsonify(decks)
+
+@app.route('/card/create', methods=['POST'])
+@cross_origin()
+def create_card():
+    """A request to create a new card and add to a deck"""
+    app.logger.info("received request to create card")
+    data = request.get_json()
+    card_type = data['cardType']
+    if card_type == 'black':
+        card = CallCard(text=data['cardContent'], nsfw=True)
+    else:
+        card = ResponseCard(text=data['cardContent'], nsfw=True)
+    db.session.add(card)
+    db.session.commit()
+    return jsonify({'success': True})
 
 @socketIO.on('create')
 def on_create(data):
@@ -102,12 +116,12 @@ def on_disconnect():
     del USERS[request.sid]
 
 @socketIO.on('pingServer')
-def pingServer(data):
+def ping_server(data):
     """Test websocket connection"""
     app.logger.debug(data)
 
 @socketIO.on('setState')
-def setState(data):
+def set_state(data):
     """Set the game state"""
     app.logger.debug(data)
     room = data['room']
@@ -119,7 +133,7 @@ def setState(data):
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
 
 @socketIO.on('playCard')
-def playCard(data):
+def play_card(data):
     """When a player selects a card for judging"""
     app.logger.info("playCard event received: " + str(data))
     room = data['room']
@@ -139,7 +153,7 @@ def playCard(data):
         emit('error', {"error": "This game room no longer exists. Please make a new one."})
 
 @socketIO.on('judgeCard')
-def judgeCard(data):
+def judge_card(data):
     """When the judge chooses a card to win the round"""
     app.logger.debug("judgeCard event received")
     room = data['room']
@@ -150,7 +164,7 @@ def judgeCard(data):
         emit('round_over', win_data, room=room)
 
 @socketIO.on('newRound')
-def newRound(data):
+def new_round(data):
     """A request for fresh data when starting a new round"""
     room = data['room']
     if room in ROOMS and ROOMS[room].state != "active":
@@ -162,7 +176,7 @@ def newRound(data):
         app.logger.debug("Cannot request new round while game is active.")
 
 @socketIO.on('joinRoom')
-def joinRoom(data):
+def join_room(data):
     """On refresh, need to re-join the socket io room"""
     room = data['room']
     app.logger.info("sid " + request.sid + " is joining room " + room)

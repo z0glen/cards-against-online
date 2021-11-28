@@ -23,18 +23,28 @@
         </template>
         <div v-else>
             <h3>Deck: {{ this.selectedDeckId }}</h3>
-            <b-card-group deck>
+            <b-button v-b-modal.create-card variant="primary" class="button" @click="isCreateCardModalOpen = true">Create Card</b-button>
+            <CreateCardModal
+                id="create-card"
+                @refresh="handleRefresh"
+                @error="handleError"
+            />
+            <b-card-group
+                deck
+                style="margin: 25px 0px;">
                 <template v-for="card in selectedDeck['calls']">
                     <Card
-                        :key="card.id"
+                        :key="`call${card.id}`"
                         v-bind="card"
+                        :id="`call${card.id}`"
                         isBlackCard
                     />
                 </template>
                 <template v-for="card in selectedDeck['responses']">
                     <Card
-                        :key="card.id"
+                        :key="`response${card.id}`"
                         v-bind="card"
+                        :id="`response${card.id}`"
                     />
                 </template>
             </b-card-group>
@@ -44,10 +54,12 @@
 
 <script>
     import Card from "./Card.vue";
+    import CreateCardModal from "./forms/CreateCardModal.vue";
 
     export default {
         components: {
-            Card
+            Card,
+            CreateCardModal
         },
         data() {
             return {
@@ -56,7 +68,7 @@
                 selectedDeckId: "",
                 error: "",
                 alertCountdown: 0,
-                dismissSecs: 10
+                dismissSecs: 10,
             }
         },
         created() {
@@ -65,13 +77,13 @@
         methods: {
             fetchDecks() {
                 return fetch('http://localhost:5000/decks', {
-                    method: 'get',
+                    method: 'GET',
                     headers: {
                         'content-type': 'application/json'
                     }
                 }).then(res => {
                     if (!res.ok) {
-                        console.error('error!!!');
+                        console.error('error fetching decks');
                         throw new Error(res.statusText);
                     }
                     return res.json();
@@ -91,6 +103,12 @@
             onClick(name, deck) {
                 this.selectedDeckId = name;
                 this.selectedDeck = deck;
+            },
+            handleRefresh(json) {
+                this.decks = json;
+            },
+            handleError(error) {
+                this.error = error;
             }
         },
         watch: {
