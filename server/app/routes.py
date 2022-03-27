@@ -7,7 +7,7 @@ from app import app, socketIO, db
 from app.helpers import load_from_file
 from app.game import Game
 from app.player import Player
-from app.models import CallCard, ResponseCard
+from app.models import CallCard, ResponseCard, Deck
 
 # dict for tracking active games
 # game code to game object
@@ -34,13 +34,15 @@ def import_cards():
 @app.route('/decks')
 @cross_origin()
 def get_cards():
-    decks = {
-        'Core': {
-            'calls': CallCard.query.all(),
-            'responses': ResponseCard.query.all()
+    result = {}
+    decks = Deck.query.all()
+    for deck in decks:
+        result[deck.name] = {
+            'id': deck.id,
+            'calls': [c.to_dict() for c in CallCard.query.filter_by(deck_id=deck.id)],
+            'responses': [c.to_dict() for c in ResponseCard.query.filter_by(deck_id=deck.id)]
         }
-    }
-    return jsonify(decks)
+    return jsonify(result)
 
 @app.route('/card/create', methods=['POST'])
 @cross_origin()
@@ -49,11 +51,23 @@ def create_card():
     app.logger.info("received request to create card")
     data = request.get_json()
     card_type = data['cardType']
+    deck_id = data['deckId']
     if card_type == 'black':
-        card = CallCard(text=data['cardContent'], nsfw=True)
+        card = CallCard(text=data['cardContent'], nsfw=True, deck_id=deck_id)
     else:
-        card = ResponseCard(text=data['cardContent'], nsfw=True)
+        card = ResponseCard(text=data['cardContent'], nsfw=True, deck_id=deck_id)
     db.session.add(card)
+    db.session.commit()
+    return jsonify({'success': True})
+
+@app.route('/deck/create', methods=['POST'])
+@cross_origin()
+def create_deck():
+    """A request to create a new deck"""
+    app.logger.info("received request to create deck")
+    data = request.get_json()
+    deck = Deck(name=data['name'])
+    db.session.add(deck)
     db.session.commit()
     return jsonify({'success': True})
 
@@ -176,7 +190,7 @@ def new_round(data):
         app.logger.debug("Cannot request new round while game is active.")
 
 @socketIO.on('joinRoom')
-def join_room(data):
+def player_join_room(data):
     """On refresh, need to re-join the socket io room"""
     room = data['room']
     app.logger.info("sid " + request.sid + " is joining room " + room)

@@ -14,7 +14,7 @@ Vue.use(BootstrapVueIcons)
 Vue.use(new VueSocketIO({
   debug: false,
   //connection: io(`//${window.location.host}`),
-  connection: io('https://cahplayer-server.herokuapp.com'),
+  connection: io(process.env.VUE_APP_SERVER_URL),
   vuex: {
     store,
     actionPrefix: 'SOCKET_',

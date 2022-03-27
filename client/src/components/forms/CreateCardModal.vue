@@ -81,6 +81,7 @@
     export default {
         props: {
             id: { type: String, required: true },
+            deckId: { type: Number, required: true }
         },
         data () {
             const CARD_TYPE_OPTIONS = [
@@ -105,12 +106,16 @@
         },
         methods: {
             handleCreateCard () {
-                return fetch('http://localhost:5000/card/create', {
+                return fetch(process.env.VUE_APP_SERVER_URL + '/card/create', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
                     },
-                    body: JSON.stringify({cardType: this.selectedCardType, cardContent: this.selectedCardText})
+                    body: JSON.stringify({
+                        cardType: this.selectedCardType,
+                        cardContent: this.selectedCardText,
+                        deckId: this.deckId
+                    })
                 }).then(res => {
                     if (!res.ok) {
                         console.error('error creating new card');

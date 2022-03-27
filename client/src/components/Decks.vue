@@ -11,6 +11,12 @@
         </b-alert>
         <h1>Manage Decks</h1>
         <template v-if="!Object.keys(selectedDeck).length">
+            <b-button v-b-modal.create-deck variant="primary" class="button" @click="isCreateDeckModalOpen = true">Create Deck</b-button>
+            <CreateDeckModal
+                id="create-deck"
+                @refresh="handleRefresh"
+                @error="handleError"
+            />
             <template v-for="(deck, name) in decks">
                 <Card
                     :key="name"
@@ -22,11 +28,12 @@
             </template>
         </template>
         <div v-else>
-            <h3>Deck: {{ this.selectedDeckId }}</h3>
+            <h3>Deck: {{ this.selectedDeckName }}</h3>
             <b-button v-b-modal.create-card variant="primary" class="button" @click="isCreateCardModalOpen = true">Create Card</b-button>
             <CreateCardModal
                 id="create-card"
-                @refresh="handleRefresh"
+                :deckId="selectedDeck.id"
+                @refresh="fetchDecks"
                 @error="handleError"
             />
             <b-card-group
@@ -55,17 +62,19 @@
 <script>
     import Card from "./Card.vue";
     import CreateCardModal from "./forms/CreateCardModal.vue";
+    import CreateDeckModal from "./forms/CreateDeckModal.vue";
 
     export default {
         components: {
             Card,
-            CreateCardModal
+            CreateCardModal,
+            CreateDeckModal
         },
         data() {
             return {
                 decks: [],
                 selectedDeck: {},
-                selectedDeckId: "",
+                selectedDeckName: "",
                 error: "",
                 alertCountdown: 0,
                 dismissSecs: 10,
@@ -76,7 +85,9 @@
         },
         methods: {
             fetchDecks() {
-                return fetch('http://localhost:5000/decks', {
+                let url = process.env.VUE_APP_SERVER_URL + '/decks';
+                console.log(url);
+                return fetch(url, {
                     method: 'GET',
                     headers: {
                         'content-type': 'application/json'
@@ -88,9 +99,9 @@
                     }
                     return res.json();
                 }).then(json => {
-                    console.log(json);
                     this.decks = json;
                 }).catch(err => {
+                    console.error(err);
                     this.error = err;
                 });
             },
@@ -101,13 +112,14 @@
                 }
             },
             onClick(name, deck) {
-                this.selectedDeckId = name;
+                this.selectedDeckName = name;
                 this.selectedDeck = deck;
             },
             handleRefresh(json) {
                 this.decks = json;
             },
             handleError(error) {
+                console.error(error);
                 this.error = error;
             }
         },
