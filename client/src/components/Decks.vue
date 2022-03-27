@@ -11,6 +11,12 @@
         </b-alert>
         <h1>Manage Decks</h1>
         <template v-if="!Object.keys(selectedDeck).length">
+            <b-button v-b-modal.create-deck variant="primary" class="button" @click="isCreateDeckModalOpen = true">Create Deck</b-button>
+            <CreateDeckModal
+                id="create-deck"
+                @refresh="handleRefresh"
+                @error="handleError"
+            />
             <template v-for="(deck, name) in decks">
                 <Card
                     :key="name"
@@ -55,11 +61,13 @@
 <script>
     import Card from "./Card.vue";
     import CreateCardModal from "./forms/CreateCardModal.vue";
+    import CreateDeckModal from "./forms/CreateDeckModal.vue";
 
     export default {
         components: {
             Card,
-            CreateCardModal
+            CreateCardModal,
+            CreateDeckModal
         },
         data() {
             return {
@@ -88,7 +96,6 @@
                     }
                     return res.json();
                 }).then(json => {
-                    console.log(json);
                     this.decks = json;
                 }).catch(err => {
                     this.error = err;
