@@ -1,11 +1,13 @@
 from flask import jsonify, request
 from flask_socketio import join_room, emit
+from flask_cors import cross_origin
 import sys
 
-from app import app, socketIO
-from app.helpers import read_file
+from app import app, socketIO, db
+from app.helpers import load_from_file
 from app.game import Game
 from app.player import Player
+from app.models import CallCard, ResponseCard, Deck
 
 # dict for tracking active games
 # game code to game object
@@ -23,12 +25,51 @@ def is_new_sid(sid):
         return False
     return True
 
-@app.route('/cards')
+@app.route('/importcards')
+@cross_origin()
+def import_cards():
+    app.logger.info("Importing cards from file!")
+    return jsonify(load_from_file())
+
+@app.route('/decks')
+@cross_origin()
 def get_cards():
-    calls = read_file('calls.json')
-    responses = read_file('responses.json')
-    response_object = {'calls': calls, 'responses': responses}
-    return jsonify(response_object)
+    result = {}
+    decks = Deck.query.all()
+    for deck in decks:
+        result[deck.name] = {
+            'id': deck.id,
+            'calls': [c.to_dict() for c in CallCard.query.filter_by(deck_id=deck.id)],
+            'responses': [c.to_dict() for c in ResponseCard.query.filter_by(deck_id=deck.id)]
+        }
+    return jsonify(result)
+
+@app.route('/card/create', methods=['POST'])
+@cross_origin()
+def create_card():
+    """A request to create a new card and add to a deck"""
+    app.logger.info("received request to create card")
+    data = request.get_json()
+    card_type = data['cardType']
+    deck_id = data['deckId']
+    if card_type == 'black':
+        card = CallCard(text=data['cardContent'], nsfw=True, deck_id=deck_id)
+    else:
+        card = ResponseCard(text=data['cardContent'], nsfw=True, deck_id=deck_id)
+    db.session.add(card)
+    db.session.commit()
+    return jsonify({'success': True})
+
+@app.route('/deck/create', methods=['POST'])
+@cross_origin()
+def create_deck():
+    """A request to create a new deck"""
+    app.logger.info("received request to create deck")
+    data = request.get_json()
+    deck = Deck(name=data['name'])
+    db.session.add(deck)
+    db.session.commit()
+    return jsonify({'success': True})
 
 @socketIO.on('create')
 def on_create(data):
@@ -89,12 +130,12 @@ def on_disconnect():
     del USERS[request.sid]
 
 @socketIO.on('pingServer')
-def pingServer(data):
+def ping_server(data):
     """Test websocket connection"""
     app.logger.debug(data)
 
 @socketIO.on('setState')
-def setState(data):
+def set_state(data):
     """Set the game state"""
     app.logger.debug(data)
     room = data['room']
@@ -106,7 +147,7 @@ def setState(data):
         emit('join_room', {'room': ROOMS[room].to_json()}, room=room)
 
 @socketIO.on('playCard')
-def playCard(data):
+def play_card(data):
     """When a player selects a card for judging"""
     app.logger.info("playCard event received: " + str(data))
     room = data['room']
@@ -126,7 +167,7 @@ def playCard(data):
         emit('error', {"error": "This game room no longer exists. Please make a new one."})
 
 @socketIO.on('judgeCard')
-def judgeCard(data):
+def judge_card(data):
     """When the judge chooses a card to win the round"""
     app.logger.debug("judgeCard event received")
     room = data['room']
@@ -137,7 +178,7 @@ def judgeCard(data):
         emit('round_over', win_data, room=room)
 
 @socketIO.on('newRound')
-def newRound(data):
+def new_round(data):
     """A request for fresh data when starting a new round"""
     room = data['room']
     if room in ROOMS and ROOMS[room].state != "active":
@@ -149,7 +190,7 @@ def newRound(data):
         app.logger.debug("Cannot request new round while game is active.")
 
 @socketIO.on('joinRoom')
-def joinRoom(data):
+def player_join_room(data):
     """On refresh, need to re-join the socket io room"""
     room = data['room']
     app.logger.info("sid " + request.sid + " is joining room " + room)
