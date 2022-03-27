@@ -38,6 +38,7 @@ def get_cards():
     decks = Deck.query.all()
     for deck in decks:
         result[deck.name] = {
+            'id': deck.id,
             'calls': [c.to_dict() for c in CallCard.query.filter_by(deck_id=deck.id)],
             'responses': [c.to_dict() for c in ResponseCard.query.filter_by(deck_id=deck.id)]
         }
@@ -50,10 +51,11 @@ def create_card():
     app.logger.info("received request to create card")
     data = request.get_json()
     card_type = data['cardType']
+    deck_id = data['deckId']
     if card_type == 'black':
-        card = CallCard(text=data['cardContent'], nsfw=True)
+        card = CallCard(text=data['cardContent'], nsfw=True, deck_id=deck_id)
     else:
-        card = ResponseCard(text=data['cardContent'], nsfw=True)
+        card = ResponseCard(text=data['cardContent'], nsfw=True, deck_id=deck_id)
     db.session.add(card)
     db.session.commit()
     return jsonify({'success': True})
@@ -188,7 +190,7 @@ def new_round(data):
         app.logger.debug("Cannot request new round while game is active.")
 
 @socketIO.on('joinRoom')
-def join_room(data):
+def player_join_room(data):
     """On refresh, need to re-join the socket io room"""
     room = data['room']
     app.logger.info("sid " + request.sid + " is joining room " + room)

@@ -28,11 +28,12 @@
             </template>
         </template>
         <div v-else>
-            <h3>Deck: {{ this.selectedDeckId }}</h3>
+            <h3>Deck: {{ this.selectedDeckName }}</h3>
             <b-button v-b-modal.create-card variant="primary" class="button" @click="isCreateCardModalOpen = true">Create Card</b-button>
             <CreateCardModal
                 id="create-card"
-                @refresh="handleRefresh"
+                :deckId="selectedDeck.id"
+                @refresh="fetchDecks"
                 @error="handleError"
             />
             <b-card-group
@@ -73,7 +74,7 @@
             return {
                 decks: [],
                 selectedDeck: {},
-                selectedDeckId: "",
+                selectedDeckName: "",
                 error: "",
                 alertCountdown: 0,
                 dismissSecs: 10,
@@ -84,7 +85,9 @@
         },
         methods: {
             fetchDecks() {
-                return fetch('http://localhost:5000/decks', {
+                let url = process.env.VUE_APP_SERVER_URL + '/decks';
+                console.log(url);
+                return fetch(url, {
                     method: 'GET',
                     headers: {
                         'content-type': 'application/json'
@@ -98,6 +101,7 @@
                 }).then(json => {
                     this.decks = json;
                 }).catch(err => {
+                    console.error(err);
                     this.error = err;
                 });
             },
@@ -108,13 +112,14 @@
                 }
             },
             onClick(name, deck) {
-                this.selectedDeckId = name;
+                this.selectedDeckName = name;
                 this.selectedDeck = deck;
             },
             handleRefresh(json) {
                 this.decks = json;
             },
             handleError(error) {
+                console.error(error);
                 this.error = error;
             }
         },

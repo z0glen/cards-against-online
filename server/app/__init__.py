@@ -23,7 +23,7 @@ socketIO = SocketIO(app, cors_allowed_origins="*")
 
 app.secret_key = os.environ.get('SECRET_KEY', 'dev')
 app.password = os.environ.get('CARDS_PASSWORD', 'dev')
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL').replace("postgres://", "postgresql://", 1)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)

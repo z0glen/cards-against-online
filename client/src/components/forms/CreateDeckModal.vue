@@ -31,7 +31,7 @@
         },
         methods: {
             handleCreateDeck () {
-                return fetch('http://localhost:5000/deck/create', {
+                return fetch(process.env.VUE_APP_SERVER_URL + '/deck/create', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
