@@ -23,7 +23,8 @@ with open('testcsv.csv', 'r') as file:
             "id": str(uuid4()),
             "text": row,
             "created_at": datetime.datetime.now(tz.tzlocal()).strftime("%Y-%m-%dT%H:%M:%S%z"),
-            "nsfw": "true"
+            "nsfw": "true",
+            "source": "orbies"
         }
         entries.append(entry)
 
