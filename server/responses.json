@@ -3220,5 +3220,3596 @@
         "created_at": "2020-10-04T02:10:01-0400",
         "nsfw": true,
         "source": "orbies"
+    },
+    {
+        "id": "91f6467d-4b48-40b2-a20a-113ebfaf3987",
+        "text": [
+            "Egg"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "dae17e10-3ff5-48ea-8454-d0cb70983625",
+        "text": [
+            "Chicken"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "98a3514a-20e8-4b59-a94d-df7cb1102ffa",
+        "text": [
+            "KC"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "2e717fdf-efeb-4a5e-8eef-dd74af208739",
+        "text": [
+            "Aidan"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "ff058f60-924e-4186-a25c-c4eed07fdeb6",
+        "text": [
+            "Ben"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "6d0014ca-4c8c-4c8d-bd22-6687869b5503",
+        "text": [
+            "Zach"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "c2c94b0c-f158-4423-87d1-2f76e90ec016",
+        "text": [
+            "Elaine"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "c042c2d4-4f42-45be-9a7b-717980ec57b6",
+        "text": [
+            "Laura"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "b3b52941-43de-447c-8626-389f9a03a7cd",
+        "text": [
+            "Sav"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "8a73d3d3-ca1d-44a7-9f56-feba2158261b",
+        "text": [
+            "Lexi"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "7ebf3845-d751-4eed-abca-54be952f177e",
+        "text": [
+            "Gabby"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "c1b55656-a650-4aa2-b4cf-f83751d058be",
+        "text": [
+            "Alexander"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "7790c520-bf39-47bc-9b96-ac71cdd3d4da",
+        "text": [
+            "Sarah's Fursuit"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "02bda51d-d55c-423d-8c48-e48823d5b61b",
+        "text": [
+            "Acting Out"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "27827dc1-de92-4d6e-b371-76b40b766c55",
+        "text": [
+            "NU Stage"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "cd3b30bd-d818-416b-afa0-fe9c683df622",
+        "text": [
+            "Silver Masque"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "4cc9161d-dbd4-4141-91fb-8e4d1a1dbda3",
+        "text": [
+            "Northeastern University"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "b98f1225-4d6c-4a69-9b89-f8b495151078",
+        "text": [
+            "Wednesday Night Live"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "ddd083b7-dd47-4523-8ea3-62d9672caa64",
+        "text": [
+            "ACTivities"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "be16a614-b7cf-4ac5-98eb-bfe02e5fb70b",
+        "text": [
+            "Improv"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "6db94011-5dbf-4fb2-99c0-fa56dcd3dfe2",
+        "text": [
+            "Dirty, unwashed costumes"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "c324aabb-dca6-48b7-ac2a-744af2a3bb8d",
+        "text": [
+            "Picnic At Hanging Rock"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "c1e40bed-087d-42b7-9ec9-89a9582a18e9",
+        "text": [
+            "A Streetcar Named Desire"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "cdbf8415-dbfc-4ae4-8b09-64c45c445103",
+        "text": [
+            "Nuclear (An Acting Out Original)"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "6e25279a-fd02-481f-9a98-183ec9f06ece",
+        "text": [
+            "The Directed (An Acting Out Original)"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "2c8463ee-06f9-4bc5-9dbd-eb8bc669442a",
+        "text": [
+            "Lamplight (An Acting Out Original) (CANCELLED)"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "25895303-aeb2-43ab-8964-b379fe7b38a7",
+        "text": [
+            "From The Kitchen (An Acting Out Original)"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "961b4d05-ccb1-4be9-aa6e-0b50107b85af",
+        "text": [
+            "Harvey"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "e73db1bc-a62a-41a5-9134-18450c67b819",
+        "text": [
+            "The Importance of Being Earnest"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "bd3da77a-2ed8-453a-96f2-b4cdf627ea1f",
+        "text": [
+            "Hard Candy"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "82b9e271-5f61-4206-b504-6109abb84180",
+        "text": [
+            "Other Desert Cities"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "9e4846d0-e651-47db-9d70-2161c00878ba",
+        "text": [
+            "Getting bullied by underclassmen"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "cc038fe1-8682-4bc4-9cb9-dbd25b9d6d53",
+        "text": [
+            "6 Characters"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "8828c404-d8b6-416d-ac9e-a1f91d165723",
+        "text": [
+            "One of Aidan's horrid concoctions"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "a4d92922-c7b8-43fd-9c01-32bc59d6c40f",
+        "text": [
+            "Curry Student Center"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "d649d935-269f-4325-b086-26530d043260",
+        "text": [
+            "The Jacksonian :("
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "0a8dc22c-aab4-4b52-8d61-3ef1607421f3",
+        "text": [
+            "the Itty Bitty "
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "d25036b9-e914-431f-b5ca-7beaf0096181",
+        "text": [
+            "not getting your show budget approved until the night before it opens"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "35d6b366-e12c-4d0d-8930-c84c7d0874f9",
+        "text": [
+            "getting head lice from the Hillary Clinton wig"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "3e1c2f3e-33b8-427b-947c-db735ad77459",
+        "text": [
+            "AO branded condoms"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "b479d6af-2a37-47df-83d0-1977e6ce177d",
+        "text": [
+            "Zach's tiny Trump hands"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "1d0c10a2-44b5-450c-afd9-e70706d2d8da",
+        "text": [
+            "the AO frat house"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "eabb02d3-63da-4d40-91d5-36044c8d31cb",
+        "text": [
+            "Exit, Pursued by a Bear"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "5f6ef425-353a-4fc4-b163-cd2bb5114411",
+        "text": [
+            "Gurar"
+        ],
+        "created_at": "2025-09-07T15:04:46-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "288b3280-7a8f-49e4-b540-93019e033e61",
+        "text": [
+            "infernal"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "b2d4b144-1aac-47f1-8fa6-e8f727e1392e",
+        "text": [
+            "Taverns"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "f699fd53-ca16-4a62-9e68-9b4fe94ea67c",
+        "text": [
+            "D&D"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "08f1a915-6991-485a-ac39-92162767cdf7",
+        "text": [
+            "Daddy Issues"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "649b6e8f-eaeb-4aa8-aa0d-a8215b3c9015",
+        "text": [
+            "Mommy Issues"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "8ab3c129-64d4-4427-89a3-4dcff4c1735b",
+        "text": [
+            "multiclassing"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "bbcf0691-391c-4f84-b572-307cb642c9a6",
+        "text": [
+            "Murderhobos"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "04afe0a4-c0ff-447c-a4f0-e950447f4e6c",
+        "text": [
+            "Nostages"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "ae0d4e46-8691-4274-aeeb-6ecfd8c8f3a9",
+        "text": [
+            "lovers? enemies? both?"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "23d5dfc8-b4ff-4725-b7bd-e1f1fbe71e62",
+        "text": [
+            "Toxic Ships"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "349b29d7-f5a0-4fce-989a-31c9a9019a1e",
+        "text": [
+            "Nat one"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "8882631b-52ee-476b-b959-76a650d7dc5d",
+        "text": [
+            "Nat twenty"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5a8c99db-edd6-4a35-a198-baefeeaa5cd9",
+        "text": [
+            "Orcs"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "ea8278b1-0206-4005-b8ad-8f0138532b7b",
+        "text": [
+            "Elves"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "c12259ba-b05c-49f2-8185-a184112173f4",
+        "text": [
+            "Tieflings"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "28246988-4ac9-4d86-b617-e96f4cd66e45",
+        "text": [
+            "Humans"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "fdc8738b-b2bb-402e-85a2-6b500271dc6a",
+        "text": [
+            "Half-Elves"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "aa0131e6-bcbd-4ae4-8734-6b1d515454b6",
+        "text": [
+            "Half-Orcs"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "82768f2d-557e-462a-9760-d7407cf02147",
+        "text": [
+            "Grung"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "1b69ee18-c39a-46ad-b82a-aab5f3ea621e",
+        "text": [
+            "Dragonborns"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5b62480c-da90-4cb6-9c9d-53c024026648",
+        "text": [
+            "Dwarves"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "ad260a8c-6754-4eb8-93fb-c74fc0a60d85",
+        "text": [
+            "Gnomes"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "16e04e67-cb30-4d8b-b8d9-d61dfbd3625d",
+        "text": [
+            "Halflings "
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "0829110b-7f9e-49bf-91de-acfdd51c5f71",
+        "text": [
+            "Aasimar"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "6e59a186-dfe4-44f1-9942-5e6de23708bc",
+        "text": [
+            "Duergar"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d7e91e6d-11c3-4a5c-b5d7-51ca3ac3c131",
+        "text": [
+            "The Drow"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5b7218e9-6e18-44f4-8976-e55b7c5fc874",
+        "text": [
+            "Fairies"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "b3916842-f708-4dce-9c63-fba89780f32f",
+        "text": [
+            "Tabaxi"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "62cf939f-3595-4019-8804-22ad3081bea5",
+        "text": [
+            "Satyrs"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "2ecd08f5-ca9a-45aa-93c5-3dd83da498b0",
+        "text": [
+            "Githyanki"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "47ae1c2b-a875-4d44-a5e0-7ab55ccea938",
+        "text": [
+            "Githzerai"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "f69fdbbc-b9ed-4525-a17b-103e1edad85a",
+        "text": [
+            "Genasi"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "564f4fa6-cf4c-445e-9905-6f15cd126ee5",
+        "text": [
+            "Changelings"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "e18b3d99-fb8d-4bfd-9af6-a5097d290435",
+        "text": [
+            "Deep Gnomes"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "c8816f75-c6d4-4997-8680-5f28278a2c35",
+        "text": [
+            "High Elves"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "dc39dece-6423-4ef0-a665-8a9ed88c44bc",
+        "text": [
+            "Wood Elves "
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "04738b1f-7985-41ec-9bb0-efd42797f703",
+        "text": [
+            "Kobolds"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "353329bd-f1c6-4eb8-9af0-be1ad88e7d61",
+        "text": [
+            "Bugbears"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "9ab7ee3f-493e-4830-89cf-481a91f89583",
+        "text": [
+            "Hobgoblins"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "9f82e290-06fd-4b3b-945e-15a91fdf6637",
+        "text": [
+            "Goblins"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "531d57c2-47ec-409e-81a9-8fadbb1d1e0f",
+        "text": [
+            "Centaurs"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5140f036-4183-433c-a117-02528f2cd5a3",
+        "text": [
+            "Minotaurs"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "4cf812c4-c410-4bb0-a63a-d87b10d33bb0",
+        "text": [
+            "Monks"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "4b1519b3-2849-4673-98a8-7999d098ad8f",
+        "text": [
+            "Barbarians"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "6ccfa525-ce5b-4867-a310-c203de85b4af",
+        "text": [
+            "Artificers"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "cae35165-6868-4b75-91fb-5844c8006934",
+        "text": [
+            "Wizards"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "0e50c65f-92a7-48c7-88f4-805e3b075470",
+        "text": [
+            "Sorcerers"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "92a379f6-9d96-472c-8520-ae6427c26c5d",
+        "text": [
+            "Fighters"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "51d02501-a046-4556-8388-823b8d604824",
+        "text": [
+            "Rogues"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "9a63521a-eb32-45aa-b9a3-712d952b0206",
+        "text": [
+            "Warlocks"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "29c68f72-f255-4ed7-bcf1-254a302a062a",
+        "text": [
+            "Clerics"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "bb38be57-5fb5-43b8-a2db-87d8e51e5ffe",
+        "text": [
+            "Bards"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "166d72cc-e987-4313-acc3-b6429ab6e787",
+        "text": [
+            "Druids"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "1e1691f5-b49c-4184-823b-306807e0bbc5",
+        "text": [
+            "Paladins"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "a7d0e2ee-d2cd-4a7c-880e-651424480718",
+        "text": [
+            "Rangers"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "f7370e25-227a-4273-b6ad-dfeaf5038e49",
+        "text": [
+            "Celestial"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "21941bb2-4230-4b91-8437-c13a2145d5b5",
+        "text": [
+            "Common"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "36de3324-a162-467f-b192-609fcbd94822",
+        "text": [
+            "Elvish"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "f3a1034e-6066-47cf-b414-1af0d62b7ec9",
+        "text": [
+            "Dwarvish"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "c75fa0c1-dec0-44ea-8ba9-31cffdf5c489",
+        "text": [
+            "Draconic"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "4e140692-03ec-4fa9-b2e0-0c44d29511ce",
+        "text": [
+            "Abyssal"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "cce11ee0-d8ae-4894-b4e3-0333fc7c8ff8",
+        "text": [
+            "Deep Speech"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "97942b80-542d-4910-b85a-6d44a2662f6d",
+        "text": [
+            "Giant"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "9b1625c2-54b7-44e0-80de-656529e70303",
+        "text": [
+            "Giants"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "264c5958-640e-4992-af11-31896489ecc5",
+        "text": [
+            "Meat"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "39189da4-b489-4ce0-afb5-cfdedb3be68f",
+        "text": [
+            "A friend"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "a23aefd1-fca8-4d47-ac22-78aa38f441de",
+        "text": [
+            "A person"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5421d3df-e167-4a72-b313-18957b72b41c",
+        "text": [
+            "Proficiency in Gaydar"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "0ff3522f-1fe3-4d14-a8d0-ece69631e62a",
+        "text": [
+            "Zombies"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "18a80a84-0ec7-4272-800e-b0da73cf14c3",
+        "text": [
+            "Warcrimes"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "9623b968-aa1c-49b7-83ae-2f1f862a0e7e",
+        "text": [
+            "Treating the geneva convention like a checklist"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5786f1cf-9131-4cb2-b383-8b0bcea14d59",
+        "text": [
+            "dead parents"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "8f311c5d-f72c-423e-ac95-66e46b992f48",
+        "text": [
+            "so many rations"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "471c064f-243d-4b63-9b33-b9ef45289a7f",
+        "text": [
+            "lore that nobody but the DM cares about"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "2e7df8bc-292d-40dc-877d-51aa3b36eed4",
+        "text": [
+            "darkvision"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "c6ab36d4-b8ee-4207-9588-9924c3396575",
+        "text": [
+            "thinking the combat was over"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "dc4bc234-7c04-4b4a-8cb8-515db2832484",
+        "text": [
+            "being a damn tank"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "faab2739-f458-4055-8682-5c021addef78",
+        "text": [
+            "a lucky roll getting you out of a shitty situation"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "1f322ea0-7e72-4c1c-b8f6-0a0bff4d4af6",
+        "text": [
+            "not having a damn healer"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "6d29a330-8a84-4170-8fb9-a6e73ec5fc64",
+        "text": [
+            "being a motherfucking rogue"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d62e8864-0c07-4c10-b8b4-75f2978a221c",
+        "text": [
+            "having shitty HP"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "75097346-9e95-4a1f-9f88-9f664496ee1c",
+        "text": [
+            "an NPC that can kick my ass"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "3a16085d-f6ba-455e-8b57-0847ed2ac6fc",
+        "text": [
+            "left shoulder"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "1bd3e499-9c6c-4533-bcb5-4744030c074e",
+        "text": [
+            "sneak attack!!!"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "6d76125c-bef1-4900-b341-2e19d2de8f85",
+        "text": [
+            "the DM"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "e2a71d6b-6ac1-4e40-8a4c-afd96cfd65bd",
+        "text": [
+            "battle maps"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d8efcf65-afec-4127-b4f6-c40937eb9f72",
+        "text": [
+            "multiclassing"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "e8dc10f8-139a-477e-a10e-5587ee030fee",
+        "text": [
+            "head"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "78b40294-f60f-49cb-90c7-265e691861bc",
+        "text": [
+            "RAGE"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d51c32cf-8225-41ff-ac16-1eee71c3f736",
+        "text": [
+            "leg"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "b7179346-d087-4f64-8e14-b7436478eeb5",
+        "text": [
+            "a moral crisis"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "526e68a0-55a5-4a59-90c6-48b10dfdcc4a",
+        "text": [
+            "necromancy"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "074c9db3-90f0-4d64-9eb7-558aef7ab717",
+        "text": [
+            "retroactively calling out the help action in the hopes the DM will give us advantage"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "6fa6f8b3-323d-4b7f-9ea4-64522900c1a1",
+        "text": [
+            "skeletons"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "9555c318-2570-496d-8410-49760819c71b",
+        "text": [
+            "the DM rolling dice without explanation"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "01ca1e06-8112-4b89-a032-8447215dc197",
+        "text": [
+            "a high persuasion roll"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "8236b7c7-c8f9-4858-9423-4ef42e68af8b",
+        "text": [
+            "a magic item I want but cannot afford"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "58c2765d-2eaf-4407-8eb9-21bcd96424c1",
+        "text": [
+            "character development"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "e4cf2680-bf85-4774-8b95-e836f0c4f6c2",
+        "text": [
+            "being entertained by violence"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "887368cb-ca59-45a1-9a1d-e9bf477b894b",
+        "text": [
+            "a very tired barkeep"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "defba32e-db66-47c8-846d-1c3b7735d393",
+        "text": [
+            "a badly-drawn map"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "4d5e4294-cb30-4915-8d1b-d7d23e3ecf91",
+        "text": [
+            "wanting to kiss NPCs"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "71a48fd8-6b66-42d5-b0a3-0bf0c7d49608",
+        "text": [
+            "rolling for combat encounters"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "b42685eb-012e-4ec3-92af-1dab223a2255",
+        "text": [
+            "slaying a dragon"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "3b6be86e-eb5a-40e9-9d60-f9d64a717eb4",
+        "text": [
+            "eye"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "2197a19a-8c31-4c43-9d06-0813f35d03c7",
+        "text": [
+            "my arm"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "515ab42f-ec9e-4a93-8962-8bcd16f14e0d",
+        "text": [
+            "a metric ton of dice"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d664fbf7-51d9-49d8-8ada-29db59d7bf56",
+        "text": [
+            "feet"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "e156b3a5-1c14-49e4-af7d-c7a20f93c546",
+        "text": [
+            "arms"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "cbe4d451-0e72-4103-a942-f15fcf491abc",
+        "text": [
+            "butt"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "c0835d21-c3f7-4c06-91a7-770eed68fcd3",
+        "text": [
+            "in a way being a werewolf is kinda an autoimmune disease"
+        ],
+        "created_at": "2025-09-07T15:05:07-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "43e01e49-db8a-414e-811c-59f8f840b63f",
+        "text": [
+            "an absurdly wealthy duke"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "12ada4a2-4500-4058-888d-af72cc685771",
+        "text": [
+            "telepathic communication"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9a4771d5-b13f-4e64-8e52-e70b1145fcb4",
+        "text": [
+            "killing four guards"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f85130a1-ff7e-4caf-8db2-701ecca48614",
+        "text": [
+            "the entire royal family of Brigaria"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "99b23207-bbb2-4970-850a-969c3fa0e3c0",
+        "text": [
+            "metal doors without locks"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "35848866-1fcd-4140-8016-e8dddfc9a9b1",
+        "text": [
+            "a pet mouse"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3d84aa03-110f-4dfa-8b7f-cf84b933a28e",
+        "text": [
+            "chaotic stupid"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2542f4a8-b676-4751-8b40-641019d9d9ec",
+        "text": [
+            "seducing anyone who gets in my way"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3d0189ba-c4ab-4795-bc21-47bc494ac6cd",
+        "text": [
+            "a racist NPC"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e3cdcfdb-2d85-4876-9ee6-6341eabdc6ef",
+        "text": [
+            "a tiefling who's way too young for this"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "aa48cc37-896c-43d5-b287-b419daaebe30",
+        "text": [
+            "getting paid and blowing it all on expensive alcohol"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0566c89c-9985-4e48-9922-7d96228ea4df",
+        "text": [
+            "a magic tower that's bigger up close"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c0e7f8cc-14b6-4fc0-8221-5448fdc992da",
+        "text": [
+            "murder of an innocent stable boy"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "55774bfc-73d1-4583-a641-1099d9fc04d2",
+        "text": [
+            "asking everyone you meet if they've seen what you're looking for"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ba69a129-ba87-4831-b5f8-b2868525592d",
+        "text": [
+            "magic man"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "324194ce-4bdc-4e76-96e5-bddf07306f14",
+        "text": [
+            "the entire nation of Vegulka"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bf8a4c0b-3956-4dbb-9418-e8e682af1883",
+        "text": [
+            "a lead box"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d6897fac-7899-48cb-9e4e-1b4419b9fcd5",
+        "text": [
+            "a well-timed healing spell"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9b75864f-8ba8-4cfb-be3c-f87b398ff320",
+        "text": [
+            "rolling a nat one"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "84ea4970-2a8b-4760-ad2d-72ea8e172785",
+        "text": [
+            "starting a cult for the profit margins"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "5cc54f52-e709-433a-a932-f4962545fa03",
+        "text": [
+            "doing the right thing"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "7fd2ae17-809e-4c64-935d-88732630b661",
+        "text": [
+            "spending way too much on ale"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "52673f53-fb89-4897-9389-4a54bc403df0",
+        "text": [
+            "the only strong party member"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ca0559f4-606f-4c6d-a1d1-9b42cf8f62d4",
+        "text": [
+            "a silver spoon"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4d74bf17-1ce2-49e5-8727-e00e0de810af",
+        "text": [
+            "a bugbear named Boliver"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "dade7c1f-9137-4400-9d6f-be920fda3996",
+        "text": [
+            "a shortsword straight through the heart"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f514da1d-b999-4672-96d4-3604ce17ca64",
+        "text": [
+            "teamwork?"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "aad5f6fa-24c8-45a6-bbb4-39727f323df8",
+        "text": [
+            "escaping certain death"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2e5a7d7a-f142-4037-aee7-effb9dcf7ba5",
+        "text": [
+            "waking up telepathic"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "12b2e687-0e1c-4291-966d-8b8aab3bc361",
+        "text": [
+            "Jheaga's hometown"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "99d31157-f66a-43fe-83ac-1c5d658ff024",
+        "text": [
+            "Finn, trying to grab something with his mouth"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f7ff0946-b361-446b-99dc-fe48542550fa",
+        "text": [
+            "yet another giant spider"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "643e34c8-5e14-41dd-8525-28fc82066c0e",
+        "text": [
+            "Arkeya masterfully talking her way out of an arrest, truth spell be damned"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cd4a5f0a-0cb6-4cfb-a3c2-914772a1e94e",
+        "text": [
+            "the puppies"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "168e2e3c-70c9-4e58-9792-c0b8c6414bb3",
+        "text": [
+            "orphans"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6d43a249-d84b-404d-9c0a-684447d612f7",
+        "text": [
+            "killing the NPCs before they can give critical info"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "44880fdf-89ff-46a4-9a55-87f964b605ec",
+        "text": [
+            "the frog"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "05c60305-31f1-47fe-ad97-8cdfbd4e7741",
+        "text": [
+            "telling a lie as a joke, rolling a nat 20, and convincing your whole party you're really a chef"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "01bc2d04-2f6a-48a4-b06d-4a80c43f94e1",
+        "text": [
+            "Arrow swearing in elven"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "088f6ca4-cb28-4a4a-91f3-5bf3ad4a8a0e",
+        "text": [
+            "El"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6c8bde9e-f5dd-4966-9cf9-5e5dba4f6feb",
+        "text": [
+            "an umoveable sarcophagus"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "43091348-9856-4f97-b52e-34360d6b9329",
+        "text": [
+            "saying all the wrong things to Consa's city guards"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "fa000fd2-dc7f-4fd1-a41d-d7242c73170b",
+        "text": [
+            "the map woman"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0ce17698-df1c-4ca4-8f77-58e279b8d2fa",
+        "text": [
+            "uncharted territory"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "915013f0-6e6f-4e38-8c69-d4715425f2d7",
+        "text": [
+            "telepathic bonds"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9764d7b0-d4b0-4f09-b7c1-9d669ae803de",
+        "text": [
+            "KC's mom bringing her dinner"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "202dde5b-3ae5-4d71-8a90-5de44bdc1e53",
+        "text": [
+            "betraying the rest of the party"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9bba55da-00a4-4a90-bd5e-a79a761091fc",
+        "text": [
+            "selling the shortswords of the slain"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "fe363a94-c9be-40d5-8d7a-58c5b4c0638c",
+        "text": [
+            "almost dying every other day"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "400dfbcf-92cd-4399-baef-19281a596c55",
+        "text": [
+            "a creepy river monster, that still haughts all our nightmares"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "70ef37f6-5271-4d04-bbe6-ddbbae23c340",
+        "text": [
+            "the Empress of the Mashian Empire"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6e2006f8-75c0-4bbd-94be-d9f037534167",
+        "text": [
+            "a pseudodragon"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b23e1f80-e68e-4715-be4b-6b54c7d01cf0",
+        "text": [
+            "Maximillion, paladin extraordinaire"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "fbe3ad93-6a2c-4a38-8d4a-6e559b4ec830",
+        "text": [
+            "killing a man's pet ferret out of spite"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b3447b35-122a-499c-ac5a-c5f527d366f4",
+        "text": [
+            "failing a vibe check"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b0a8451d-6da4-4a04-aec8-733d893d2291",
+        "text": [
+            "paladin magic"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c4015c48-cb88-4bf2-96ba-9fcde1dbff47",
+        "text": [
+            "Arkeya"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0ccb3bbb-229e-4c48-b1ce-887c95c0a125",
+        "text": [
+            "a negative strength modifier"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "479b3691-d277-4073-8ca6-2eb9c30667a4",
+        "text": [
+            "a battleaxe"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bfff5082-1d51-4402-b486-61a425556cbb",
+        "text": [
+            "a completely unsuspicious request for a lead box"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cce27fad-e106-4c70-9fb2-12da969b1ec2",
+        "text": [
+            "a very friendly and not at all unnerving old lady in the woods"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "743dfdcd-f966-4a6d-988a-0b147123bb0c",
+        "text": [
+            "dropping the orb in the sarcophagus with a window to see what happens"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e4087274-615c-40ee-a8b4-f236ca8dcf51",
+        "text": [
+            "Elder Brain Elixir"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "26668f55-2d57-4430-92df-17969f9f5868",
+        "text": [
+            "a monster way above the party's CR"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "8270f087-5d55-48f2-9bf1-e5fa665b6663",
+        "text": [
+            "wholesome cartographers"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0796d507-c447-4941-baf7-47f82a3159d9",
+        "text": [
+            "the storm that made El an orphan"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6c748ce3-8f5c-45f6-b4b2-e55b0d83d5cd",
+        "text": [
+            "buying a pet butterfly"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "573b6661-a6af-43a4-adc2-1857df049478",
+        "text": [
+            "speaking the language of my worst enemies"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "dde8aa1f-6d1f-4411-8b0e-302ba21d1441",
+        "text": [
+            "dumping a body in a river"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "94d1ca39-8733-4da5-bf13-efbb625879b5",
+        "text": [
+            "a displacer beast"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f2461c45-520b-4ace-bcd6-4b0acfa26ccf",
+        "text": [
+            "Dosh being cryptic"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1be1fac9-5409-4f4e-b8d1-a4b20edba6ef",
+        "text": [
+            "a Peryton?"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1ed28303-1403-4e47-9c69-4c96f097db0a",
+        "text": [
+            "inventing fondue, because a world without it isn't even worth roleplaying in"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "8eccb118-4a25-4725-a26f-933c6ce535c2",
+        "text": [
+            "angering a deity"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "7aca0fd4-6b5a-4ecc-a831-dc429cc6c109",
+        "text": [
+            "KC's bad accents"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "50e2f6c4-86d5-4529-a565-c5b80f4f073c",
+        "text": [
+            "terrifying fey magic"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "38f7a0c7-795a-4340-b459-2eba881a4630",
+        "text": [
+            "the cotton eye joe"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "5feaf625-2586-43fe-894f-160da981b306",
+        "text": [
+            "another round of moonbeam damage"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e973a01b-35e6-4d16-9542-5b22b02d6cb4",
+        "text": [
+            "punny shop names"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "5aaec5f8-e0e6-4e78-a4e6-31cef05fabf8",
+        "text": [
+            "as many pastries as the party can carry"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "29f976ed-7a25-46c1-b3ea-4b7e1e64e375",
+        "text": [
+            "roll for vibes"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0b98ab82-958b-4446-a9d9-b57b9f1095e8",
+        "text": [
+            "humans"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e1ddf7be-19be-41b7-93c4-00fc6ea67116",
+        "text": [
+            "a very smarmy shopkeeper"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1b25e744-ad40-4237-9d14-6da34eff3ccb",
+        "text": [
+            "getting out of town real quick"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "72ec5f7e-2f8a-4059-906e-3e3c6e931267",
+        "text": [
+            "a gelatinous cube"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "68a14279-819d-49ab-b927-61a4226bd65e",
+        "text": [
+            "a mysterious letter from someone who knows you, but you've never met"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "757e16d2-2aa9-4367-9c81-58b966da4c7c",
+        "text": [
+            "slaves"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d1d2001f-6a54-4037-afdb-de04417af58d",
+        "text": [
+            "Arkeya's girlfriend"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "739b0ed0-87e4-4e99-b4cd-9de61fe7d816",
+        "text": [
+            "failing yet another rope-climbing check"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "260d96eb-91e5-46e0-9630-4ee9c79905be",
+        "text": [
+            "a pirate, a swashbuckler, a parrot, and a boat"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9b1c3d5d-b54b-4d86-ac2e-b3f155406868",
+        "text": [
+            "Richard, a very enthusiastic carriage repairman"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3eb82a3c-94dc-469c-a27b-ccf4cec0706d",
+        "text": [
+            "a custom mahogany carriage"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "558ce082-1b0a-4680-8371-3b7f5aeaf031",
+        "text": [
+            "bottom shelf ale"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "17db3b55-f7e3-47bd-a2f0-880d092b72de",
+        "text": [
+            "a woman with a pet displacer beast"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2b6ba0af-b9dc-47ae-b15d-7ade42d3f4a2",
+        "text": [
+            "the dreaded second watch shift"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1e3e310b-31e7-4072-af4d-a7ddc9d67c34",
+        "text": [
+            "Arrowsmith"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a3ee1c2d-4532-4ef8-8bc4-2b5484876a26",
+        "text": [
+            "magical, impenetrable darkness"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "107f617f-e940-42c2-b07b-36e749213c61",
+        "text": [
+            "an old man in a bunker"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "aee7e3a0-ef41-48f7-bbd1-d14327ed5b30",
+        "text": [
+            "praying"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4eed2508-b3db-437e-b4c1-328d0eda91a7",
+        "text": [
+            "creative use of traveling time"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d5989b2c-4bfa-4afc-8a55-a8c3a14c3c91",
+        "text": [
+            "vampires?"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "91388bec-aa87-45d0-95f2-a59755c5ddfd",
+        "text": [
+            "magic brownies, but not that kind"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0c608bd2-705f-4fb5-b5f7-f524aea27546",
+        "text": [
+            "random cave liquid"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e463f997-313e-4c3c-99ea-f918da3eb168",
+        "text": [
+            "the hearts of Consa's families"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "65eaeb84-5d60-49d9-b7d6-21a853bc08cb",
+        "text": [
+            "a mysterious trail of copper pieces"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6f74cde7-311c-43de-8cf4-b51822d271b8",
+        "text": [
+            "The Rough & Tumble"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ebd7f324-0c1b-4d92-9f52-177f32c9db4d",
+        "text": [
+            "S\u00e9Lena"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "92f2ff0e-981c-4cba-aedd-089e25affba8",
+        "text": [
+            "blaming it on someone else"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "13ac1a18-69a2-4de4-b412-3b02a1b0557b",
+        "text": [
+            "an unexpectedly cute beast"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4bba55e1-0c58-4b22-8cd5-e928936cda55",
+        "text": [
+            "way too many giant rats"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a009d9e1-35d9-400e-a83b-12df122adcb3",
+        "text": [
+            "ending them"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "5aaac5bd-f8fb-476e-843b-49b55734300e",
+        "text": [
+            "a statue with way too many arms"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "79164eeb-d4c6-4833-b96e-55827d1bc5a1",
+        "text": [
+            "playing the flute really badly"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "55d0805f-fd72-49c8-a172-78e726334e85",
+        "text": [
+            "a super hot blacksmith"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1fcff591-7eab-4c73-b103-0d100bfeac2e",
+        "text": [
+            "Jhaega"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b806b2ed-398b-4343-8cdf-63d500b4bf15",
+        "text": [
+            "shutting your eyes and walking down the stairs"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ed1837e5-23b5-4651-afa0-de16da2b65c2",
+        "text": [
+            "magic arrows"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "84ee7a52-c28b-4e30-8a25-882501845792",
+        "text": [
+            "piles of gold"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "963f99ac-026f-4ec2-b275-a2fd78dd2b3e",
+        "text": [
+            "the Grung"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "760a9a81-60b0-40bc-a42b-696ec2249840",
+        "text": [
+            "mysterious tea"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1ce50da7-86ca-458f-96c3-feb244a93e23",
+        "text": [
+            "subpar wifi"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a5881e7c-8039-49a9-8861-5f376d448be8",
+        "text": [
+            "the King of Saydon"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "119dd355-2443-43a0-a589-6b2c9511efc5",
+        "text": [
+            "trinkets!"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4e702d2c-b5e6-47d6-95ad-c30095048881",
+        "text": [
+            "killing my entire party, and then myself"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6c7dcbdf-a560-4cfe-9455-73de282855c0",
+        "text": [
+            "wildshape"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3ed439cc-5090-4e75-8f0e-7dfc660ba506",
+        "text": [
+            "thinking before acting"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "98c1c084-fde0-4e37-8303-5d059855ae2d",
+        "text": [
+            "Dosh"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "8cc73ed9-abd6-41f8-aa2f-ebb86359d204",
+        "text": [
+            "my complicated backstory"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "58b02255-daee-47b5-bf84-c5c031b0b686",
+        "text": [
+            "killing NPCs"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d51428f6-0a80-47ac-92b3-4c58fbc7efe7",
+        "text": [
+            "friendship"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a5425a10-6038-48ec-b8b2-9c1f0796f78e",
+        "text": [
+            "fantasy YA novels"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2eebf7ce-7809-49aa-bc0c-8349a315595d",
+        "text": [
+            "eldritch blast"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e95b59bf-d5f6-4bb5-a6c6-82dc90557a09",
+        "text": [
+            "never-ending woods"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e4b7a980-eb3d-487c-b64d-8b8757306c46",
+        "text": [
+            "your unwanted opinions"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9ed8786b-82c6-433b-85c9-d935d6a490d3",
+        "text": [
+            "a paralyzing fear of water"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "04664196-4b03-486a-8b9d-cf6335f949ae",
+        "text": [
+            "a bird named Mike"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0398df38-0f50-4e16-91ca-85801687cc4c",
+        "text": [
+            "crashing a wedding"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "dbfaec0a-f21c-4e7e-95f1-8b321b32f549",
+        "text": [
+            "that one plot hook the whole party ignored"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "8b067a46-6db7-4cf2-b369-933ecc240964",
+        "text": [
+            "pretending to be employed by the royal family and being charming enough to get away with it"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f8cbeeb1-5f69-45ce-8a4a-ff820aedc219",
+        "text": [
+            "stealing from everyone we encounter"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "26d839ff-a6a1-4a36-acf5-974eb50b0e6d",
+        "text": [
+            "smashing the orb"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "44f56053-0cae-4414-bf7f-bd6b5a38f048",
+        "text": [
+            "preserving bodies for up to ten days"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "82639364-03bd-413b-b065-30c9a9a4f06c",
+        "text": [
+            "spending way too much on fancy alcohol"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f0d5a75b-9109-4fc1-94b5-a3bf8e15d6f7",
+        "text": [
+            "using mind magic on the most powerful man in town"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0afd1500-119b-4f1d-b745-e95bb7e334dd",
+        "text": [
+            "almost drowning in a terrifying water chamber"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "337614e7-de97-485a-9cb1-1c1f3a87f2a4",
+        "text": [
+            "being annoyed at first sight"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1cfe9722-77e2-4b95-88fb-e9566a6e06c0",
+        "text": [
+            "Maximillion's truth spell"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "5bf062b6-47d2-49a2-84ad-31a4f41d40af",
+        "text": [
+            "Dosh's broken legs"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e967a912-705e-4130-b26b-0fab35f95cd6",
+        "text": [
+            "stealthing away from my mistakes"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a76af4c8-53f0-4cad-8fc6-51c24b0938fc",
+        "text": [
+            "fleeing yet another city"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "51bb31b4-fd20-4a6e-b5cc-bd0125672ec4",
+        "text": [
+            "actually trusting the rest of your party"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0ef176b7-54fc-4b26-a4a4-88a7b59d2d1f",
+        "text": [
+            "El's entire tribe"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "8b10a0de-091c-45ec-90ba-a29544aa12a2",
+        "text": [
+            "strategy?"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "109849ef-6974-4375-a644-a0160de57e30",
+        "text": [
+            "Rhys"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "87f86a38-91e6-4eb4-822c-d8eebd945f90",
+        "text": [
+            "a neverending sea of regret"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9b721253-96e8-4ab9-acfc-62dac71917b5",
+        "text": [
+            "hunters mark"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "33f36cb5-8358-408f-86ce-a93fa546d997",
+        "text": [
+            "your dead best friend"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b5c118e1-9f96-44d9-8449-003e6d0ed034",
+        "text": [
+            "falling asleep on watch"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cf3db707-9a8e-4499-b710-c94ea0abf358",
+        "text": [
+            "using illusions to commit crime"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ce7ac774-504d-43d0-a129-ba072d103cc5",
+        "text": [
+            "two identical dwarves"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "060cfeae-53bb-4d12-8fa6-5fd569c84e24",
+        "text": [
+            "creepy dreams"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bbd2998d-5c7e-44c7-8f73-829cf7a58d8b",
+        "text": [
+            "Rhys's entire family"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cc3f5bf1-8e59-41d2-b82e-cd73fb8abd8c",
+        "text": [
+            "seducing the innkeeper's daughter"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "23c814df-c5e9-47cc-a701-3c7ab66f1a9a",
+        "text": [
+            "The Dancing Bear"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f3d9fe75-83e3-4fa7-ad49-1956899557ae",
+        "text": [
+            "Brubb"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d66d6ef9-a458-4493-b550-34f33d1007dd",
+        "text": [
+            "orange-infused ale"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "99850ee6-5155-4e1e-b680-0612a9253060",
+        "text": [
+            "ferret jerky"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6bffcd49-96e7-45c7-9fd1-2fa165d62ec6",
+        "text": [
+            "a pirate adventure"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0522edf5-c4d9-4900-adf3-e824ba0cb95c",
+        "text": [
+            "wanting my deity to step on me"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f899a94a-615b-42f4-9277-8dd70632839d",
+        "text": [
+            "a DM screen"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a658baeb-afb3-4ad3-8d67-a1ee43b3454c",
+        "text": [
+            "having a single hit point"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c3efc0f2-154b-49be-8f92-cea285ccbe2d",
+        "text": [
+            "rolling for sick moves"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "970f6f87-53eb-4cd3-9781-9f83eaa03714",
+        "text": [
+            "poison"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ed9409aa-63fc-475f-918e-ea07e28d6d01",
+        "text": [
+            "Finn, the real MVP"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e06e656f-9fca-426d-b329-5efe1cd1c945",
+        "text": [
+            "accidentally becoming the villain of the game"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a17a9244-eebf-40b5-9dd1-86bc117ce7b7",
+        "text": [
+            "whatever Rhys is planning"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6073ccc1-47a6-4e4a-a950-e4951f79653b",
+        "text": [
+            "finger painting with the blood of your enemies"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a55e1563-1f2f-43c9-b256-fe3a4d8685e3",
+        "text": [
+            "half of your party members being fucking children"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6a647042-3564-4612-b4c9-025bffc73aa5",
+        "text": [
+            "Elanora's wrinkled ass skin"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4fae4f27-132a-4286-82c9-0abaaa50d955",
+        "text": [
+            "only having two damn spell slots"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "82e9870b-6e73-402d-9592-5b04808c2963",
+        "text": [
+            "pUssy"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bfb0342e-92c2-403f-bde9-b7d83619ce8b",
+        "text": [
+            "a fucking orb"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d916b951-a149-4256-b6af-9b5fc5d823b2",
+        "text": [
+            "dwarven assholes"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "921c6fb4-6808-4a46-8b53-5e45e8438b76",
+        "text": [
+            "a weed farm"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a011593b-6fb1-4cdf-ba29-5b3f5e88b142",
+        "text": [
+            "a queer bard"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3b66dd87-ac9b-4ac7-af59-6d73df4e098f",
+        "text": [
+            "the motherfucking fey-infested forest"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2eaa8148-b952-43cd-8c3a-dc55acc04ff6",
+        "text": [
+            "fucking Mulligan"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3dc457ff-05bc-4fff-b00e-5cb6454473ef",
+        "text": [
+            "The Feast of a Thousand Tears"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "971fcef3-ece0-4c8e-83b6-be910c573bcd",
+        "text": [
+            "The largest beast you have available"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bbd7fdc5-233e-4771-b8ee-e1cfdb73e76f",
+        "text": [
+            "Festivus"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3321d1ca-5543-423c-9e75-44ae444ce3f3",
+        "text": [
+            "Summoning the tentacle"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "70f1eb4c-1d5e-4d2f-8a58-c9b2c2ba1319",
+        "text": [
+            "Big Swingers"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "55fb17cc-07de-41e7-b21b-0897fb95426a",
+        "text": [
+            "fucking Rhys's sister"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "62b77e05-6822-480b-a45f-98b823715250",
+        "text": [
+            "rolling for gay bar"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "7a5668cf-544c-4291-a414-0175b89dd708",
+        "text": [
+            "dee-no-sores"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e9073dd1-efed-44f6-bf8f-010e663a3550",
+        "text": [
+            "Making up an entirely new persona, lying to your friends, inserting yourself into their lives, stalking them, plotting to kill them, betraying everyone, and losing all trust"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bc0fa896-cd97-48e3-b39e-17ff8a225f99",
+        "text": [
+            "Gift's bag"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b7e528c0-2f03-4407-a2ae-9603a1351377",
+        "text": [
+            "Sophie"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cbe90159-a823-467f-b888-42a43faffc07",
+        "text": [
+            "Gift"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4f26561d-4e56-4d71-ab40-806df73ed513",
+        "text": [
+            "Noel"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "5df8c7d0-0962-4467-b295-4265b1d244f0",
+        "text": [
+            "Nazana"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ebda8785-1bde-4832-a113-58d865ab73c1",
+        "text": [
+            "Elegant Alpaca"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "92c2453d-3da7-4a7c-80c0-0811686f2cce",
+        "text": [
+            "Teetwig"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1c3e3bbf-a4ae-4e70-aae3-77d53bb94d4a",
+        "text": [
+            "Dying 7 times"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a6ae9dff-adc2-4485-a2a6-866251240919",
+        "text": [
+            "Comsuming souls for centuries"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f7e917cb-b84e-446a-9107-6af00b809949",
+        "text": [
+            "The highest horse"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cbdaecec-dc2b-4127-9f9d-5637774eaced",
+        "text": [
+            "Praying to your god's sister"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "aeee83f5-f7b0-4c86-a489-370b5e897510",
+        "text": [
+            "The meat"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "de2ac579-4559-45f0-be5c-dafcd46c8ed3",
+        "text": [
+            "obsidian chits"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "50635caa-4728-4754-8452-e034ebe42231",
+        "text": [
+            "Poisoning friends"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c21ae94a-84d3-4972-b620-57d05f4ab5e7",
+        "text": [
+            "Religious zeal"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "74c4840c-b4c9-48d0-922c-e36407f994af",
+        "text": [
+            "Idolatry"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "94a183cc-c783-429d-9625-149f06614571",
+        "text": [
+            "The many rotting corpses of Margravine Fausafia Travassus"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2c572ec0-0bc1-48d1-b573-408257e009e5",
+        "text": [
+            "Candor"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "680b0b7b-c231-485d-a076-255328241dbc",
+        "text": [
+            "Jhaega's skimpy hell uniform"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "32710a24-5a12-4fa7-9703-7f2d742defe3",
+        "text": [
+            "What my elf eyes see"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "9b82324f-8500-4451-babb-90b268bbe816",
+        "text": [
+            "Making a man scared AND horny"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "fcf372c8-227a-4ade-ac44-cb1774dc7e50",
+        "text": [
+            "Slaying a T-Rex"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c0933442-462c-4638-b205-1a6c62e7ba88",
+        "text": [
+            "Field dressing a deer just to feel something"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a48b8572-f567-40bc-ad46-9da2c9f21184",
+        "text": [
+            "Dismemberment"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cc413dc1-bbd2-4d6d-84cc-ef9e8cb6bc8e",
+        "text": [
+            "Covered in blood and excited to help"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2a5c6608-3eec-4293-97a7-c11de002cf21",
+        "text": [
+            "A cyst"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "302c3711-f3b1-4130-ba64-532b433887c5",
+        "text": [
+            "playing mermaids"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "f2048280-6b0c-4bf5-aca0-9ebb1c7b6149",
+        "text": [
+            "the ability to create a single fish at will"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4ed0fbb9-5ea7-43f9-81a6-a00e2e2657f0",
+        "text": [
+            "fresh saltwater "
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "da1c2d7f-ddb9-4d7d-b648-ecb62e429a76",
+        "text": [
+            "Wizardric Beings"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ce47cbf2-863a-4cff-9121-cd5520d144fb",
+        "text": [
+            "The Enemy"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "48f55e95-4c16-43c7-999c-051d3da69905",
+        "text": [
+            "Eating tapas in a ritualistic way"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ac10e109-2d16-4c43-9041-a9bbe899d272",
+        "text": [
+            "Hell flashbacks   "
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a0eb22c4-35ea-499c-88da-dc08d63363cc",
+        "text": [
+            "The piss of Christ"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "fa42969a-29e1-42e7-b97b-109e20e580d9",
+        "text": [
+            "Rolling for ex girlfriend"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4c4902cf-cd17-43b3-9eec-1161748aaf57",
+        "text": [
+            "an ex girlfriend"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c02e38d4-24bb-49dc-8915-ddc2f22f6136",
+        "text": [
+            "rainy day drugs"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "99e2f2e9-b093-4fd3-a82d-c37462b9c064",
+        "text": [
+            "bicept-uals"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "787ab4b9-9b94-428e-903d-ea59d28bdcef",
+        "text": [
+            "a right son of a bitch"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1d59fcc4-6d60-4da7-8871-eff3597f0262",
+        "text": [
+            "this frickin guy"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "eb2ae9e0-48fa-4d60-b6a4-11bcf25d2e5f",
+        "text": [
+            "an orb with unknown powers"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "5b03187c-8604-4737-ab7a-530954509403",
+        "text": [
+            "braiding each other's hair as a form of petty revenge"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "940f2f04-458f-479f-9da2-ecdbec2d44c8",
+        "text": [
+            "a suspicous request to paint all of our eyeballs"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bde10f83-5176-4bec-a610-cd9812f45c51",
+        "text": [
+            "a quick fade to black"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "8f6e00e8-eeb4-4111-ada8-e4ea701ce432",
+        "text": [
+            "a sandpaper tongue "
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2053bd6d-006c-4213-8390-eb8858a178a7",
+        "text": [
+            "a human man friend"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a86d794d-8172-4079-a06e-9212ed27afc1",
+        "text": [
+            "learning fantasy financial literacy "
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "22b014bf-cfc6-47cf-81e9-3a64847b4d68",
+        "text": [
+            "an elf named Deposit"
+        ],
+        "created_at": "2025-09-07T15:07:05-0400",
+        "nsfw": "true",
+        "source": "orbies"
     }
 ]
