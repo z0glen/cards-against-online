@@ -1,6 +1,7 @@
 cards-against-online/
 __pycache__/
 **/__pycache__/
+cards/
 
 
 .DS_Store
