@@ -1,1241 +1,2575 @@
 [
-   {
-      "id":"04128275-6d4e-4992-94c7-e623f742c67c",
-      "text":[
-         "",
-         "? The party would never."
-      ],
-      "created_at":"2020-04-09T02:17:52+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"080b2c5f-49c7-4c3b-aafd-72614214e5c3",
-      "text":[
-         "What was under the mask? ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:46:36+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"0af2c0fc-af13-4964-afd1-d04b7e572d6d",
-      "text":[
-         "If I had more gold, I would ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:48:32+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"0b8ef303-09c7-4737-a650-d86fda54f4d7",
-      "text":[
-         "",
-         " walks into an alley... and is met with ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:49:51+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"0ea35a61-7e12-4f97-a81f-d26000b7f11e",
-      "text":[
-         "My alignment? ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:39:44+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"128358a3-56b5-4044-87cc-d95e7dadc91b",
-      "text":[
-         "The best part of NPCs traveling with the party? ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:09:06+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"1704a39f-4d82-4591-9610-73aa730ef26e",
-      "text":[
-         "I didn't realized I'd be responsible for the loss of innocent dwarven lives, I just thought I was ",
-         "."
-      ],
-      "created_at":"2020-05-08T00:05:31+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"195c1247-4cd6-4ebb-8117-8f791e978642",
-      "text":[
-         "When Maximillion went to the temple, he conducted a ritual involving ",
-         " and ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:18:35+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"19de9050-3ae7-4fe2-8d55-7ad79a912e23",
-      "text":[
-         "No! Don't ",
-         "!"
-      ],
-      "created_at":"2020-04-09T01:45:13+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"1a13311b-753f-4de1-aeed-ed70e2fc6a22",
-      "text":[
-         "I am once again, ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:05:16+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"1f6cd49a-9399-482e-90c4-ad5804acfa0a",
-      "text":[
-         "My favorite D&D class is ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:21:32+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"20b87a82-05c5-4fc0-a142-c896c028dd05",
-      "text":[
-         "Is ",
-         " a bonus action?"
-      ],
-      "created_at":"2020-04-09T17:55:48+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"229baa0b-071e-4991-a713-5a57c98e02e0",
-      "text":[
-         "I had the strangest dream last night. ",
-         " was there, and they were attacked by ",
-         "!"
-      ],
-      "created_at":"2020-04-10T15:55:27+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"22e27290-0b3b-4c40-9ece-c8c2d32ceb57",
-      "text":[
-         "Congrats, you made it out of ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:53:29+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"232530e6-337a-44f1-9a88-d55ebac8298c",
-      "text":[
-         "The best part of being an adventurer is ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:28:14+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"2665b800-05ff-451e-8346-c99f3ea05c39",
-      "text":[
-         "The only thing hotter than a shirtless blacksmith offering to help you put on your armor is ",
-         "."
-      ],
-      "created_at":"2020-04-13T23:57:57+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"2c86c441-5db9-496d-aac0-dc4c52924d88",
-      "text":[
-         "It was a good thing Arkeya didn't manange to break into that last door in Landry's manor, because inside it was ",
-         "."
-      ],
-      "created_at":"2020-05-08T00:11:08+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"324e949a-0064-4fc0-8bfb-0549b9b79ccd",
-      "text":[
-         "What will the orb get me? ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:26:07+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"32edcc15-9771-4c98-a727-d8dceab0923d",
-      "text":[
-         "The guardmaster now prohibits ",
-         " in Cliga."
-      ],
-      "created_at":"2020-04-10T16:15:51+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"35f373e0-a0b1-43d6-aec4-2b549450d6df",
-      "text":[
-         "We almost lost the battle, but we pulled through thanks to ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:21:11+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"3eecba5d-809c-47e9-8c04-c3fc34066b1a",
-      "text":[
-         "I got lost in uncharted territory, and all I found was ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:08:05+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"3f17dd76-e1f1-4468-840a-da11e2877745",
-      "text":[
-         "For my next trick, I will pull ",
-         " out of ",
-         "."
-      ],
-      "created_at":"2020-04-10T16:30:58+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"3fe86f14-f390-4c3f-aed1-efdcfa95a705",
-      "text":[
-         "If you cast detect magic, you're going to find ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:56:43+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"44c0ceeb-aaff-47a2-85b9-01787171deeb",
-      "text":[
-         "They may be small in stature, but they certainly aren't lacking in the ",
-         " department."
-      ],
-      "created_at":"2020-04-09T01:58:00+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"48d5977b-65d5-418b-8939-cfe575369aa5",
-      "text":[
-         "Well, if ",
-         " is a crime, lock the whole party up!"
-      ],
-      "created_at":"2020-04-09T16:45:55+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"4b0d7043-4eb3-4dc2-83ae-13122e4a88a6",
-      "text":[
-         "Yay! We made it to Consa, just in time for ",
-         "."
-      ],
-      "created_at":"2020-04-12T05:27:13+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"4d418730-a6db-4cdc-b6c9-827b4adec6ed",
-      "text":[
-         "From ",
-         " to ",
-         ": a memoir."
-      ],
-      "created_at":"2020-04-10T16:39:58+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"4fbb692e-4830-4229-a81e-e04c891b83c8",
-      "text":[
-         "You round the dungeon corner, and find ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:53:58+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"596aeedb-a76e-44ee-a982-dbe11056bae5",
-      "text":[
-         "Why was Mulligan really running from the Guard? ",
-         "."
-      ],
-      "created_at":"2020-04-12T05:22:20+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"63183a1d-e690-4374-8005-c06f6c5914df",
-      "text":[
-         "Alright, it's time for another session. I hope you all brought ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:01:34+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"6388a6db-82eb-4e77-ab28-c29a59de1a3f",
-      "text":[
-         "Arkeya is wanted for stealing ",
-         "."
-      ],
-      "created_at":"2020-04-09T20:56:47+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"65a78357-c3d3-40b9-9f56-4bf852d9edf9",
-      "text":[
-         "My signature move is ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:59:26+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"6c3ccb2b-f867-431c-92dd-1034f3cf3c6f",
-      "text":[
-         "In the end, it was ",
-         "  that was my downfall."
-      ],
-      "created_at":"2020-04-09T02:32:46+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"6c7b7d9e-cbcd-4fb5-a350-019ab9bcc13e",
-      "text":[
-         "Dosh might not be in love with the Empress, but she IS in love with ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:35:11+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"6d24d930-44f0-4f70-81aa-32489956136f",
-      "text":[
-         "Nobody should have the orb! It can only be kept safe if we store it in ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:00:25+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"728f3a1c-be1a-4d96-a38a-339d625e9d07",
-      "text":[
-         "Then, they tried to seduce ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:57:15+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"754dd4c6-7bba-4a12-bb30-dc60c600a9d4",
-      "text":[
-         "How did we survive being attacked on the road? ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:47:15+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"7911c7d5-f3f1-4381-83aa-16973a16b692",
-      "text":[
-         "Brubb has to ritualistically douse himself in ",
-         " so he doesn't die."
-      ],
-      "created_at":"2020-04-09T17:10:06+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"7b54fa0b-b359-4c94-9f0a-6427e5211929",
-      "text":[
-         "What broke Brubb? ",
-         "."
-      ],
-      "created_at":"2020-05-08T00:15:31+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"7c1a6d29-352e-4899-84c0-d32082db4fee",
-      "text":[
-         "War, what is it good for? ",
-         "."
-      ],
-      "created_at":"2020-04-09T03:16:38+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"7c4a0cfc-4674-4ba8-94ef-832bbab70dbb",
-      "text":[
-         "They looked into the orb, and saw ",
-         "."
-      ],
-      "created_at":"2020-04-09T20:34:06+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"7eaaeec6-e83e-4169-839e-c68bb3c678df",
-      "text":[
-         "What would Elenora find disturbing, but oddly charming? ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:02:52+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"80eedda6-8bd6-4e70-976e-50faaaa86c5a",
-      "text":[
-         "It turns out ",
-         " was the big bad all along!"
-      ],
-      "created_at":"2020-04-09T01:24:42+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"90717070-7d8f-4fb8-83be-96917eb87dc0",
-      "text":[
-         "When the fate of the party comes down to a card game, I want ",
-         " on my side."
-      ],
-      "created_at":"2020-04-09T03:19:34+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"942ce1ae-ab1e-4021-bb40-029be567b83c",
-      "text":[
-         "Druids recommend: ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:12:45+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"9463cf6b-bcf4-4e6f-b194-98a94ba674cb",
-      "text":[
-         "Nothing hotter than ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:56:34+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"956f6767-55e1-4e40-8b78-84851dddd025",
-      "text":[
-         "My new character is based on ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:20:33+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"9632a70b-2f54-433e-9cb3-8b1a1e82a234",
-      "text":[
-         "My tragic backstory? ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:30:00+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"96b0f110-0cf9-4ef4-86dd-08ec418e7745",
-      "text":[
-         "Max- no, sorry, Maxwell. Wait, I mean Maximus. Maximum? Whatever, I'm gonna call you ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:19:17+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"9718d78d-cfdf-4480-9a70-53baa1f6bc27",
-      "text":[
-         "The stupidest thing my character ever did was ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:00:48+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"9dc42bfd-f8fd-4837-9c31-983c1f4f821d",
-      "text":[
-         "You will never guess what I saw while on watch last night. ",
-         "."
-      ],
-      "created_at":"2020-04-09T20:43:53+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"a0c01cb2-8f35-4015-bb78-a893c1b41999",
-      "text":[
-         "The entire party got put in jail for ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:47:38+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"a4de5818-4e29-415e-a214-4c06bd243069",
-      "text":[
-         "When all else fails, ",
-         " it to death."
-      ],
-      "created_at":"2020-04-09T01:45:56+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"a57d574d-9494-4304-85af-61227c5913da",
-      "text":[
-         "What brought the tavern party to a grinding halt? ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:38:25+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"ae84e13f-ef12-4585-ae94-26fd6b70cdfd",
-      "text":[
-         "Did you hear about ",
-         "?"
-      ],
-      "created_at":"2020-04-09T17:22:34+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"afa4f6db-dfcc-4cbd-95a6-6e4f950e693d",
-      "text":[
-         "I lied to the unicorn, my real deepest desire is ",
-         "."
-      ],
-      "created_at":"2020-04-09T01:36:36+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"b4d5b097-f970-486e-a644-43af353b8fa8",
-      "text":[
-         "I have a contingency for everything, you seriously think I didn't have a plan for ",
-         "?"
-      ],
-      "created_at":"2020-04-09T17:10:43+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"b7980a55-af54-44ce-909b-39f064b2de48",
-      "text":[
-         "The tavern brawl was caused by ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:07:57+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"b948c268-a597-4c98-8511-abe09d7f649d",
-      "text":[
-         "The Grung have lost their orb, and I think I know who took it. It was ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:52:26+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"bb83324f-95b8-4815-b08d-e4ca06c76eb2",
-      "text":[
-         "The elven nations are on the outs because of ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:22:06+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"bbb59016-e2a3-4f04-af13-8720164f8804",
-      "text":[
-         "Looks like ",
-         " and ",
-         " are at it again."
-      ],
-      "created_at":"2020-04-09T17:29:32+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"bfa829e9-f4c2-48b2-b304-e3c838747239",
-      "text":[
-         "Step 1: ",
-         ". Step 2: ",
-         ". Step 3: Profit."
-      ],
-      "created_at":"2020-04-10T16:35:45+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"c1a83065-276a-4144-b6be-7af42190fecf",
-      "text":[
-         "",
-         ", make a wisdom saving throw."
-      ],
-      "created_at":"2020-04-09T20:28:00+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"c3aa1185-c1a3-47fe-a7b8-1be2667afb5d",
-      "text":[
-         "Did you know that ",
-         " keeps ",
-         " for companionship?"
-      ],
-      "created_at":"2020-04-09T17:16:05+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"c7cda992-d9f5-44e1-81b0-e22ec70b5ed7",
-      "text":[
-         "Paul definitely didn't expect ",
-         " to show up at his wedding, let along give him ",
-         " as a wedding gift."
-      ],
-      "created_at":"2020-04-09T16:59:05+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"c8d6b715-4865-4494-a3e5-20fa147a54ca",
-      "text":[
-         "Why is Jhaega crying? ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:06:27+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"ca46c3b2-2ff7-44d0-8901-644a1694180a",
-      "text":[
-         "Turns out Dosh was working for ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:42:39+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"ca479597-ee5b-4a9b-8baf-06be4f1e3c90",
-      "text":[
-         "The key to our success? ",
-         "."
-      ],
-      "created_at":"2020-04-14T00:06:17+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"cd0e0fb4-e7ba-4c19-b418-ea9bd462a0f2",
-      "text":[
-         "Why do I need healing? ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:50:35+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"cfca7e86-8d1e-4ff0-9477-5c531f26d568",
-      "text":[
-         "Please ",
-         " , don't taste ",
-         " this time."
-      ],
-      "created_at":"2020-04-09T17:29:47+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"d12caf05-f0dc-414c-883b-d751bd80a69a",
-      "text":[
-         "For this ACTivity, you will be ",
-         " from my D&D campaign."
-      ],
-      "created_at":"2020-04-09T17:32:21+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"d4429cc6-d9a8-4054-be7d-8ed1d74c5075",
-      "text":[
-         "I need to visit the temple of ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:02:01+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e0f04f38-4167-42e4-9943-445ad035d215",
-      "text":[
-         "El's new spell is amazing! It allows him to summon ",
-         " whenever he wants."
-      ],
-      "created_at":"2020-04-09T16:54:25+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e29ca5c1-73e8-47d4-ae39-5e2205c87623",
-      "text":[
-         "My share of the treasure turned out to be",
-         "."
-      ],
-      "created_at":"2020-04-09T03:24:07+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e2d59cca-86a2-46f5-ae88-089c77d115fd",
-      "text":[
-         "Instead of healing magic, try ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:40:08+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e3ed428d-4473-4db7-86a9-446bba74704c",
-      "text":[
-         "Can I see ",
-         "?"
-      ],
-      "created_at":"2020-04-09T17:14:08+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e405b94b-2b47-4e76-998e-89d0d847eb2e",
-      "text":[
-         "Little did they know, all along the ponies had been thinking about ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:15:47+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e439e64d-9d62-4a3c-851b-156a9a1117fa",
-      "text":[
-         "I think the party should have a name, and I think that name should be ",
-         "."
-      ],
-      "created_at":"2020-04-14T00:04:48+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e463e83f-d29f-4347-a0cb-f02cdd2dbdca",
-      "text":[
-         "\"Give me a second, I'm gonna practice something,\" ",
-         " said, and then morphed into ",
-         "."
-      ],
-      "created_at":"2020-04-10T15:53:17+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e5f8e3ee-c5f6-4c50-b977-42ebd84fc22a",
-      "text":[
-         "Don't worry guys, I modded ",
-         " for you."
-      ],
-      "created_at":"2020-04-09T16:50:01+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"e9b537a5-1db0-43e5-8327-59eae21f914d",
-      "text":[
-         "Arrow was playing a beautiful song, that is, until ",
-         " came along and ruined it with ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:21:18+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"eafa6f1d-f40b-491c-9a98-65fbc1c3ad7e",
-      "text":[
-         "",
-         ", tell me how you kill it."
-      ],
-      "created_at":"2020-04-09T16:05:49+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"ee505ca2-dd2f-4091-bc9a-3b9165e0deee",
-      "text":[
-         "",
-         ". Roll initiative."
-      ],
-      "created_at":"2020-04-09T01:25:58+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"ef2fe01b-da76-49d1-87ae-1961d3a145c4",
-      "text":[
-         "Ah, the DM's secret weapon, ",
-         "."
-      ],
-      "created_at":"2020-04-09T03:38:26+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"f22d9309-e23e-4bdf-995d-15364932a4ae",
-      "text":[
-         "Potion seller, give me your ",
-         "."
-      ],
-      "created_at":"2020-04-09T02:04:36+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"f25d6644-0c27-4d05-ad32-efc2fbd03516",
-      "text":[
-         "",
-         " caused a TPK."
-      ],
-      "created_at":"2020-04-09T01:44:20+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"f5a87033-71fd-4973-b477-dfaf908f4178",
-      "text":[
-         "For our next quest, the \"party\" (cough, cough) will  be ",
-         "."
-      ],
-      "created_at":"2020-04-09T16:34:10+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"f8645c64-4973-4cb8-be1f-89866bf5a67f",
-      "text":[
-         "We got a mysterious letter from S\u00e9Lena, a woman from ",
-         " who wants ",
-         "."
-      ],
-      "created_at":"2020-04-13T00:38:44+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"fb643e92-ed9f-44dd-99c1-80526cd0922d",
-      "text":[
-         "With this orb, I will finally be able to get an unlimited supply of ",
-         "."
-      ],
-      "created_at":"2020-04-09T17:02:30+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"fbdff4eb-5b0e-48cc-bbf8-17f413233c65",
-      "text":[
-         "What is Brubb's secret weapon? ",
-         "."
-      ],
-      "created_at":"2020-04-10T16:38:53+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"fbf70e6d-7e3a-4fa4-9a39-affed3063256",
-      "text":[
-         "I have never loved anything the way I love ",
-         "."
-      ],
-      "created_at":"2020-04-09T03:13:34+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"191235de-583f-459d-bea9-92ea9fa5a3e2",
-      "text":[
-         "",
-         " is my favorite way to piss off my DM."
-      ],
-      "created_at":"2020-04-09T01:42:04+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"36cd831f-8c7d-4794-9296-8e332c327da6",
-      "text":[
-         "A long-dead King named the town West Portia after his mistress, whom he had upset by ",
-         "."
-      ],
-      "created_at":"2020-04-14T00:03:04+00:00",
-      "nsfw":true
-   },
-   {
-      "id":"fced4916-8627-41eb-a0da-99ebd144ecf8",
-      "text":[
-         "The frog just tried to cut off my fucking  ",
-         "!"
-      ],
-      "created_at":"2020-04-10T16:17:48+00:00",
-      "nsfw":true
-   },
-   {
-      "id": "329b495f-5f0f-48cd-9ca4-d9d4a5ab241e",
-      "text": [
-         "Why is the party having nightmares?",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "76b13913-9e8c-46b6-a286-53e812678800",
-      "text": [
-         "Why was the Invisible Stalker following the party?",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "64a21658-b183-47a7-a535-146bcdac2ffb",
-      "text": [
-         "The real reason Malishana stayed with the party? ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "5ba04e1e-bafe-44cd-bf84-7449622b32b1",
-      "text": [
-         "The best way to piss off two dire wolf druids is ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "d38d1711-ab81-4b88-b1ac-1791216efaeb",
-      "text": [
-         "Believe it or not, Rhys' friend Nikolai actually does ",
-         " for a living."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "22b3cb86-c3d4-47fc-a9d6-cb3111406291",
-      "text": [
-         "Why did Division Hand Alson so quickly trust the party?",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "f0873617-dde8-421a-b28e-bc70e0927187",
-      "text": [
-         "The only thing Avery loves more than Isla is ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "47c5a1a2-bf28-40cd-bf6d-bc41dba18883",
-      "text": [
-         "The best kept secret of The Pathmakers thieve's guild is ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "0dd2b9c6-1438-49df-91b3-e86cc61bc709",
-      "text": [
-         "Why did Walter Strickland try to kill the Duke's nephew?",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "86cd92ad-cabc-473b-890e-03296759c2a2",
-      "text": [
-         "G'omory is happy in his new home with the Stone Shields, because there they do a lot of ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "e8a9679b-42ca-48c1-9d5e-bdf73ce6b677",
-      "text": [
-         "Sophie was sent after Yalris Strickland because ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "7c923eae-ab7a-4ac3-8faf-5f1f7bec354d",
-      "text": [
-         "Better stand back, Lorna's making ",
-         "!"
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "630983d3-e180-4f86-af27-8041fe77bcae",
-      "text": [
-         "El's guilty pleasure is ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "eb8b47b2-8cee-41f9-b791-09d767c8c003",
-      "text": [
-         "Sophie loves nothing more than ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "49eace23-bccc-4813-94cd-247e832996fa",
-      "text": [
-         "D&D isn't D&D without ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "1c808be6-ad2b-4a9b-ac55-4065c989f107",
-      "text": [
-         "In a land of dragons and magic, the weirdest thing I've ever seen was ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "1925a06b-a7ee-4680-a6ca-1f7b2079547e",
-      "text": [
-         "I never expected to find ",
-         " on my travels."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "b40684eb-77ab-4cb6-9238-5f32297a85f0",
-      "text": [
-         "I most admire my friends for ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "b131e063-5f61-4580-8eda-c4a7ea73b01c",
-      "text": [
-         "Guess who's dead? That's right, ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "31784850-54b5-474c-8b71-cf8027a6b37b",
-      "text": [
-         "Around the campfire today, Arkeya revealed that she killed ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "a5555d1e-998c-4687-9136-2ee6630a9370",
-      "text": [
-         "Around the campfire today, Jhega revealed that her favorite form of art is ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "7b95047f-0f74-4553-867f-216eff56216a",
-      "text": [
-         "Around the campfire today, Rhys revealed that he is a ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "e05ad7e1-2250-449f-863f-1d8af379e9b9",
-      "text": [
-         "Around the campfire today, El revealed that he was ",
-         " the entire time."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "ab83b792-9aec-4f88-b123-0642357b1e30",
-      "text": [
-         "Around the campfire today, Sophie revealed that she loves ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "f69f1162-f5ff-4a10-b406-817912847e2d",
-      "text": [
-         "Around the campfire today, Arrow revealed that she actually grew up in a place where ",
-         " is common?"
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "afdcc5ab-2693-427f-8285-098d856e1482",
-      "text": [
-         "",
-         "? In this ",
-         "? It's more likely than you think."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "ca4bd9a7-1ed7-4820-8997-a2ae84282883",
-      "text": [
-         "",
-         " unzipped their skin suit to reveal that they were ",
-         " the entire time!"
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "fad4f851-bcb9-4544-9a33-a27c70d65451",
-      "text": [
-         "Did you know ",
-         " is ALSO a healer?"
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "16af9751-cc48-4b0b-b029-cbe70200d143",
-      "text": [
-         "The party used ",
-         " to cross the border between Saydon and Bijal."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "3955c8f7-2f76-4ea0-ac6f-89135090b71b",
-      "text": [
-         "Lorna didn't become a warlock because of Rhys, it was because she was ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "9a76202c-3e83-4a44-a219-00e2a8d67210",
-      "text": [
-         "According to my character sheet, my greatest flaw is ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "692859b4-ff23-4a97-a497-7ee066ca2482",
-      "text": [
-         "I just can't help myself around ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "6cfa9427-01b8-4ea6-ba5a-81506e357efd",
-      "text": [
-         "",
-         " good to the last drop."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "efeeb478-c288-4bd1-8505-38166145814c",
-      "text": [
-         "",
-         "; party tested, DM approved."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "d50d3f1d-049b-4be5-b8e0-bc269643a554",
-      "text": [
-         "",
-         ", high five bro!"
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "0b0c711b-4868-4671-9984-104f71fc83af",
-      "text": [
-         "",
-         ", that's how I want to die."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "68ba281d-2949-459e-9733-7a1e786efaf9",
-      "text": [
-         "",
-         ", Bijal's newest fad!"
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "ce56a4ab-99b1-48e5-bbdc-377292a535da",
-      "text": [
-         "Oops, looks like the party just ran into a trap created by ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "f7909298-6f24-47f5-a476-2694e07f2640",
-      "text": [
-         "I drink to forget ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "0afca12f-639b-44bf-9ff8-480bb7711902",
-      "text": [
-         "",
-         ", the sequel."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "e32c45f5-b528-44e4-8bbb-7db2f95ce5a4",
-      "text": [
-         "Aww, baby's first ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   },
-   {
-      "id": "92f63aff-5b3a-42b6-82e4-a061a7235e99",
-      "text": [
-         "But why is the rum gone? ",
-         "."
-      ],
-      "created_at": "2020-10-04T02:22:55-0400",
-      "nsfw": true
-   }
+    {
+        "id": "04128275-6d4e-4992-94c7-e623f742c67c",
+        "text": [
+            "",
+            "? The party would never."
+        ],
+        "created_at": "2020-04-09T02:17:52+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "080b2c5f-49c7-4c3b-aafd-72614214e5c3",
+        "text": [
+            "What was under the mask? ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:46:36+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "0af2c0fc-af13-4964-afd1-d04b7e572d6d",
+        "text": [
+            "If I had more gold, I would ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:48:32+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "0b8ef303-09c7-4737-a650-d86fda54f4d7",
+        "text": [
+            "",
+            " walks into an alley... and is met with ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:49:51+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "0ea35a61-7e12-4f97-a81f-d26000b7f11e",
+        "text": [
+            "My alignment? ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:39:44+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "128358a3-56b5-4044-87cc-d95e7dadc91b",
+        "text": [
+            "The best part of NPCs traveling with the party? ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:09:06+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "1704a39f-4d82-4591-9610-73aa730ef26e",
+        "text": [
+            "I didn't realized I'd be responsible for the loss of innocent dwarven lives, I just thought I was ",
+            "."
+        ],
+        "created_at": "2020-05-08T00:05:31+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "195c1247-4cd6-4ebb-8117-8f791e978642",
+        "text": [
+            "When Maximillion went to the temple, he conducted a ritual involving ",
+            " and ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:18:35+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "19de9050-3ae7-4fe2-8d55-7ad79a912e23",
+        "text": [
+            "No! Don't ",
+            "!"
+        ],
+        "created_at": "2020-04-09T01:45:13+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "1a13311b-753f-4de1-aeed-ed70e2fc6a22",
+        "text": [
+            "I am once again, ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:05:16+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "1f6cd49a-9399-482e-90c4-ad5804acfa0a",
+        "text": [
+            "My favorite D&D class is ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:21:32+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "20b87a82-05c5-4fc0-a142-c896c028dd05",
+        "text": [
+            "Is ",
+            " a bonus action?"
+        ],
+        "created_at": "2020-04-09T17:55:48+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "229baa0b-071e-4991-a713-5a57c98e02e0",
+        "text": [
+            "I had the strangest dream last night. ",
+            " was there, and they were attacked by ",
+            "!"
+        ],
+        "created_at": "2020-04-10T15:55:27+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "22e27290-0b3b-4c40-9ece-c8c2d32ceb57",
+        "text": [
+            "Congrats, you made it out of ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:53:29+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "232530e6-337a-44f1-9a88-d55ebac8298c",
+        "text": [
+            "The best part of being an adventurer is ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:28:14+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "2665b800-05ff-451e-8346-c99f3ea05c39",
+        "text": [
+            "The only thing hotter than a shirtless blacksmith offering to help you put on your armor is ",
+            "."
+        ],
+        "created_at": "2020-04-13T23:57:57+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "2c86c441-5db9-496d-aac0-dc4c52924d88",
+        "text": [
+            "It was a good thing Arkeya didn't manange to break into that last door in Landry's manor, because inside it was ",
+            "."
+        ],
+        "created_at": "2020-05-08T00:11:08+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "324e949a-0064-4fc0-8bfb-0549b9b79ccd",
+        "text": [
+            "What will the orb get me? ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:26:07+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "32edcc15-9771-4c98-a727-d8dceab0923d",
+        "text": [
+            "The guardmaster now prohibits ",
+            " in Cliga."
+        ],
+        "created_at": "2020-04-10T16:15:51+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "35f373e0-a0b1-43d6-aec4-2b549450d6df",
+        "text": [
+            "We almost lost the battle, but we pulled through thanks to ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:21:11+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "3eecba5d-809c-47e9-8c04-c3fc34066b1a",
+        "text": [
+            "I got lost in uncharted territory, and all I found was ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:08:05+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "3f17dd76-e1f1-4468-840a-da11e2877745",
+        "text": [
+            "For my next trick, I will pull ",
+            " out of ",
+            "."
+        ],
+        "created_at": "2020-04-10T16:30:58+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "3fe86f14-f390-4c3f-aed1-efdcfa95a705",
+        "text": [
+            "If you cast detect magic, you're going to find ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:56:43+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "44c0ceeb-aaff-47a2-85b9-01787171deeb",
+        "text": [
+            "They may be small in stature, but they certainly aren't lacking in the ",
+            " department."
+        ],
+        "created_at": "2020-04-09T01:58:00+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "48d5977b-65d5-418b-8939-cfe575369aa5",
+        "text": [
+            "Well, if ",
+            " is a crime, lock the whole party up!"
+        ],
+        "created_at": "2020-04-09T16:45:55+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "4b0d7043-4eb3-4dc2-83ae-13122e4a88a6",
+        "text": [
+            "Yay! We made it to Consa, just in time for ",
+            "."
+        ],
+        "created_at": "2020-04-12T05:27:13+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "4d418730-a6db-4cdc-b6c9-827b4adec6ed",
+        "text": [
+            "From ",
+            " to ",
+            ": a memoir."
+        ],
+        "created_at": "2020-04-10T16:39:58+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "4fbb692e-4830-4229-a81e-e04c891b83c8",
+        "text": [
+            "You round the dungeon corner, and find ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:53:58+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "596aeedb-a76e-44ee-a982-dbe11056bae5",
+        "text": [
+            "Why was Mulligan really running from the Guard? ",
+            "."
+        ],
+        "created_at": "2020-04-12T05:22:20+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "63183a1d-e690-4374-8005-c06f6c5914df",
+        "text": [
+            "Alright, it's time for another session. I hope you all brought ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:01:34+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "6388a6db-82eb-4e77-ab28-c29a59de1a3f",
+        "text": [
+            "Arkeya is wanted for stealing ",
+            "."
+        ],
+        "created_at": "2020-04-09T20:56:47+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "65a78357-c3d3-40b9-9f56-4bf852d9edf9",
+        "text": [
+            "My signature move is ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:59:26+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "6c3ccb2b-f867-431c-92dd-1034f3cf3c6f",
+        "text": [
+            "In the end, it was ",
+            "  that was my downfall."
+        ],
+        "created_at": "2020-04-09T02:32:46+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "6c7b7d9e-cbcd-4fb5-a350-019ab9bcc13e",
+        "text": [
+            "Dosh might not be in love with the Empress, but she IS in love with ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:35:11+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "6d24d930-44f0-4f70-81aa-32489956136f",
+        "text": [
+            "Nobody should have the orb! It can only be kept safe if we store it in ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:00:25+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "728f3a1c-be1a-4d96-a38a-339d625e9d07",
+        "text": [
+            "Then, they tried to seduce ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:57:15+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "754dd4c6-7bba-4a12-bb30-dc60c600a9d4",
+        "text": [
+            "How did we survive being attacked on the road? ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:47:15+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "7911c7d5-f3f1-4381-83aa-16973a16b692",
+        "text": [
+            "Brubb has to ritualistically douse himself in ",
+            " so he doesn't die."
+        ],
+        "created_at": "2020-04-09T17:10:06+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "7b54fa0b-b359-4c94-9f0a-6427e5211929",
+        "text": [
+            "What broke Brubb? ",
+            "."
+        ],
+        "created_at": "2020-05-08T00:15:31+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "7c1a6d29-352e-4899-84c0-d32082db4fee",
+        "text": [
+            "War, what is it good for? ",
+            "."
+        ],
+        "created_at": "2020-04-09T03:16:38+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "7c4a0cfc-4674-4ba8-94ef-832bbab70dbb",
+        "text": [
+            "They looked into the orb, and saw ",
+            "."
+        ],
+        "created_at": "2020-04-09T20:34:06+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "7eaaeec6-e83e-4169-839e-c68bb3c678df",
+        "text": [
+            "What would Elenora find disturbing, but oddly charming? ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:02:52+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "80eedda6-8bd6-4e70-976e-50faaaa86c5a",
+        "text": [
+            "It turns out ",
+            " was the big bad all along!"
+        ],
+        "created_at": "2020-04-09T01:24:42+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "90717070-7d8f-4fb8-83be-96917eb87dc0",
+        "text": [
+            "When the fate of the party comes down to a card game, I want ",
+            " on my side."
+        ],
+        "created_at": "2020-04-09T03:19:34+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "942ce1ae-ab1e-4021-bb40-029be567b83c",
+        "text": [
+            "Druids recommend: ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:12:45+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "9463cf6b-bcf4-4e6f-b194-98a94ba674cb",
+        "text": [
+            "Nothing hotter than ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:56:34+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "956f6767-55e1-4e40-8b78-84851dddd025",
+        "text": [
+            "My new character is based on ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:20:33+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "9632a70b-2f54-433e-9cb3-8b1a1e82a234",
+        "text": [
+            "My tragic backstory? ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:30:00+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "96b0f110-0cf9-4ef4-86dd-08ec418e7745",
+        "text": [
+            "Max- no, sorry, Maxwell. Wait, I mean Maximus. Maximum? Whatever, I'm gonna call you ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:19:17+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "9718d78d-cfdf-4480-9a70-53baa1f6bc27",
+        "text": [
+            "The stupidest thing my character ever did was ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:00:48+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "9dc42bfd-f8fd-4837-9c31-983c1f4f821d",
+        "text": [
+            "You will never guess what I saw while on watch last night. ",
+            "."
+        ],
+        "created_at": "2020-04-09T20:43:53+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "a0c01cb2-8f35-4015-bb78-a893c1b41999",
+        "text": [
+            "The entire party got put in jail for ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:47:38+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "a4de5818-4e29-415e-a214-4c06bd243069",
+        "text": [
+            "When all else fails, ",
+            " it to death."
+        ],
+        "created_at": "2020-04-09T01:45:56+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "a57d574d-9494-4304-85af-61227c5913da",
+        "text": [
+            "What brought the tavern party to a grinding halt? ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:38:25+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ae84e13f-ef12-4585-ae94-26fd6b70cdfd",
+        "text": [
+            "Did you hear about ",
+            "?"
+        ],
+        "created_at": "2020-04-09T17:22:34+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "afa4f6db-dfcc-4cbd-95a6-6e4f950e693d",
+        "text": [
+            "I lied to the unicorn, my real deepest desire is ",
+            "."
+        ],
+        "created_at": "2020-04-09T01:36:36+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "b4d5b097-f970-486e-a644-43af353b8fa8",
+        "text": [
+            "I have a contingency for everything, you seriously think I didn't have a plan for ",
+            "?"
+        ],
+        "created_at": "2020-04-09T17:10:43+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "b7980a55-af54-44ce-909b-39f064b2de48",
+        "text": [
+            "The tavern brawl was caused by ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:07:57+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "b948c268-a597-4c98-8511-abe09d7f649d",
+        "text": [
+            "The Grung have lost their orb, and I think I know who took it. It was ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:52:26+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "bb83324f-95b8-4815-b08d-e4ca06c76eb2",
+        "text": [
+            "The elven nations are on the outs because of ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:22:06+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "bbb59016-e2a3-4f04-af13-8720164f8804",
+        "text": [
+            "Looks like ",
+            " and ",
+            " are at it again."
+        ],
+        "created_at": "2020-04-09T17:29:32+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "bfa829e9-f4c2-48b2-b304-e3c838747239",
+        "text": [
+            "Step 1: ",
+            ". Step 2: ",
+            ". Step 3: Profit."
+        ],
+        "created_at": "2020-04-10T16:35:45+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "c1a83065-276a-4144-b6be-7af42190fecf",
+        "text": [
+            "",
+            ", make a wisdom saving throw."
+        ],
+        "created_at": "2020-04-09T20:28:00+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "c3aa1185-c1a3-47fe-a7b8-1be2667afb5d",
+        "text": [
+            "Did you know that ",
+            " keeps ",
+            " for companionship?"
+        ],
+        "created_at": "2020-04-09T17:16:05+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "c7cda992-d9f5-44e1-81b0-e22ec70b5ed7",
+        "text": [
+            "Paul definitely didn't expect ",
+            " to show up at his wedding, let along give him ",
+            " as a wedding gift."
+        ],
+        "created_at": "2020-04-09T16:59:05+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "c8d6b715-4865-4494-a3e5-20fa147a54ca",
+        "text": [
+            "Why is Jhaega crying? ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:06:27+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ca46c3b2-2ff7-44d0-8901-644a1694180a",
+        "text": [
+            "Turns out Dosh was working for ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:42:39+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ca479597-ee5b-4a9b-8baf-06be4f1e3c90",
+        "text": [
+            "The key to our success? ",
+            "."
+        ],
+        "created_at": "2020-04-14T00:06:17+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "cd0e0fb4-e7ba-4c19-b418-ea9bd462a0f2",
+        "text": [
+            "Why do I need healing? ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:50:35+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "cfca7e86-8d1e-4ff0-9477-5c531f26d568",
+        "text": [
+            "Please ",
+            " , don't taste ",
+            " this time."
+        ],
+        "created_at": "2020-04-09T17:29:47+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "d12caf05-f0dc-414c-883b-d751bd80a69a",
+        "text": [
+            "For this ACTivity, you will be ",
+            " from my D&D campaign."
+        ],
+        "created_at": "2020-04-09T17:32:21+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "d4429cc6-d9a8-4054-be7d-8ed1d74c5075",
+        "text": [
+            "I need to visit the temple of ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:02:01+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e0f04f38-4167-42e4-9943-445ad035d215",
+        "text": [
+            "El's new spell is amazing! It allows him to summon ",
+            " whenever he wants."
+        ],
+        "created_at": "2020-04-09T16:54:25+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e29ca5c1-73e8-47d4-ae39-5e2205c87623",
+        "text": [
+            "My share of the treasure turned out to be",
+            "."
+        ],
+        "created_at": "2020-04-09T03:24:07+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e2d59cca-86a2-46f5-ae88-089c77d115fd",
+        "text": [
+            "Instead of healing magic, try ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:40:08+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e3ed428d-4473-4db7-86a9-446bba74704c",
+        "text": [
+            "Can I see ",
+            "?"
+        ],
+        "created_at": "2020-04-09T17:14:08+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e405b94b-2b47-4e76-998e-89d0d847eb2e",
+        "text": [
+            "Little did they know, all along the ponies had been thinking about ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:15:47+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e439e64d-9d62-4a3c-851b-156a9a1117fa",
+        "text": [
+            "I think the party should have a name, and I think that name should be ",
+            "."
+        ],
+        "created_at": "2020-04-14T00:04:48+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e463e83f-d29f-4347-a0cb-f02cdd2dbdca",
+        "text": [
+            "\"Give me a second, I'm gonna practice something,\" ",
+            " said, and then morphed into ",
+            "."
+        ],
+        "created_at": "2020-04-10T15:53:17+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e5f8e3ee-c5f6-4c50-b977-42ebd84fc22a",
+        "text": [
+            "Don't worry guys, I modded ",
+            " for you."
+        ],
+        "created_at": "2020-04-09T16:50:01+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e9b537a5-1db0-43e5-8327-59eae21f914d",
+        "text": [
+            "Arrow was playing a beautiful song, that is, until ",
+            " came along and ruined it with ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:21:18+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "eafa6f1d-f40b-491c-9a98-65fbc1c3ad7e",
+        "text": [
+            "",
+            ", tell me how you kill it."
+        ],
+        "created_at": "2020-04-09T16:05:49+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ee505ca2-dd2f-4091-bc9a-3b9165e0deee",
+        "text": [
+            "",
+            ". Roll initiative."
+        ],
+        "created_at": "2020-04-09T01:25:58+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ef2fe01b-da76-49d1-87ae-1961d3a145c4",
+        "text": [
+            "Ah, the DM's secret weapon, ",
+            "."
+        ],
+        "created_at": "2020-04-09T03:38:26+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "f22d9309-e23e-4bdf-995d-15364932a4ae",
+        "text": [
+            "Potion seller, give me your ",
+            "."
+        ],
+        "created_at": "2020-04-09T02:04:36+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "f25d6644-0c27-4d05-ad32-efc2fbd03516",
+        "text": [
+            "",
+            " caused a TPK."
+        ],
+        "created_at": "2020-04-09T01:44:20+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "f5a87033-71fd-4973-b477-dfaf908f4178",
+        "text": [
+            "For our next quest, the \"party\" (cough, cough) will  be ",
+            "."
+        ],
+        "created_at": "2020-04-09T16:34:10+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "f8645c64-4973-4cb8-be1f-89866bf5a67f",
+        "text": [
+            "We got a mysterious letter from S\u00e9Lena, a woman from ",
+            " who wants ",
+            "."
+        ],
+        "created_at": "2020-04-13T00:38:44+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "fb643e92-ed9f-44dd-99c1-80526cd0922d",
+        "text": [
+            "With this orb, I will finally be able to get an unlimited supply of ",
+            "."
+        ],
+        "created_at": "2020-04-09T17:02:30+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "fbdff4eb-5b0e-48cc-bbf8-17f413233c65",
+        "text": [
+            "What is Brubb's secret weapon? ",
+            "."
+        ],
+        "created_at": "2020-04-10T16:38:53+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "fbf70e6d-7e3a-4fa4-9a39-affed3063256",
+        "text": [
+            "I have never loved anything the way I love ",
+            "."
+        ],
+        "created_at": "2020-04-09T03:13:34+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "191235de-583f-459d-bea9-92ea9fa5a3e2",
+        "text": [
+            "",
+            " is my favorite way to piss off my DM."
+        ],
+        "created_at": "2020-04-09T01:42:04+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "36cd831f-8c7d-4794-9296-8e332c327da6",
+        "text": [
+            "A long-dead King named the town West Portia after his mistress, whom he had upset by ",
+            "."
+        ],
+        "created_at": "2020-04-14T00:03:04+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "fced4916-8627-41eb-a0da-99ebd144ecf8",
+        "text": [
+            "The frog just tried to cut off my fucking  ",
+            "!"
+        ],
+        "created_at": "2020-04-10T16:17:48+00:00",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "329b495f-5f0f-48cd-9ca4-d9d4a5ab241e",
+        "text": [
+            "Why is the party having nightmares?",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "76b13913-9e8c-46b6-a286-53e812678800",
+        "text": [
+            "Why was the Invisible Stalker following the party?",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "64a21658-b183-47a7-a535-146bcdac2ffb",
+        "text": [
+            "The real reason Malishana stayed with the party? ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "5ba04e1e-bafe-44cd-bf84-7449622b32b1",
+        "text": [
+            "The best way to piss off two dire wolf druids is ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "d38d1711-ab81-4b88-b1ac-1791216efaeb",
+        "text": [
+            "Believe it or not, Rhys' friend Nikolai actually does ",
+            " for a living."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "22b3cb86-c3d4-47fc-a9d6-cb3111406291",
+        "text": [
+            "Why did Division Hand Alson so quickly trust the party?",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "f0873617-dde8-421a-b28e-bc70e0927187",
+        "text": [
+            "The only thing Avery loves more than Isla is ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "47c5a1a2-bf28-40cd-bf6d-bc41dba18883",
+        "text": [
+            "The best kept secret of The Pathmakers thieve's guild is ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "0dd2b9c6-1438-49df-91b3-e86cc61bc709",
+        "text": [
+            "Why did Walter Strickland try to kill the Duke's nephew?",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "86cd92ad-cabc-473b-890e-03296759c2a2",
+        "text": [
+            "G'omory is happy in his new home with the Stone Shields, because there they do a lot of ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e8a9679b-42ca-48c1-9d5e-bdf73ce6b677",
+        "text": [
+            "Sophie was sent after Yalris Strickland because ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "7c923eae-ab7a-4ac3-8faf-5f1f7bec354d",
+        "text": [
+            "Better stand back, Lorna's making ",
+            "!"
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "630983d3-e180-4f86-af27-8041fe77bcae",
+        "text": [
+            "El's guilty pleasure is ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "eb8b47b2-8cee-41f9-b791-09d767c8c003",
+        "text": [
+            "Sophie loves nothing more than ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "49eace23-bccc-4813-94cd-247e832996fa",
+        "text": [
+            "D&D isn't D&D without ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "1c808be6-ad2b-4a9b-ac55-4065c989f107",
+        "text": [
+            "In a land of dragons and magic, the weirdest thing I've ever seen was ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "1925a06b-a7ee-4680-a6ca-1f7b2079547e",
+        "text": [
+            "I never expected to find ",
+            " on my travels."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "b40684eb-77ab-4cb6-9238-5f32297a85f0",
+        "text": [
+            "I most admire my friends for ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "b131e063-5f61-4580-8eda-c4a7ea73b01c",
+        "text": [
+            "Guess who's dead? That's right, ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "31784850-54b5-474c-8b71-cf8027a6b37b",
+        "text": [
+            "Around the campfire today, Arkeya revealed that she killed ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "a5555d1e-998c-4687-9136-2ee6630a9370",
+        "text": [
+            "Around the campfire today, Jhega revealed that her favorite form of art is ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "7b95047f-0f74-4553-867f-216eff56216a",
+        "text": [
+            "Around the campfire today, Rhys revealed that he is a ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e05ad7e1-2250-449f-863f-1d8af379e9b9",
+        "text": [
+            "Around the campfire today, El revealed that he was ",
+            " the entire time."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ab83b792-9aec-4f88-b123-0642357b1e30",
+        "text": [
+            "Around the campfire today, Sophie revealed that she loves ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "f69f1162-f5ff-4a10-b406-817912847e2d",
+        "text": [
+            "Around the campfire today, Arrow revealed that she actually grew up in a place where ",
+            " is common?"
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "afdcc5ab-2693-427f-8285-098d856e1482",
+        "text": [
+            "",
+            "? In this ",
+            "? It's more likely than you think."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ca4bd9a7-1ed7-4820-8997-a2ae84282883",
+        "text": [
+            "",
+            " unzipped their skin suit to reveal that they were ",
+            " the entire time!"
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "fad4f851-bcb9-4544-9a33-a27c70d65451",
+        "text": [
+            "Did you know ",
+            " is ALSO a healer?"
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "16af9751-cc48-4b0b-b029-cbe70200d143",
+        "text": [
+            "The party used ",
+            " to cross the border between Saydon and Bijal."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "3955c8f7-2f76-4ea0-ac6f-89135090b71b",
+        "text": [
+            "Lorna didn't become a warlock because of Rhys, it was because she was ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "9a76202c-3e83-4a44-a219-00e2a8d67210",
+        "text": [
+            "According to my character sheet, my greatest flaw is ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "692859b4-ff23-4a97-a497-7ee066ca2482",
+        "text": [
+            "I just can't help myself around ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "6cfa9427-01b8-4ea6-ba5a-81506e357efd",
+        "text": [
+            "",
+            " good to the last drop."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "efeeb478-c288-4bd1-8505-38166145814c",
+        "text": [
+            "",
+            "; party tested, DM approved."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "d50d3f1d-049b-4be5-b8e0-bc269643a554",
+        "text": [
+            "",
+            ", high five bro!"
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "0b0c711b-4868-4671-9984-104f71fc83af",
+        "text": [
+            "",
+            ", that's how I want to die."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "68ba281d-2949-459e-9733-7a1e786efaf9",
+        "text": [
+            "",
+            ", Bijal's newest fad!"
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "ce56a4ab-99b1-48e5-bbdc-377292a535da",
+        "text": [
+            "Oops, looks like the party just ran into a trap created by ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "f7909298-6f24-47f5-a476-2694e07f2640",
+        "text": [
+            "I drink to forget ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "0afca12f-639b-44bf-9ff8-480bb7711902",
+        "text": [
+            "",
+            ", the sequel."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "e32c45f5-b528-44e4-8bbb-7db2f95ce5a4",
+        "text": [
+            "Aww, baby's first ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "92f63aff-5b3a-42b6-82e4-a061a7235e99",
+        "text": [
+            "But why is the rum gone? ",
+            "."
+        ],
+        "created_at": "2020-10-04T02:22:55-0400",
+        "nsfw": true,
+        "source": "orbies"
+    },
+    {
+        "id": "c2298143-9bda-4651-92b3-dbb7b533a205",
+        "text": [
+            "For this ACTivity, I want you to imagine you're ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:22:20-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "5cbe3fc0-c9d0-43c4-8e05-6974f59913f0",
+        "text": [
+            "This week, my rose was ",
+            " and my thorn was ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:22:20-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "9ae5a8ae-e063-445e-8a16-78bc361008fa",
+        "text": [
+            "Sorry I'm late, I was getting ",
+            " at popeyes."
+        ],
+        "created_at": "2025-09-07T15:22:20-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "7a7faa83-ae8d-4784-af2e-93613b4965cf",
+        "text": [
+            "This is what Wikipedia says about ",
+            ", by the way"
+        ],
+        "created_at": "2025-09-07T15:22:20-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "2a6e5c2c-4bb9-4062-a4aa-cb36318bddc1",
+        "text": [
+            "Go look up ",
+            " and \"multiple births\"."
+        ],
+        "created_at": "2025-09-07T15:22:20-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "b1107002-1bf0-4f48-8f19-75624d6996dd",
+        "text": [
+            "",
+            "? I hardly know 'er!"
+        ],
+        "created_at": "2025-09-07T15:22:20-0400",
+        "nsfw": "true",
+        "source": "ao_general"
+    },
+    {
+        "id": "1fde6bd7-9f6f-45d3-9b96-454ac62b1381",
+        "text": [
+            "",
+            "? The party would never."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5ae76077-502a-4e96-a3d4-8642abc434f8",
+        "text": [
+            "My alignment? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "9ddb097c-1f67-450d-9d6f-8408dcf6f05d",
+        "text": [
+            "The best part of NPCs traveling with the party? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "86d9afcf-2fb5-4be3-b44b-08d10918dbf5",
+        "text": [
+            "No! Don't ",
+            "!"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "451c5db8-85c2-4290-992b-3f873c373905",
+        "text": [
+            "I am once again, ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "336b7f1e-8b22-4795-86c8-b3400ec967e9",
+        "text": [
+            "My favorite D&D class is ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "1c63eea4-a77b-40f8-a832-1d8849b3711c",
+        "text": [
+            "Is ",
+            " a bonus action?"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "af93f7d2-704b-4481-bf3e-7e1788459d68",
+        "text": [
+            "I had the strangest dream last night. ",
+            " was there, and they were attacked by ",
+            "!"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "7ea4088c-37cf-4a8e-b542-ae9ceb84f99a",
+        "text": [
+            "Congrats, you made it out of ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "55a9365c-7648-4420-b064-d71804f38a8e",
+        "text": [
+            "We almost lost the battle, but we pulled through thanks to ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "e79ff80f-7429-477e-a46c-2c2b89c8f48f",
+        "text": [
+            "For my next trick, I will pull ",
+            " out of ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "48a8803f-9de1-4a21-bb10-6c87b82d28b5",
+        "text": [
+            "They may be small in stature, but they certainly aren't lacking in the ",
+            " department."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5404da15-585d-4706-9cb9-72bf89a6b1dc",
+        "text": [
+            "Well, if ",
+            " is a crime, lock the whole party up!"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "13816ae1-eb7a-4a5f-b655-07ea4388742e",
+        "text": [
+            "From ",
+            " to ",
+            ": a memoir."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "dcb25b6e-45d9-4963-a250-63b90629d2fd",
+        "text": [
+            "You round the dungeon corner, and find ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "f2027fb7-4d00-4b09-b444-e67359cd14c2",
+        "text": [
+            "Alright, it's time for another session. I hope you all brought ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "dfc8f651-b075-4c29-b764-6b619108fcac",
+        "text": [
+            "My signature move is ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "1f53fb95-fc29-475f-b42c-2a065b272f14",
+        "text": [
+            "In the end, it was ",
+            "  that was my downfall."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "f15e7717-e3e0-4bc8-9eea-f5f41392b68b",
+        "text": [
+            "Then, they tried to seduce ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "be196165-dffc-4a91-bdae-ab8938f82436",
+        "text": [
+            "How did we survive being attacked on the road? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d57a97a5-031f-449d-b501-3f0e7c27f205",
+        "text": [
+            "War, what is it good for? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "bfe17212-69bf-4dab-9c8a-5eaa8df68a9b",
+        "text": [
+            "It turns out ",
+            " was the big bad all along!"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "43d240b4-28cb-496b-9a57-6596b3e8c24c",
+        "text": [
+            "When the fate of the party comes down to a card game, I want ",
+            " on my side."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "aa632bdd-7d8f-4579-8a46-3f9113607d43",
+        "text": [
+            "Druids recommend: ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "371130c4-6d0c-4820-a4b2-c59eeca67486",
+        "text": [
+            "If you cast detect magic, you're going to find ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "59debbaf-f458-4278-899c-873df512d021",
+        "text": [
+            "The best part of being an adventurer is ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "1a47dd57-7132-472e-bf5b-c3109d55998d",
+        "text": [
+            "What was under the mask? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "dc14feee-ef77-45d6-8f41-aaa80247c506",
+        "text": [
+            "If I had more gold, I would ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "bd5d5947-a949-4894-9bd7-e3b0dd4d4bbd",
+        "text": [
+            "",
+            " and ",
+            " walk into an alley... and are met with ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "bfd08656-3a65-4336-8592-72db2b3388b3",
+        "text": [
+            "I didn't realized I'd be responsible for the loss of innocent dwarven lives, I just thought I was ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d79ea17f-ea1f-4082-a99c-47312195ed68",
+        "text": [
+            "Nothing hotter than ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "22668af4-7ef2-4753-85e2-86ea223d91ea",
+        "text": [
+            "My new character is based on ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "300f7d0a-0e82-4690-b5e4-f3c96607a751",
+        "text": [
+            "My tragic backstory? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "d64906a9-e2d7-489e-afab-11d545f88203",
+        "text": [
+            "The stupidest thing my character ever did was ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "59a04bdf-5901-489a-b691-cc5903741c62",
+        "text": [
+            "You will never guess what I saw while on watch last night. ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "470bd6d3-d09d-4ab3-a3c9-8eba220d0797",
+        "text": [
+            "The entire party got put in jail for ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "3cfe48c3-b89e-4da2-9ad3-41588b541274",
+        "text": [
+            "When all else fails, ",
+            " it to death."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "edb166a6-c485-4ed3-9c97-1b1b1e5f6bd2",
+        "text": [
+            "What brought the tavern party to a grinding halt? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "7b11fa2d-1d99-4f2d-a0c9-2a5c336778a6",
+        "text": [
+            "Did you hear about ",
+            "?"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "64d9accd-b796-4e02-a146-44f499d97fa2",
+        "text": [
+            "I have a contingency for everything, you seriously think I didn't have a plan for ",
+            "?"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5c7b6c77-3eab-4a51-a910-beab31a79f3e",
+        "text": [
+            "The tavern brawl was caused by ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "53aa7272-44db-4a9f-a71d-e7c317a1aa8f",
+        "text": [
+            "Looks like ",
+            " and ",
+            " are at it again. I bet it's about ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "3b3d3e2a-6855-4160-b0ee-41d6d81fb501",
+        "text": [
+            "Step 1: ",
+            ". Step 2: ",
+            ". Step 3: Profit."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "7f8e89c4-f6a6-4bc7-b3c8-69b273c9ad14",
+        "text": [
+            "",
+            ", make a wisdom saving throw."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "02d0168c-37dc-4bf8-ac6c-30a516fbe3ba",
+        "text": [
+            "The key to our success? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "c54e739d-51b8-44a7-8275-e0c8dd612334",
+        "text": [
+            "Why do I need healing? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "af265974-5d68-4f76-a354-bccedb654ec4",
+        "text": [
+            "I need to visit the temple of ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "41c5df72-6f14-4f8f-8085-bc5fcd762dd5",
+        "text": [
+            "My share of the treasure turned out to be",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "f350094b-1fdb-4457-948c-ca41b43b6640",
+        "text": [
+            "Instead of healing magic, try ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "653ecd98-da88-4f77-b4a6-a536bf4b143f",
+        "text": [
+            "Can I see ",
+            "?"
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "bc47c060-cd63-4a6b-a56e-fb5824702588",
+        "text": [
+            "I think the party should have a name, and I think that name should be ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "5aeea86f-f6a4-4ad9-b080-9b527fa761a3",
+        "text": [
+            "Give me a second, I'm gonna practice something, ",
+            " said, and then morphed into ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "79d1525b-ccc1-4672-b1d7-2ff286d77d46",
+        "text": [
+            "Don't worry guys, I modded ",
+            " for you."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "4404270c-bd4c-4c79-a34b-8f43d65e6617",
+        "text": [
+            "",
+            ", tell me how you kill it."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "0f29bd69-2c79-42dd-a71f-5955e51a9e3b",
+        "text": [
+            "",
+            ". Roll initiative."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "fcf8390b-6bea-450a-9279-285965ed0e01",
+        "text": [
+            "Ah, the DM's secret weapon, ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "a79a0283-c4d1-4790-a2c6-20bf1964dc01",
+        "text": [
+            "Potion seller, give me your ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "cb037aba-d411-4d0a-9731-1b10413c137f",
+        "text": [
+            "",
+            " caused a TPK."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "32c20d85-e7a2-480f-a3ac-76e189bc53aa",
+        "text": [
+            "For our next quest, the \"party\" (cough, cough) will  be ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "2635ecfc-58f9-4b6c-be99-555aee9ef136",
+        "text": [
+            "I have never loved anything the way I love ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "46327a9a-9e51-4b4f-a1f1-7f606304e879",
+        "text": [
+            "",
+            " is my favorite way to piss off my DM."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "e962bb8e-5d88-44fb-9f05-a85a9943b80c",
+        "text": [
+            "There's nothing in the rules that says a dog can't play ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "37ac1e4f-07fc-4e42-977a-8586b213ae7c",
+        "text": [
+            "The only pet worse than a displacer beast? ",
+            ""
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "2cc8a242-757d-45a9-9a84-5e2cfc3893c5",
+        "text": [
+            "Roll for ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:26:34-0400",
+        "nsfw": "true",
+        "source": "dnd_general"
+    },
+    {
+        "id": "6aef9f87-7cb8-461b-9864-676884cd0835",
+        "text": [
+            "When Maximillion went to the temple, he conducted a ritual involving ",
+            " and ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "33dd18ba-1330-4ff9-978d-63b89760e83d",
+        "text": [
+            "The only thing hotter than a shirtless blacksmith offering to help you put on your armor is ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4ed80ecf-34f3-46db-a65e-a3964e82753b",
+        "text": [
+            "It was a good thing Arkeya didn't manange to break into that last door in Landry's manor, because inside it was ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "8b6844b2-7e01-475b-820d-3dfa6e92ea46",
+        "text": [
+            "What will the orb get me? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "73030c55-3f63-403e-a842-47f542cefa05",
+        "text": [
+            "The guardmaster now prohibits ",
+            " in Cliga."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "6991a8d4-6f85-4ac8-845e-aa4ca889bd3c",
+        "text": [
+            "I got lost in uncharted territory, and all I found was ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "1e5919a2-5c33-4105-9bba-c10945fa31f8",
+        "text": [
+            "Yay! We made it to Consa, just in time for ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bd31ef21-4765-460e-90b7-31ad99a218d7",
+        "text": [
+            "Why was Mulligan really running from the Guard? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "bf4513e1-3b07-4367-9145-4e8d97a4ae73",
+        "text": [
+            "Arkeya is wanted for stealing ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "253da4f5-0492-4f2d-a0d5-0620fa06c4ae",
+        "text": [
+            "Dosh might not be in love with the Empress, but she IS in love with ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3652e90e-52ac-4486-aa44-534c161e80d4",
+        "text": [
+            "Nobody should have the orb! It can only be kept safe if we store it in ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "0be47d84-b58d-4b15-a5d2-1911e4f77b1e",
+        "text": [
+            "Brubb has the ritualistically dose himself in ",
+            " so he doesn't die."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cfe5a92d-f659-4cfb-84af-7da586376b4a",
+        "text": [
+            "What broke Brubb? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2fe0daf4-cbf0-477a-b6e7-073c9a87425f",
+        "text": [
+            "They looked into the orb, and saw ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e96cc0ec-1331-4e42-be52-3264ed7cd021",
+        "text": [
+            "What would Elenora find disturbing, but oddly charming? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "89e975f8-e428-4d0a-9721-cef5d210f546",
+        "text": [
+            "Max- no, sorry, Maxwell. Wait, I mean Maximus. Maximum? Whatever, I'm gonna call you ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b7305ee6-7861-4fe6-a94f-f6823ffc9142",
+        "text": [
+            "I lied to the unicorn, my real deepest desire is ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "32836385-a0eb-4178-b275-8b1836db1572",
+        "text": [
+            "The Grung have lost their orb, and I think I know who took it. It was ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "619b609e-c3ff-4b47-ac15-839f78ef73dd",
+        "text": [
+            "The elven nations are on the outs because of ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "945f68a2-fccd-477c-8159-635623860347",
+        "text": [
+            "You might be surprised to learn that the Duchess of Cliga keeps ",
+            " as a pet, but did you know that ",
+            " keeps ",
+            " for companionship?"
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "952e7269-d1db-4af8-82e5-b0506bface98",
+        "text": [
+            "Paul definitely didn't expect ",
+            " to show up at his wedding, let along give him ",
+            " as a wedding gift."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "857aac11-8e15-4c09-b958-8789ec9cac94",
+        "text": [
+            "Why is Jhaega crying? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "e9e1f2d2-4626-4a8a-a81e-edeafdd5f804",
+        "text": [
+            "Turns out Dosh was working for ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c23355f3-a0f1-4f6f-8429-4f8f72a1dd71",
+        "text": [
+            "Please ",
+            " , don't taste ",
+            " this time."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "adb79bec-b969-4e3f-9974-1d7e99644241",
+        "text": [
+            "El's new spell is amazing! It allows him to summon ",
+            " whenever he wants."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "a74cd693-c729-4795-947f-f4af402b7916",
+        "text": [
+            "Little did they know, all along the ponies had been thinking about ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "947a72d0-9aa6-49cd-91af-df45c83a637b",
+        "text": [
+            "Arrow was playing a beautiful song, that is, until ",
+            " came along and ruined it with ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b8bb0227-734b-4dad-a48f-b3c4126e500f",
+        "text": [
+            "We got a mysterious letter from S\u00e9Lena, a woman from ",
+            " who wants ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "4712c228-1de9-43bb-b773-6ab4966034da",
+        "text": [
+            "With this orb, I will finally be able to get an unlimited supply of ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "b189b162-4b55-4ba5-98db-727e9c6b882a",
+        "text": [
+            "What is Brubb's secret weapon? ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "c246be90-d970-4e5e-be8d-0266199cbdcc",
+        "text": [
+            "A long-dead King named the town West Portia after his mistress, whom he had upset by ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cfc6227b-4c78-4ef1-8854-a2b88cd23c2e",
+        "text": [
+            "The frog just tried to cut off my fucking  ",
+            "!"
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "90e4217f-38e3-42cd-8f04-a9bdabcc0c15",
+        "text": [
+            "Watch a cat call ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "3f52638a-e8ed-46d2-84da-bf64565e52b0",
+        "text": [
+            "She grabs ",
+            " and tastes it."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "fc4936b9-90b5-4798-9eb2-1afa75c7468b",
+        "text": [
+            "Just to be clear I view you as ",
+            ", but not a friend"
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "89c11f67-f1c0-47e2-ae4c-ec2856e0cb74",
+        "text": [
+            "",
+            ", everyone's favorite gay bar!"
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ab9b8f4b-227f-4056-9e18-55f5fb5aa346",
+        "text": [
+            "Congratulations, you've solved my ",
+            " puzzle!"
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "96b9189b-5895-4775-85a8-3e8059d24a54",
+        "text": [
+            "It's really hard to stay mad at your friends when their mom is so nice, even after ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "41fcb044-9d76-41e5-86df-8ec3415f3342",
+        "text": [
+            "Maybe your god just doesn't like ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "89edaa09-06b4-48f1-a398-bf22121eab85",
+        "text": [
+            "So actually, ",
+            " is one of the core tenets of my religion."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ad67044b-81ef-4a0d-88ca-4ebd8a874650",
+        "text": [
+            "I can't take you seriously when you're ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "cc9ed0c4-28ff-4507-b3e8-25b86dfaa7c5",
+        "text": [
+            "Most of all, I appreciate your ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d7bd8c21-25d0-46d6-a492-120fa4a95dfc",
+        "text": [
+            "Go ahead Arkeya, ",
+            " it."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "d84d33b6-24b3-4bcf-b03b-3b897a1fb908",
+        "text": [
+            "",
+            "? In my ",
+            "? It's more likely than you think!"
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "dba3ac56-8095-4b62-a57b-58b370953fef",
+        "text": [
+            "",
+            "; we do that."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2e7354f1-4db3-489f-a3c7-61b5286a63db",
+        "text": [
+            "My special mermaid power is ",
+            "."
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "2091d681-6296-42ce-a8a1-441c0492ed46",
+        "text": [
+            "My ",
+            " power is being dead"
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    },
+    {
+        "id": "ffe7a72b-5cec-435e-bbdf-9bc981234103",
+        "text": [
+            "Well, what else would you call it? It's clearly a ",
+            ". "
+        ],
+        "created_at": "2025-09-07T15:29:30-0400",
+        "nsfw": "true",
+        "source": "orbies"
+    }
 ]

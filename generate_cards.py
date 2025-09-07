@@ -13,9 +13,21 @@ import datetime
 from dateutil import tz
 import json
 
+INPUT_FILENAME = "orbies_calls.csv"
+OUTPUT_FILENAME = "server/calls.json"
+SOURCE = "orbies"
+
 entries = []
 
-with open('testcsv.csv', 'r') as file:
+with open(OUTPUT_FILENAME, 'rt') as file:
+    existing_entries = json.load(file)
+    if existing_entries:
+        print("Found existing entries")
+        entries.extend(existing_entries)
+    else:
+        print("No existing entries")
+
+with open(INPUT_FILENAME, 'rt') as file:
     reader = csv.reader(file, delimiter='_')
     for row in reader:
         # print(row)
@@ -23,11 +35,13 @@ with open('testcsv.csv', 'r') as file:
             "id": str(uuid4()),
             "text": row,
             "created_at": datetime.datetime.now(tz.tzlocal()).strftime("%Y-%m-%dT%H:%M:%S%z"),
-            "nsfw": "true"
+            "nsfw": "true",
+            "source": SOURCE
         }
+        # print(entry)
         entries.append(entry)
 
 # print(entries)
 
-with open('test_output.json', 'w') as file:
-    file.write(json.dumps(entries, indent=3))
+with open(OUTPUT_FILENAME, 'wt') as file:
+    file.write(json.dumps(entries, indent=4))
