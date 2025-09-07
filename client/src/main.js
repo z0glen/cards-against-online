@@ -11,11 +11,14 @@ import store from "./store"
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
+
+console.log(process.env.VUE_APP_API_URL);
+
 Vue.use(new VueSocketIO({
-  debug: true,
-  connection: io('127.0.0.1:5000'),
+  debug: false,
   // connection: io(`//${window.location.host}`),
-  // connection: io('https://cahplayer-server.herokuapp.com'),
+  // connection: io('http://localhost:5000'),
+  connection: io(process.env.VUE_APP_API_URL),
   vuex: {
     store,
     actionPrefix: 'SOCKET_',
